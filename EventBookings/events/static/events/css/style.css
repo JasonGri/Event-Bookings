@@ -1,3 +1,49 @@
+body {
+  background-color: #fbe3e8;
+  font-family: Century Gothic;
+  margin-bottom: 75px;
+}
+
 h1 {
-    text-align:center
+  text-align: center;
+  margin: 15px 0 25px 0;
+}
+
+h3 {
+  text-align: center;
+}
+
+.svg {
+  width: 34px;
+  height: 24px;
+}
+
+/* Changes the color of the SVG Icon/Logo */
+.filter-white {
+  filter: invert(100%) sepia(1%) saturate(7494%) hue-rotate(67deg)
+    brightness(107%) contrast(99%);
+}
+
+/* Navigation Bar Related */
+#navbar {
+  background-color: #5cbdb9;
+}
+
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: #d3d3d3;
+}
+
+/* Hide class */
+.hide {
+  display: none;
+}
+
+/* Footer Bar Related */
+.footer nav {
+  background-color: #ebf6f5;
 }

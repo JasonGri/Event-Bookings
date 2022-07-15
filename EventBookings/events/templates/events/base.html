@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JasBookings</title>
+    <title>EventBookings</title>
     <!-- Loading CSS -->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{% static 'boot/css/bootstrap.min.css' %}" />
@@ -16,8 +16,103 @@
       type="text/css"
     />
   </head>
+  <!--Navigation Bar-->
+  <nav class="navbar sticky-top navbar-expand-md navbar-dark" id="navbar">
+    <div class="container-fluid">
+      <!--Navigation Brand-->
+      <a class="navbar-brand" href="{% url 'index' %}">
+        <img
+          src="{% static 'svgIcons/calendar.svg' %}"
+          alt="calendar"
+          class="d-inline-block align-text-top svg filter-white"
+        />
+        JasBookings
+      </a>
+      <!-- Navigation Toggler -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--Navbar links-->
+      <div class="collapse navbar-collapse flex" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a
+            class="nav-link active"
+            aria-current="page"
+            href="{% url 'index' %}"
+            >Home</a
+          >
+          <a
+            class="nav-link active"
+            aria-current="page"
+            href="{% url 'profile' %}"
+            >Profile</a
+          >
+          <a class="nav-link active" aria-current="page" href="{% url 'edit' %}"
+            >Edit</a
+          >
+        </div>
+      </div>
+      <div class="container d-inline-flex justify-content-end">
+        <button id="signIn" class="btn" type="button"
+          ><a href="{% url 'register' %}">Sign In</a></button
+        >
+        <button id="logOut" class="btn" type="button"
+          ><a href="{% url 'logout' %}">Log Out</a></button
+        >
+      </div>
+    </div>
+  </nav>
   <body>
-{% block body %} {% endblock %}
+    {% block body %} {% endblock %}
+    <!--Footer-->
+    <div class="container footer">
+      <nav class="navbar fixed-bottom navbar-expand-md footer">
+        <!--Company Copyright-->
+        <p class="col-md-4 mb-0 text-muted">© 2022 JasBookings, Inc</p>
+        <!--Footer Logo-->
+        <a
+          href="{% url 'index' %}"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+        >
+          <img
+            src="{% static 'svgIcons/calendar.svg' %}"
+            alt="calendar"
+            class="d-inline-block align-text-top svg"
+          />
+        </a>
+        <!--Footer Items-->
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"
+            ><a
+              href="https://github.com/JasonGri"
+              class="nav-link px-2 text-muted"
+              ><img
+                src="{% static 'svgIcons/github.svg' %}"
+                class="svg"
+              />Github</a
+            >
+          </li>
+          <li class="nav-item"
+            ><a
+              href="https://l.messenger.com/l.php?u=http%3A%2F%2Fwww.linkedin.com%2Fin%2Fjason-grivas-b94b7b212&h=AT2F7xNingnQn8dT2Vw9c50RoT6ZHCdK32rqYdkaQk_7LL8UvKhxxO4cNi_u7Cb03m9AeGjm-QSG7wMDQwnR2EOfNWziVJq36A7vHFzNhSIE5ZDBe0RjuGw_1WzXMOlwEqgG0g"
+              class="nav-link px-2 text-muted"
+              ><img
+                src="{% static 'svgIcons/linkedin.svg' %}"
+                class="svg"
+              />LinkedIn</a
+            ></li
+          >
+        </ul>
+      </nav>
+    </div>
     <!-- Loading JavaScript -->
     <!-- Bootstrap JS -->
     <script src="{% static 'boot/js/bootstrap.min.js' %}"></script>

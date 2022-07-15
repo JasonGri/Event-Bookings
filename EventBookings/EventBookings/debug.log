@@ -6,3 +6,206 @@
 2022-07-15 13:22:05,331 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2022-07-15 13:22:07,829 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\urls.py changed, reloading.
 2022-07-15 13:22:08,550 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 13:45:12,695 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 13:45:20,274 django.request ERROR    Internal Server Error: /events/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 6, in index
+    return render(req, 'events/index.html')
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile' is not a valid view function or pattern name.
+2022-07-15 13:45:20,535 django.request WARNING  Not Found: /favicon.ico
+2022-07-15 13:47:13,448 django.request ERROR    Internal Server Error: /events/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 6, in index
+    return render(req, 'events/index.html')
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile' is not a valid view function or pattern name.
+2022-07-15 13:48:26,803 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\urls.py changed, reloading.
+2022-07-15 13:48:27,699 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 13:49:59,754 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 13:50:00,435 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 13:50:15,474 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\urls.py changed, reloading.
+2022-07-15 13:50:16,159 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 13:50:18,184 django.request ERROR    Internal Server Error: /events/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 6, in index
+    return render(req, 'events/index.html')
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+2022-07-15 13:50:44,694 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\urls.py changed, reloading.
+2022-07-15 13:50:45,378 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 13:50:47,110 django.request ERROR    Internal Server Error: /events/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 6, in index
+    return render(req, 'events/index.html')
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+2022-07-15 13:50:59,116 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\urls.py changed, reloading.
+2022-07-15 13:50:59,908 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 13:51:10,993 django.request ERROR    Internal Server Error: /events/logout/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view events.views.logout_view didn't return an HttpResponse object. It returned None instead.
+2022-07-15 13:53:32,854 django.request ERROR    Internal Server Error: /events/logout/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view events.views.logout_view didn't return an HttpResponse object. It returned None instead.
+2022-07-15 14:04:04,532 django.request ERROR    Internal Server Error: /events/logout/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view events.views.logout_view didn't return an HttpResponse object. It returned None instead.
