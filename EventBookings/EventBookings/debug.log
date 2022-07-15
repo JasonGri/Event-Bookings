@@ -1,0 +1,8 @@
+2022-07-15 13:19:47,758 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 13:20:31,977 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 13:21:44,677 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\urls.py changed, reloading.
+2022-07-15 13:21:45,354 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 13:22:04,578 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\urls.py changed, reloading.
+2022-07-15 13:22:05,331 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 13:22:07,829 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\urls.py changed, reloading.
+2022-07-15 13:22:08,550 django.utils.autoreload INFO     Watching for file changes with StatReloader
