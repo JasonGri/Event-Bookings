@@ -5,6 +5,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django.contrib.admin.views.decorators import staff_member_required
 
+from .models import *
 from .forms import *
 
 from utils import *
@@ -71,35 +72,28 @@ def logout_view(req):
     logger.info('Redirecting to main page')
     return HttpResponseRedirect(reverse(index))
 
-# @login_required
-# def profile(req):
-#     return render(req, 'events/profile.html')
-
 @staff_member_required
 def edit(req):
 
     logger.info('Loading edit.html')
     if req.method == 'POST':
         logger.info(f'Received POST request: {req.POST}')
-        form1 = EventForm(req.POST, prefix='form1')
+        form1 = EventForm(req.POST, req.FILES, prefix='form1')
         form2 = CategoryForm(req.POST, prefix='form2')
         form3 = SubCategoryForm(req.POST, prefix='form3')
         form4 = LocationForm(req.POST, prefix='form4')  
 
-        # if all([form1.is_valid(), form2.is_valid(), form3.is_valid() ,form4.is_valid()]):
-        #     form1.save()
-        #     form2.save()
-        #     form3.save()
-        #     form4.save()
-        #     return HttpResponseRedirect(reverse('index'))
-
         if form1.is_valid():
+            logger.info('form1 saved')
             form1.save()
         if form2.is_valid():
+            logger.info('form2 saved')
             form2.save()
         if form3.is_valid():
+            logger.info('form3 saved')
             form3.save()
         if form4.is_valid():
+            logger.info('form4 saved')
             form4.save()
 
         logger.info('Redirecting to main page')
@@ -116,6 +110,7 @@ def edit(req):
     'form2' : form2,
     'form3' : form3,
     'form4' : form4, 
+    'events': Event.objects.all()
     }
 
     
@@ -140,7 +135,7 @@ def profile(req):
 
     context = {
         'user_form': user_form,
-        'profile_form': profile_form
+        'profile_form': profile_form,
     }
 
     return render(req, 'events/profile.html', context)

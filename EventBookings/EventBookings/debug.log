@@ -679,3 +679,227 @@ django.template.exceptions.TemplateDoesNotExist: profiles/profile.html
 2022-07-15 19:15:00,174 events.views INFO     Loading profile.html
 2022-07-15 19:15:10,651 events.views INFO     Loading profile.html
 2022-07-15 19:15:13,866 events.views INFO     Loading edit.html
+2022-07-15 19:18:10,978 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 19:18:12,633 events.views INFO     Loading edit.html
+2022-07-15 19:19:01,871 events.views INFO     Loading edit.html
+2022-07-15 19:19:15,636 events.views INFO     Loading edit.html
+2022-07-15 19:19:54,268 events.views INFO     Loading edit.html
+2022-07-15 19:23:36,985 events.views INFO     Loading edit.html
+2022-07-15 19:23:39,013 events.views INFO     Loading edit.html
+2022-07-15 19:56:58,765 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 19:57:00,641 events.views INFO     Loading edit.html
+2022-07-15 19:57:03,118 events.views INFO     Loading edit.html
+2022-07-15 19:58:11,167 events.views INFO     Loading edit.html
+2022-07-15 19:58:11,168 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['LMWNDy3y40R1K8TWWjEt4eKqaRc5tOlxDhiJ34qiaQ35pw6b4uk9fUWR0a6coGPJ'], 'form4-city': ['London'], 'form4-country': ['United Kingdom'], 'form4-street': ['Queen'], 'form4-street_num': ['23'], 'form4-capacity': ['25000'], 'form4-submit': ['Add']}>
+2022-07-15 19:58:11,179 events.views INFO     Redirecting to main page
+2022-07-15 19:58:13,298 events.views INFO     Loading edit.html
+2022-07-15 19:58:49,326 events.views INFO     Loading edit.html
+2022-07-15 19:58:49,327 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['axl2rfzEtzvqJAZAQdZAGO6TV7Ot6TKw22HYRLWozpHuoYcPYoFgRuikLqIA1LeI'], 'form1-title': ['Astroworld'], 'form1-date': ['2022-08-08'], 'form1-duration': ['96'], 'form1-likes': ['0'], 'form1-image': ['crowdNEW.jpeg'], 'form1-sub_category': ['1'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-15 19:58:49,336 events.views INFO     Redirecting to main page
+2022-07-15 19:58:52,095 events.views INFO     Loading edit.html
+2022-07-15 20:00:52,774 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 20:00:53,673 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 20:00:54,106 events.views INFO     Loading edit.html
+2022-07-15 20:00:55,735 events.views INFO     Loading edit.html
+2022-07-15 20:01:08,032 events.views INFO     Loading profile.html
+2022-07-15 20:01:09,419 events.views INFO     Loading profile.html
+2022-07-15 20:01:13,439 events.views INFO     Loading edit.html
+2022-07-15 20:01:33,746 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 20:01:34,476 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 20:01:36,312 events.views INFO     Loading edit.html
+2022-07-15 20:03:14,244 events.views INFO     Loading edit.html
+2022-07-15 20:03:14,959 events.views INFO     Loading edit.html
+2022-07-15 20:05:44,100 events.views INFO     Loading edit.html
+2022-07-15 20:05:44,847 events.views INFO     Loading edit.html
+2022-07-15 20:05:46,517 events.views INFO     Loading profile.html
+2022-07-15 20:05:49,526 events.views INFO     Loading edit.html
+2022-07-15 20:07:25,287 events.views INFO     Loading edit.html
+2022-07-15 20:07:25,288 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['fMOCjfhFOsYYex5zYtmKxsk1i1L3898c7hayJLEpUia2TViO6E2qI8ws8kFa31Co'], 'form1-title': ['Astroworld'], 'form1-date': ['2022-08-08'], 'form1-duration': ['96'], 'form1-likes': ['0'], 'form1-image': ['crowdOLD.jpg'], 'form1-sub_category': ['1'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-15 20:07:25,298 events.views INFO     Redirecting to main page
+2022-07-15 20:08:57,427 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\forms.py changed, reloading.
+2022-07-15 20:08:58,215 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 20:09:37,960 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\models.py changed, reloading.
+2022-07-15 20:09:38,664 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 20:10:44,721 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 20:10:45,075 events.views INFO     Loading edit.html
+2022-07-15 20:11:05,299 events.views INFO     Loading edit.html
+2022-07-15 20:11:05,300 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['MZpgQKkRJWeKJAbVZvnGyOa92TyUkcDNEuLcggHBPMqOoYoa7G3mJumAScs1f47Z'], 'form1-title': ['Astroworld'], 'form1-date': ['2022-08-08'], 'form1-duration': ['96'], 'form1-likes': ['0'], 'form1-image': ['crowdOLD.jpg'], 'form1-sub_category': ['1'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-15 20:11:05,310 events.views INFO     Redirecting to main page
+2022-07-15 20:12:47,211 events.views INFO     Loading edit.html
+2022-07-15 20:12:49,729 events.views INFO     Loading edit.html
+2022-07-15 20:13:05,932 events.views INFO     Loading edit.html
+2022-07-15 20:13:05,933 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['Wch6V9GX78B3kHwfIkZj2UlbchPJO3NbOHD2lF3HdYN7Z5JuQvFZdAxC2AJQJVhn'], 'form1-title': ['Astroworld'], 'form1-date': ['2022-08-08'], 'form1-duration': ['96'], 'form1-likes': ['0'], 'form1-image': ['crowdOLD.jpg'], 'form1-sub_category': ['1'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-15 20:13:05,939 events.views INFO     Redirecting to main page
+2022-07-15 20:13:37,899 PIL.Image    DEBUG    Importing BlpImagePlugin
+2022-07-15 20:13:37,901 PIL.Image    DEBUG    Importing BmpImagePlugin
+2022-07-15 20:13:37,901 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2022-07-15 20:13:37,903 PIL.Image    DEBUG    Importing CurImagePlugin
+2022-07-15 20:13:37,908 PIL.Image    DEBUG    Importing DcxImagePlugin
+2022-07-15 20:13:37,915 PIL.Image    DEBUG    Importing DdsImagePlugin
+2022-07-15 20:13:37,918 PIL.Image    DEBUG    Importing EpsImagePlugin
+2022-07-15 20:13:38,046 PIL.Image    DEBUG    Importing FitsImagePlugin
+2022-07-15 20:13:38,048 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2022-07-15 20:13:38,050 PIL.Image    DEBUG    Importing FliImagePlugin
+2022-07-15 20:13:38,051 PIL.Image    DEBUG    Importing FpxImagePlugin
+2022-07-15 20:13:38,054 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-07-15 20:13:38,054 PIL.Image    DEBUG    Importing FtexImagePlugin
+2022-07-15 20:13:38,057 PIL.Image    DEBUG    Importing GbrImagePlugin
+2022-07-15 20:13:38,058 PIL.Image    DEBUG    Importing GifImagePlugin
+2022-07-15 20:13:38,059 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2022-07-15 20:13:38,062 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2022-07-15 20:13:38,064 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2022-07-15 20:13:38,068 PIL.Image    DEBUG    Importing IcoImagePlugin
+2022-07-15 20:13:38,070 PIL.Image    DEBUG    Importing ImImagePlugin
+2022-07-15 20:13:38,074 PIL.Image    DEBUG    Importing ImtImagePlugin
+2022-07-15 20:13:38,076 PIL.Image    DEBUG    Importing IptcImagePlugin
+2022-07-15 20:13:38,077 PIL.Image    DEBUG    Importing JpegImagePlugin
+2022-07-15 20:13:38,078 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2022-07-15 20:13:38,078 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2022-07-15 20:13:38,080 PIL.Image    DEBUG    Importing MicImagePlugin
+2022-07-15 20:13:38,083 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-07-15 20:13:38,083 PIL.Image    DEBUG    Importing MpegImagePlugin
+2022-07-15 20:13:38,086 PIL.Image    DEBUG    Importing MpoImagePlugin
+2022-07-15 20:13:38,088 PIL.Image    DEBUG    Importing MspImagePlugin
+2022-07-15 20:13:38,090 PIL.Image    DEBUG    Importing PalmImagePlugin
+2022-07-15 20:13:38,093 PIL.Image    DEBUG    Importing PcdImagePlugin
+2022-07-15 20:13:38,096 PIL.Image    DEBUG    Importing PcxImagePlugin
+2022-07-15 20:13:38,096 PIL.Image    DEBUG    Importing PdfImagePlugin
+2022-07-15 20:13:38,112 PIL.Image    DEBUG    Importing PixarImagePlugin
+2022-07-15 20:13:38,115 PIL.Image    DEBUG    Importing PngImagePlugin
+2022-07-15 20:13:38,115 PIL.Image    DEBUG    Importing PpmImagePlugin
+2022-07-15 20:13:38,116 PIL.Image    DEBUG    Importing PsdImagePlugin
+2022-07-15 20:13:38,118 PIL.Image    DEBUG    Importing SgiImagePlugin
+2022-07-15 20:13:38,122 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2022-07-15 20:13:38,125 PIL.Image    DEBUG    Importing SunImagePlugin
+2022-07-15 20:13:38,127 PIL.Image    DEBUG    Importing TgaImagePlugin
+2022-07-15 20:13:38,130 PIL.Image    DEBUG    Importing TiffImagePlugin
+2022-07-15 20:13:38,131 PIL.Image    DEBUG    Importing WebPImagePlugin
+2022-07-15 20:13:38,157 PIL.Image    DEBUG    Importing WmfImagePlugin
+2022-07-15 20:13:38,160 PIL.Image    DEBUG    Importing XbmImagePlugin
+2022-07-15 20:13:38,164 PIL.Image    DEBUG    Importing XpmImagePlugin
+2022-07-15 20:13:38,167 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2022-07-15 20:14:18,777 events.views INFO     Loading edit.html
+2022-07-15 20:14:24,073 events.views INFO     Loading edit.html
+2022-07-15 20:15:34,979 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 20:15:35,756 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 20:17:02,245 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 20:17:03,071 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 20:17:07,221 events.views INFO     Loading profile.html
+2022-07-15 20:17:08,167 events.views INFO     Loading edit.html
+2022-07-15 20:17:24,944 events.views INFO     Loading edit.html
+2022-07-15 20:17:24,945 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['JO5uCqpT2e7EohZFB6cWHA6mPlPd2NhFBjrq2WMD84jI3FcUJhSCSgiNFEJkXFLR'], 'form1-title': ['Astroworld'], 'form1-date': ['2022-08-08'], 'form1-duration': ['96'], 'form1-likes': ['0'], 'form1-image': ['crowdNEW.jpeg'], 'form1-sub_category': ['1'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-15 20:17:24,956 events.views INFO     Redirecting to main page
+2022-07-15 20:18:46,151 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 20:18:46,911 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 20:18:52,095 events.views INFO     Loading edit.html
+2022-07-15 20:19:07,515 events.views INFO     Loading edit.html
+2022-07-15 20:19:07,516 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['5oMXDThXJU4kIZG2enWPnv49f0jd54tTXT8T3pEHPKgonnThmyCvybgA5jdk0WX5'], 'form3-name': ['Self Development'], 'form3-category': ['2'], 'form3-submit': ['Add']}>
+2022-07-15 20:19:07,520 events.views INFO     form saved
+2022-07-15 20:19:07,528 events.views INFO     Redirecting to main page
+2022-07-15 20:19:19,985 events.views INFO     Loading edit.html
+2022-07-15 20:19:35,399 events.views INFO     Loading edit.html
+2022-07-15 20:19:35,400 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['wiWccP8D9GOUSakxhyoRhHUYmJ5YIWm9oNi8Clvnfw0YxyxMpJ4xsn6pc2Z5DOQl'], 'form1-title': ['Astroworld'], 'form1-date': ['2022-08-08'], 'form1-duration': ['96'], 'form1-likes': ['0'], 'form1-image': ['crowdOLD.jpg'], 'form1-sub_category': ['1'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-15 20:19:35,406 events.views INFO     Redirecting to main page
+2022-07-15 20:20:58,397 events.views INFO     Loading edit.html
+2022-07-15 20:21:18,739 events.views INFO     Loading edit.html
+2022-07-15 20:21:18,740 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['pdEWsYgvvLXGW7wKUKrIbp1z8EfPepI1hI0SSuDfBB9KBvJZ2V7om5d0YX9W9hcd'], 'form1-title': ['Coachella'], 'form1-date': ['2022-07-30'], 'form1-duration': ['50'], 'form1-likes': ['0'], 'form1-sub_category': ['3'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-15 20:21:18,746 events.views INFO     Redirecting to main page
+2022-07-15 20:22:55,334 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 20:22:59,564 events.views INFO     Loading edit.html
+2022-07-15 20:23:12,969 events.views INFO     Loading edit.html
+2022-07-15 20:23:12,970 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['4t1nrFotDYBV9nr02dD70bC6yr9G6qukWYnjRbLdJONZOLEfaojNbROxoK3N1iYw'], 'form1-title': ['Coachella'], 'form1-date': ['2022-07-30'], 'form1-duration': ['50'], 'form1-likes': ['0'], 'form1-sub_category': ['3'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-15 20:23:12,978 events.views INFO     Redirecting to main page
+2022-07-15 20:41:39,772 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 20:41:57,576 events.views INFO     Loading edit.html
+2022-07-15 20:42:17,462 events.views INFO     Loading edit.html
+2022-07-15 20:42:17,462 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['wLY7OwXnDnikrGrpO642tsVUreZ8mpSNogk3e2k7Jduo64EEWhKIE87lhxTfhhmZ'], 'form1-title': ['Coachella'], 'form1-date': ['2022-07-30'], 'form1-duration': ['50'], 'form1-likes': ['0'], 'form1-sub_category': ['3'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-15 20:42:17,471 events.views INFO     Redirecting to main page
+2022-07-15 20:43:32,956 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 20:43:33,742 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 20:43:37,034 events.views INFO     Loading edit.html
+2022-07-15 20:43:52,318 events.views INFO     Loading edit.html
+2022-07-15 20:43:52,318 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['FABw2m5gQmX8kwuvbMjcSVpc3ejQnzLax5XssSs0Wc9cZUHKjXZS3BBDTxdXirfm'], 'form1-title': ['Coachella'], 'form1-date': ['2022-07-30'], 'form1-duration': ['50'], 'form1-likes': ['0'], 'form1-sub_category': ['3'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-15 20:43:52,325 events.views INFO     Redirecting to main page
+2022-07-15 20:44:28,958 events.views INFO     Loading edit.html
+2022-07-15 20:44:29,388 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 20:44:30,096 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 20:44:30,876 events.views INFO     Loading edit.html
+2022-07-15 20:44:45,106 events.views INFO     Loading edit.html
+2022-07-15 20:44:45,107 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['7tuaXIz7vG8CIeE69z2Ez8xgQ8hkhpDsZYQ6neWRBwkGnCRlhKIkKOJHGrbrch7E'], 'form1-title': ['Coachella'], 'form1-date': ['2022-07-30'], 'form1-duration': ['50'], 'form1-likes': ['0'], 'form1-sub_category': ['3'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-15 20:44:45,153 django.request ERROR    Internal Server Error: /events/edit/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 86, in edit
+    form1.save()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 539, in save
+    raise ValueError(
+ValueError: The Event could not be created because the data didn't validate.
+2022-07-15 20:45:14,555 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 20:45:15,228 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 20:46:20,477 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 20:46:21,238 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 20:46:24,305 events.views INFO     Loading edit.html
+2022-07-15 20:46:26,687 events.views INFO     Loading edit.html
+2022-07-15 20:46:38,259 events.views INFO     Loading edit.html
+2022-07-15 20:46:38,260 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['h4j0QfhFF4E4q6gLxuQ9obhEHUZkzpj89zFWgLEpLUQ85ut0FFwPzRt5xdTruhNk'], 'form1-title': ['Coachella'], 'form1-date': ['2022-07-30'], 'form1-duration': ['50'], 'form1-likes': ['0'], 'form1-sub_category': ['3'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-15 20:46:38,275 events.views INFO     Redirecting to main page
+2022-07-15 20:46:48,484 events.views INFO     Loading edit.html
+2022-07-15 20:54:07,457 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 20:54:15,878 events.views INFO     Loading edit.html
+2022-07-15 20:54:29,635 events.views INFO     Loading edit.html
+2022-07-15 20:54:29,635 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['34EgKFtt5EKWTYD2Ej4bWioEfoLHD5YQVz0cabQdbuW0ymQhMuKR7YA55HFOyXs2'], 'form1-title': ['Coachella'], 'form1-date': ['2022-07-30'], 'form1-duration': ['50'], 'form1-likes': ['0'], 'form1-sub_category': ['3'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-15 20:54:29,659 PIL.Image    DEBUG    Importing BlpImagePlugin
+2022-07-15 20:54:29,661 PIL.Image    DEBUG    Importing BmpImagePlugin
+2022-07-15 20:54:29,662 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2022-07-15 20:54:29,663 PIL.Image    DEBUG    Importing CurImagePlugin
+2022-07-15 20:54:29,665 PIL.Image    DEBUG    Importing DcxImagePlugin
+2022-07-15 20:54:29,668 PIL.Image    DEBUG    Importing DdsImagePlugin
+2022-07-15 20:54:29,669 PIL.Image    DEBUG    Importing EpsImagePlugin
+2022-07-15 20:54:29,774 PIL.Image    DEBUG    Importing FitsImagePlugin
+2022-07-15 20:54:29,776 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2022-07-15 20:54:29,777 PIL.Image    DEBUG    Importing FliImagePlugin
+2022-07-15 20:54:29,779 PIL.Image    DEBUG    Importing FpxImagePlugin
+2022-07-15 20:54:29,781 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-07-15 20:54:29,782 PIL.Image    DEBUG    Importing FtexImagePlugin
+2022-07-15 20:54:29,784 PIL.Image    DEBUG    Importing GbrImagePlugin
+2022-07-15 20:54:29,786 PIL.Image    DEBUG    Importing GifImagePlugin
+2022-07-15 20:54:29,786 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2022-07-15 20:54:29,788 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2022-07-15 20:54:29,790 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2022-07-15 20:54:29,794 PIL.Image    DEBUG    Importing IcoImagePlugin
+2022-07-15 20:54:29,796 PIL.Image    DEBUG    Importing ImImagePlugin
+2022-07-15 20:54:29,798 PIL.Image    DEBUG    Importing ImtImagePlugin
+2022-07-15 20:54:29,801 PIL.Image    DEBUG    Importing IptcImagePlugin
+2022-07-15 20:54:29,802 PIL.Image    DEBUG    Importing JpegImagePlugin
+2022-07-15 20:54:29,803 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2022-07-15 20:54:29,803 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2022-07-15 20:54:29,804 PIL.Image    DEBUG    Importing MicImagePlugin
+2022-07-15 20:54:29,806 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-07-15 20:54:29,806 PIL.Image    DEBUG    Importing MpegImagePlugin
+2022-07-15 20:54:29,808 PIL.Image    DEBUG    Importing MpoImagePlugin
+2022-07-15 20:54:29,809 PIL.Image    DEBUG    Importing MspImagePlugin
+2022-07-15 20:54:29,810 PIL.Image    DEBUG    Importing PalmImagePlugin
+2022-07-15 20:54:29,812 PIL.Image    DEBUG    Importing PcdImagePlugin
+2022-07-15 20:54:29,814 PIL.Image    DEBUG    Importing PcxImagePlugin
+2022-07-15 20:54:29,815 PIL.Image    DEBUG    Importing PdfImagePlugin
+2022-07-15 20:54:29,822 PIL.Image    DEBUG    Importing PixarImagePlugin
+2022-07-15 20:54:29,824 PIL.Image    DEBUG    Importing PngImagePlugin
+2022-07-15 20:54:29,825 PIL.Image    DEBUG    Importing PpmImagePlugin
+2022-07-15 20:54:29,825 PIL.Image    DEBUG    Importing PsdImagePlugin
+2022-07-15 20:54:29,826 PIL.Image    DEBUG    Importing SgiImagePlugin
+2022-07-15 20:54:29,828 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2022-07-15 20:54:29,830 PIL.Image    DEBUG    Importing SunImagePlugin
+2022-07-15 20:54:29,831 PIL.Image    DEBUG    Importing TgaImagePlugin
+2022-07-15 20:54:29,833 PIL.Image    DEBUG    Importing TiffImagePlugin
+2022-07-15 20:54:29,833 PIL.Image    DEBUG    Importing WebPImagePlugin
+2022-07-15 20:54:29,836 PIL.Image    DEBUG    Importing WmfImagePlugin
+2022-07-15 20:54:29,840 PIL.Image    DEBUG    Importing XbmImagePlugin
+2022-07-15 20:54:29,841 PIL.Image    DEBUG    Importing XpmImagePlugin
+2022-07-15 20:54:29,843 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2022-07-15 20:54:29,876 events.views INFO     Redirecting to main page
+2022-07-15 20:54:41,060 events.views INFO     Loading edit.html

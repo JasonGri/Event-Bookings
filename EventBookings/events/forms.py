@@ -50,10 +50,3 @@ class EventForm(forms.ModelForm):
         widgets = {
                 'date': forms.DateInput(attrs={'type': 'date'}),
             }
-
-
-class UpdateUserForm(forms.ModelForm):
-    pass
-
-class UpdateProfileForm(forms.ModelForm):
-    pass
