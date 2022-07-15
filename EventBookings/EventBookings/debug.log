@@ -209,3 +209,181 @@ Traceback (most recent call last):
   File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
     raise ValueError(
 ValueError: The view events.views.logout_view didn't return an HttpResponse object. It returned None instead.
+2022-07-15 14:11:13,951 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 14:11:26,260 django.request ERROR    Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 440, in login
+    return LoginView.as_view(**defaults)(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\views.py", line 67, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\views.py", line 98, in form_valid
+    auth_login(self.request, form.get_user())
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\__init__.py", line 144, in login
+    user_logged_in.send(sender=user.__class__, request=request, user=user)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\models.py", line 22, in update_last_login
+    user.save(update_fields=["last_login"])
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\base_user.py", line 68, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 806, in save
+    self.save_base(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 872, in save_base
+    post_save.send(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\models.py", line 65, in save_user_profile
+    instance.profile.save()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\related_descriptors.py", line 461, in __get__
+    raise self.RelatedObjectDoesNotExist(
+django.contrib.auth.models.User.profile.RelatedObjectDoesNotExist: User has no profile.
+2022-07-15 14:14:02,146 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 14:14:45,063 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 14:14:51,835 django.request ERROR    Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 440, in login
+    return LoginView.as_view(**defaults)(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\views.py", line 67, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\views.py", line 98, in form_valid
+    auth_login(self.request, form.get_user())
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\__init__.py", line 144, in login
+    user_logged_in.send(sender=user.__class__, request=request, user=user)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\models.py", line 22, in update_last_login
+    user.save(update_fields=["last_login"])
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\base_user.py", line 68, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 806, in save
+    self.save_base(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 872, in save_base
+    post_save.send(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\models.py", line 65, in save_user_profile
+    instance.profile.save()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\related_descriptors.py", line 461, in __get__
+    raise self.RelatedObjectDoesNotExist(
+django.contrib.auth.models.User.profile.RelatedObjectDoesNotExist: User has no profile.
+2022-07-15 14:15:57,186 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 14:19:02,349 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 14:19:10,156 django.request ERROR    Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 440, in login
+    return LoginView.as_view(**defaults)(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\views.py", line 67, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\views.py", line 98, in form_valid
+    auth_login(self.request, form.get_user())
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\__init__.py", line 144, in login
+    user_logged_in.send(sender=user.__class__, request=request, user=user)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\models.py", line 22, in update_last_login
+    user.save(update_fields=["last_login"])
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\base_user.py", line 68, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 806, in save
+    self.save_base(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 872, in save_base
+    post_save.send(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\models.py", line 65, in save_user_profile
+    instance.profile.save()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\related_descriptors.py", line 461, in __get__
+    raise self.RelatedObjectDoesNotExist(
+django.contrib.auth.models.User.profile.RelatedObjectDoesNotExist: User has no profile.
+2022-07-15 14:19:52,586 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 14:19:59,304 django.request WARNING  Not Found: /admin/l
