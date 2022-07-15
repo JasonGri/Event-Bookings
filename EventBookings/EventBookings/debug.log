@@ -565,3 +565,53 @@ django.contrib.auth.models.User.profile.RelatedObjectDoesNotExist: User has no p
 2022-07-15 18:01:30,949 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
 2022-07-15 18:01:31,698 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2022-07-15 18:03:00,261 events.views INFO     Loading edit.html
+2022-07-15 18:21:50,078 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 18:21:57,032 events.views INFO     Logout initiated
+2022-07-15 18:21:57,044 events.views INFO     Logged out succesfully
+2022-07-15 18:21:57,045 events.views INFO     Redirecting to main page
+2022-07-15 18:21:58,444 django.request WARNING  Not Found: /accounts/login/
+2022-07-15 18:22:35,935 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\EventBookings\settings.py changed, reloading.
+2022-07-15 18:22:36,760 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 18:22:40,875 django.request WARNING  Not Found: /events/profile/events/login
+2022-07-15 18:23:28,388 django.request WARNING  Not Found: /events/profile/events/login
+2022-07-15 18:23:28,667 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\EventBookings\settings.py changed, reloading.
+2022-07-15 18:23:29,471 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 18:23:32,724 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 25, in _wrapped_view
+    resolved_login_url = resolve_url(login_url or settings.LOGIN_URL)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+2022-07-15 18:23:46,967 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\EventBookings\settings.py changed, reloading.
+2022-07-15 18:23:47,751 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 18:23:52,184 events.views INFO     Loading login.html
+2022-07-15 18:24:01,614 events.views INFO     Loading login.html
+2022-07-15 18:24:01,937 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\EventBookings\settings.py changed, reloading.
+2022-07-15 18:24:02,790 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 18:24:03,714 events.views INFO     Loading login.html
+2022-07-15 18:24:08,184 events.views INFO     Loading login.html
+2022-07-15 18:24:18,514 events.views INFO     Loading login.html
+2022-07-15 18:24:18,515 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['CBlzmEt0rEJurLsVSzXnRSLstJAi37OqV29lBVWIRIZJa5TbTTN5ZlD5d7t2zhWZ'], 'username': ['jason'], 'password': ['Spaarky_2002']}>
+2022-07-15 18:24:18,700 events.views ERROR    Unsuccessful registration. Invalid information.
+2022-07-15 18:24:26,598 events.views INFO     Loading login.html
+2022-07-15 18:24:26,599 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['92Pvrk5tnb6OgZqbAixszwX5nNNtvfpistDhGBybNfm3ZjRrBCnaHZPI7bGd1pxR'], 'username': ['jason'], 'password': ['Jason_2002']}>
+2022-07-15 18:24:26,805 events.views INFO     Login successful
+2022-07-15 18:24:26,805 events.views INFO     Redirecting to profile page
+2022-07-15 18:24:56,517 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\EventBookings\settings.py changed, reloading.
+2022-07-15 18:24:57,227 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 18:26:54,370 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 18:26:55,163 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 18:26:56,846 events.views INFO     Loading edit.html
+2022-07-15 18:27:00,808 events.views INFO     Logout initiated
+2022-07-15 18:27:00,820 events.views INFO     Logged out succesfully
+2022-07-15 18:27:00,821 events.views INFO     Redirecting to main page
+2022-07-15 18:27:04,637 events.views INFO     Loading login.html

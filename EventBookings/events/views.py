@@ -2,6 +2,8 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.urls import reverse
 from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.decorators import login_required
+from django.contrib.admin.views.decorators import staff_member_required
 
 from .forms import *
 
@@ -69,9 +71,11 @@ def logout_view(req):
     logger.info('Redirecting to main page')
     return HttpResponseRedirect(reverse(index))
 
+@login_required
 def profile(req):
     return render(req, 'events/profile.html')
 
+@staff_member_required
 def edit(req):
 
     logger.info('Loading edit.html')

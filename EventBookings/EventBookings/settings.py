@@ -163,3 +163,6 @@ LOGGING ={
         }
     }
 }
+
+# Redirect URL for login_required decorator
+LOGIN_URL = '/events/login/'
