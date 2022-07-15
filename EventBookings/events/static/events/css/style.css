@@ -94,3 +94,17 @@ form {
   text-align: center;
   color: red;
 }
+
+/* Edit Page Items */
+
+.edit-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  flex-wrap: wrap;
+}
+
+.edit-menu button {
+  font-size: x-large;
+}

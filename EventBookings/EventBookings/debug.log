@@ -480,3 +480,88 @@ django.contrib.auth.models.User.profile.RelatedObjectDoesNotExist: User has no p
 2022-07-15 16:13:46,481 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['fF9BuQcrmUFEyd938QbXaTXrJRbhtx22RzfuzwtpgHieOnYbTeFhwWlLqV23DnWW'], 'username': ['Spiros123'], 'password': ['Jason_2002']}>
 2022-07-15 16:13:46,711 events.views INFO     Login successful
 2022-07-15 16:13:46,711 events.views INFO     Redirecting to profile page
+2022-07-15 16:22:46,590 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 16:22:50,022 events.views INFO     Loading edit.html
+2022-07-15 16:24:01,244 django.security.csrf WARNING  Forbidden (CSRF token from POST incorrect.): /events/edit/
+2022-07-15 16:25:10,083 events.views INFO     Loading edit.html
+2022-07-15 16:25:18,076 events.views INFO     Loading edit.html
+2022-07-15 16:25:18,076 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['rSCai2dnBCMQz1HQyNypK3rKM0aFhvveKjqWxjG51G25il86z7o7Swjnwo3pNFDN'], 'form2-name': ['Concert']}>
+2022-07-15 16:25:18,086 events.views INFO     Redirecting to main page
+2022-07-15 16:25:22,875 events.views INFO     Loading edit.html
+2022-07-15 16:25:27,837 events.views INFO     Loading edit.html
+2022-07-15 16:25:27,838 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['8bhixc9elMk7jKpd6hJkBLf73dKvoriErC54MtCWLQAm24Qt7Bz2Je7KNBDfUBqd'], 'form2-name': ['Seminar']}>
+2022-07-15 16:25:27,846 events.views INFO     Redirecting to main page
+2022-07-15 16:25:36,655 events.views INFO     Loading edit.html
+2022-07-15 16:25:47,326 events.views INFO     Loading edit.html
+2022-07-15 16:25:47,327 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['bEpaxQoqUt1mQgtXApbGDAlTL5jiyXdHu5dWM7R8kxhBzAUdBJ1oL3dwvtc247lg'], 'form2-name': ['Show']}>
+2022-07-15 16:25:47,336 events.views INFO     Redirecting to main page
+2022-07-15 16:25:51,020 events.views INFO     Loading edit.html
+2022-07-15 16:26:26,603 events.views INFO     Loading edit.html
+2022-07-15 16:26:26,604 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['WnQSHcdGduQ9JPzYmfrmHS1iWzDH7rntfOEEWtGoDy6os90enzh4PlTVGXwrDBv2'], 'form3-name': ['Rap'], 'form3-category': ['1']}>
+2022-07-15 16:26:26,617 events.views INFO     Redirecting to main page
+2022-07-15 16:26:30,388 events.views INFO     Loading edit.html
+2022-07-15 16:27:22,135 events.views INFO     Loading edit.html
+2022-07-15 16:27:24,413 events.views INFO     Loading edit.html
+2022-07-15 16:29:07,472 events.views INFO     Loading edit.html
+2022-07-15 16:33:16,562 events.views INFO     Loading edit.html
+2022-07-15 16:33:39,730 events.views INFO     Loading edit.html
+2022-07-15 16:35:29,700 events.views INFO     Loading edit.html
+2022-07-15 16:36:53,708 events.views INFO     Loading edit.html
+2022-07-15 16:36:54,480 events.views INFO     Loading edit.html
+2022-07-15 16:37:23,961 events.views INFO     Loading edit.html
+2022-07-15 16:37:38,361 events.views INFO     Loading edit.html
+2022-07-15 16:38:11,566 events.views INFO     Loading edit.html
+2022-07-15 16:38:18,983 events.views INFO     Loading edit.html
+2022-07-15 16:39:41,259 events.views INFO     Loading edit.html
+2022-07-15 16:39:52,197 events.views INFO     Loading edit.html
+2022-07-15 16:39:52,902 events.views INFO     Loading edit.html
+2022-07-15 16:40:26,793 events.views INFO     Loading edit.html
+2022-07-15 16:40:52,872 events.views INFO     Loading edit.html
+2022-07-15 16:41:12,677 events.views INFO     Loading edit.html
+2022-07-15 16:41:53,712 events.views INFO     Loading edit.html
+2022-07-15 16:44:36,259 events.views INFO     Loading edit.html
+2022-07-15 16:45:32,442 events.views INFO     Loading edit.html
+2022-07-15 16:47:21,747 events.views INFO     Loading edit.html
+2022-07-15 16:47:40,270 events.views INFO     Loading edit.html
+2022-07-15 16:47:42,993 events.views INFO     Loading edit.html
+2022-07-15 16:48:01,631 events.views INFO     Loading edit.html
+2022-07-15 16:49:29,118 events.views INFO     Loading edit.html
+2022-07-15 16:52:12,852 events.views INFO     Loading edit.html
+2022-07-15 16:53:10,427 events.views INFO     Loading edit.html
+2022-07-15 16:53:29,148 events.views INFO     Loading edit.html
+2022-07-15 16:53:46,699 events.views INFO     Loading edit.html
+2022-07-15 16:54:02,278 events.views INFO     Loading edit.html
+2022-07-15 16:54:26,212 events.views INFO     Loading edit.html
+2022-07-15 16:56:07,498 events.views INFO     Loading edit.html
+2022-07-15 16:56:07,499 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['SBr0HupVNCBuvVmoy2qSlG65fXHz9gvMb2fMWLSDdGRJefNEzmgAt9YIZlAjFqDl'], 'form3-name': ['Rock'], 'form3-category': ['1']}>
+2022-07-15 16:56:07,515 events.views INFO     Redirecting to main page
+2022-07-15 16:56:15,734 events.views INFO     Loading edit.html
+2022-07-15 16:56:38,481 django.request WARNING  Not Found: /events/reister/
+2022-07-15 16:56:53,121 events.views INFO     Loading register.html
+2022-07-15 16:58:13,302 events.views INFO     Loading edit.html
+2022-07-15 16:58:41,880 events.views INFO     Loading edit.html
+2022-07-15 16:59:31,292 events.views INFO     Loading edit.html
+2022-07-15 16:59:32,696 events.views INFO     Loading edit.html
+2022-07-15 17:41:25,393 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 17:41:26,149 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 17:42:06,045 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 17:42:06,742 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 17:44:45,697 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 17:44:46,390 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 17:53:14,821 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 17:55:22,534 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 17:55:23,322 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 17:57:40,098 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 17:57:42,495 events.views INFO     Loading edit.html
+2022-07-15 17:57:47,444 events.views INFO     Loading edit.html
+2022-07-15 17:57:47,445 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['O7MRywLG1Ikw2cATnXYVSAZtcxzsQH2S7yADNNeorMALLw19ohOD03R6WVscmRar'], 'form2-name': ['Dances']}>
+2022-07-15 17:57:47,460 events.views INFO     Redirecting to main page
+2022-07-15 17:59:42,915 events.views INFO     Loading edit.html
+2022-07-15 18:00:51,322 events.views INFO     Loading edit.html
+2022-07-15 18:00:53,444 events.views INFO     Loading edit.html
+2022-07-15 18:01:03,908 events.views INFO     Loading edit.html
+2022-07-15 18:01:03,908 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['n7Et6YyW3PdI8fD0IHdsqQGKFRTaZ38OGysflf1EtTtXRz4gJ13ayjynpfMUvdgn'], 'form3-name': ['Hip Hop'], 'form3-category': ['1'], 'form3-submit': ['Add']}>
+2022-07-15 18:01:03,921 events.views INFO     Redirecting to main page
+2022-07-15 18:01:30,949 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 18:01:31,698 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 18:03:00,261 events.views INFO     Loading edit.html

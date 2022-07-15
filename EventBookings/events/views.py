@@ -2,7 +2,10 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.urls import reverse
 from django.contrib.auth import authenticate, login, logout
+
 from .forms import *
+
+from utils import *
 
 import logging
 logger = logging.getLogger(__name__)
@@ -70,4 +73,46 @@ def profile(req):
     return render(req, 'events/profile.html')
 
 def edit(req):
-    return render(req, 'events/edit.html')
+
+    logger.info('Loading edit.html')
+    if req.method == 'POST':
+        logger.info(f'Received POST request: {req.POST}')
+        form1 = EventForm(req.POST, prefix='form1')
+        form2 = CategoryForm(req.POST, prefix='form2')
+        form3 = SubCategoryForm(req.POST, prefix='form3')
+        form4 = LocationForm(req.POST, prefix='form4')  
+
+        # if all([form1.is_valid(), form2.is_valid(), form3.is_valid() ,form4.is_valid()]):
+        #     form1.save()
+        #     form2.save()
+        #     form3.save()
+        #     form4.save()
+        #     return HttpResponseRedirect(reverse('index'))
+
+        if form1.is_valid():
+            form1.save()
+        if form2.is_valid():
+            form2.save()
+        if form3.is_valid():
+            form3.save()
+        if form4.is_valid():
+            form4.save()
+
+        logger.info('Redirecting to main page')
+        return HttpResponseRedirect(reverse('index'))
+
+    else:
+        form1 = EventForm(prefix='form1')
+        form2 = CategoryForm(prefix='form2')
+        form3 = SubCategoryForm(prefix='form3')
+        form4 = LocationForm(prefix='form4') 
+
+    context = {
+    'form1' : form1,
+    'form2' : form2,
+    'form3' : form3,
+    'form4' : form4, 
+    }
+
+    
+    return render(req, 'events/edit.html', context)
