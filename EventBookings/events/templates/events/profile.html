@@ -1,3 +1,8 @@
 {% extends "events/base.html" %} {% load static %} {% block body %}
 <h1>Profile</h1>
-{%endblock %}
+{% if request.user.is_authenticated %}
+<p>User is logged in :)</p>
+<p>Username --> {{ request.user.username }}</p>
+{% else %}
+<p>User is not logged in :(</p>
+{% endif %} {%endblock %}

@@ -387,3 +387,96 @@ Traceback (most recent call last):
 django.contrib.auth.models.User.profile.RelatedObjectDoesNotExist: User has no profile.
 2022-07-15 14:19:52,586 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2022-07-15 14:19:59,304 django.request WARNING  Not Found: /admin/l
+2022-07-15 15:26:40,114 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 15:30:34,988 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 15:31:28,303 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\forms.py changed, reloading.
+2022-07-15 15:31:29,061 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 15:32:37,600 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\forms.py changed, reloading.
+2022-07-15 15:32:38,350 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 15:35:04,061 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 15:38:33,654 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 15:53:09,653 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 15:53:10,494 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 15:53:43,244 events.views INFO     Logout initiated
+2022-07-15 15:53:43,268 events.views INFO     Logged out succesfully
+2022-07-15 15:53:43,270 events.views INFO     Redirecting to main page
+2022-07-15 15:54:19,273 events.views INFO     Logout initiated
+2022-07-15 15:54:19,274 events.views INFO     Logged out succesfully
+2022-07-15 15:54:19,274 events.views INFO     Redirecting to main page
+2022-07-15 15:56:18,801 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 15:56:19,561 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 15:56:45,972 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 15:56:46,651 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 15:57:13,778 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 15:57:14,456 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 15:57:50,016 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 15:57:50,692 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 15:58:27,469 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 15:58:28,163 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 15:59:49,334 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 15:59:50,037 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 16:00:07,665 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 16:00:08,370 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 16:01:12,700 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 16:01:13,356 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 16:02:17,051 events.views INFO     Loading register.html
+2022-07-15 16:02:58,221 events.views INFO     Loading register.html
+2022-07-15 16:02:58,222 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['MtDSNH77aPLEcebEAmVV0uFUYt5rQYnuLzQkeeKjjaOjsV0bNkSBt5ZNKB5WcZfU'], 'first_name': ['Spiros'], 'last_name': ['Gatsoulis'], 'username': ['Spiros123'], 'password1': ['Jason_2002'], 'password2': ['Jason_2002']}>
+2022-07-15 16:02:58,456 events.views INFO     Registration successful
+2022-07-15 16:02:58,456 events.views INFO     Redirecting to profile page
+2022-07-15 16:03:12,958 events.views INFO     Logout initiated
+2022-07-15 16:03:12,976 events.views INFO     Logged out succesfully
+2022-07-15 16:03:12,976 events.views INFO     Redirecting to main page
+2022-07-15 16:03:21,877 events.views INFO     Loading login.html
+2022-07-15 16:03:31,909 events.views INFO     Loading login.html
+2022-07-15 16:03:31,910 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['cV8zbV4tI9jPCxtubaTHnmIHXZkU6q8nAvPFP3qknxyVAhcaUcnLaJjiws6tYRI4'], 'username': ['Spiros123'], 'password': ['asdfa']}>
+2022-07-15 16:03:32,099 events.views ERROR    Unsuccessful registration. Invalid information.
+2022-07-15 16:03:51,202 events.views INFO     Loading login.html
+2022-07-15 16:03:51,204 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['2WnV0x6lOiu7ndhJrFegmN84Qob4GWeuqw41EFsctGJdlX0paHIk9aJFpRXDynOb'], 'username': ['Spiros123'], 'password': ['Jason_2002']}>
+2022-07-15 16:03:51,406 events.views INFO     Login successful
+2022-07-15 16:03:51,407 events.views INFO     Redirecting to profile page
+2022-07-15 16:04:13,274 events.views INFO     Loading login.html
+2022-07-15 16:04:50,425 events.views INFO     Loading login.html
+2022-07-15 16:04:51,993 events.views INFO     Loading login.html
+2022-07-15 16:04:54,521 events.views INFO     Loading login.html
+2022-07-15 16:04:54,522 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['xlikvgDYMRLUjHe6U1areUoYgbHR8aLqR22VDaFElTJgBuGyQkDDajJquSwZl5ch'], 'username': ['afd'], 'password': ['ads']}>
+2022-07-15 16:04:54,703 events.views ERROR    Unsuccessful registration. Invalid information.
+2022-07-15 16:05:20,324 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 16:05:21,064 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 16:06:20,856 events.views INFO     Loading login.html
+2022-07-15 16:06:20,856 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['xlikvgDYMRLUjHe6U1areUoYgbHR8aLqR22VDaFElTJgBuGyQkDDajJquSwZl5ch'], 'username': ['afd'], 'password': ['ads']}>
+2022-07-15 16:06:21,052 events.views ERROR    Unsuccessful registration. Invalid information.
+2022-07-15 16:06:30,031 events.views INFO     Loading login.html
+2022-07-15 16:06:30,032 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['EhVJjECqXrU6cOiQoZjPfgVnKf8juhR4YYFkryE6wtSsuBKikiM1bFgPYWXrHciV'], 'username': ['asdf'], 'password': ['asdf']}>
+2022-07-15 16:06:30,217 events.views ERROR    Unsuccessful registration. Invalid information.
+2022-07-15 16:06:37,112 django.security.csrf WARNING  Forbidden (CSRF cookie not set.): /events/login/
+2022-07-15 16:06:44,225 events.views INFO     Loading login.html
+2022-07-15 16:06:47,392 events.views INFO     Loading login.html
+2022-07-15 16:06:47,393 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['JX6hmymdauLEZHLyaj7mKmf7LBczdydNGHv7YKJxVwr1bMugB5A7bGUrLzTMR2UG'], 'username': ['asd'], 'password': ['adsf']}>
+2022-07-15 16:06:47,603 events.views ERROR    Unsuccessful registration. Invalid information.
+2022-07-15 16:07:27,936 events.views INFO     Loading login.html
+2022-07-15 16:07:27,937 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['JX6hmymdauLEZHLyaj7mKmf7LBczdydNGHv7YKJxVwr1bMugB5A7bGUrLzTMR2UG'], 'username': ['asd'], 'password': ['adsf']}>
+2022-07-15 16:07:28,154 events.views ERROR    Unsuccessful registration. Invalid information.
+2022-07-15 16:07:31,470 events.views INFO     Loading login.html
+2022-07-15 16:07:31,471 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['QBplHRaPkZsK8vJV60fj4orr5hPeLfAKNlObj3x95187kAsDxMI4vI6L5fwrpJhD'], 'username': ['adsf'], 'password': ['asdf']}>
+2022-07-15 16:07:31,657 events.views ERROR    Unsuccessful registration. Invalid information.
+2022-07-15 16:07:40,173 events.views INFO     Loading login.html
+2022-07-15 16:07:43,174 events.views INFO     Loading login.html
+2022-07-15 16:07:43,174 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['baM0njU7d7FFGPnibD39ENFkC06uQi1I8UbQZvhrY9l2SU60CpwU57kECYNHuMIB'], 'username': ['asd'], 'password': ['as']}>
+2022-07-15 16:07:43,378 events.views ERROR    Unsuccessful registration. Invalid information.
+2022-07-15 16:09:07,649 events.views INFO     Loading login.html
+2022-07-15 16:09:07,650 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['baM0njU7d7FFGPnibD39ENFkC06uQi1I8UbQZvhrY9l2SU60CpwU57kECYNHuMIB'], 'username': ['asd'], 'password': ['as']}>
+2022-07-15 16:09:07,883 events.views ERROR    Unsuccessful registration. Invalid information.
+2022-07-15 16:09:18,697 events.views INFO     Loading login.html
+2022-07-15 16:09:18,698 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['NXLo0b0MKLsHdt8KeKdcjTN2W9sq8tYvKHaeCnn6vN84pyRsFwGXKdsmW79DMXFo'], 'username': ['jason'], 'password': ['Jason_2002']}>
+2022-07-15 16:09:18,913 events.views INFO     Login successful
+2022-07-15 16:09:18,913 events.views INFO     Redirecting to profile page
+2022-07-15 16:13:15,230 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 16:13:23,751 events.views INFO     Logout initiated
+2022-07-15 16:13:23,768 events.views INFO     Logged out succesfully
+2022-07-15 16:13:23,770 events.views INFO     Redirecting to main page
+2022-07-15 16:13:35,704 events.views INFO     Loading login.html
+2022-07-15 16:13:46,480 events.views INFO     Loading login.html
+2022-07-15 16:13:46,481 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['fF9BuQcrmUFEyd938QbXaTXrJRbhtx22RzfuzwtpgHieOnYbTeFhwWlLqV23DnWW'], 'username': ['Spiros123'], 'password': ['Jason_2002']}>
+2022-07-15 16:13:46,711 events.views INFO     Login successful
+2022-07-15 16:13:46,711 events.views INFO     Redirecting to profile page
