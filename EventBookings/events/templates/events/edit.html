@@ -9,6 +9,7 @@
 </div>
 
 <div id="event" class="form edit-form hide">
+  <button class="btn close">X</button>
   <form id="form1" action="{%url 'edit' %}" method="post">
     {% csrf_token %} {{ form1 }}
     <input type="submit" name="form1-submit" value="Add"></input>
@@ -16,6 +17,7 @@
 </div>
 
 <div id="category" class="form edit-form hide">
+  <button class="btn close">X</button>
   <form id="form2" action="{%url 'edit' %}" method="post">
     {% csrf_token %} {{ form2 }}
     <input type="submit" name="form2-submit" value="Add"></input>
@@ -23,6 +25,7 @@
 </div>
 
 <div id="sub-category" class="form edit-form hide">
+  <button class="btn close">X</button>
   <form id="form3" action="{%url 'edit' %}" method="post">
     {% csrf_token %} {{ form3 }}
     <input type="submit" name="form3-submit" value="Add"></input>
@@ -30,6 +33,7 @@
 </div>
 
 <div id="location" class="form edit-form hide">
+  <button class="btn close">X</button>
   <form id="form4" action="{%url 'edit' %}" method="post">
     {% csrf_token %} {{ form4 }}
     <input type="submit" name="form4-submit" value="Add"></input>

@@ -615,3 +615,67 @@ django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a val
 2022-07-15 18:27:00,820 events.views INFO     Logged out succesfully
 2022-07-15 18:27:00,821 events.views INFO     Redirecting to main page
 2022-07-15 18:27:04,637 events.views INFO     Loading login.html
+2022-07-15 18:39:43,796 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 18:39:47,557 events.views INFO     Loading login.html
+2022-07-15 18:39:54,980 events.views INFO     Loading login.html
+2022-07-15 18:39:54,981 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['2nj6rHzA1FQSieVSRQ3qkpe91JlM3Gsqat8SGe5m9045k86Qx3UIcw0k2DvLF2b4'], 'username': ['jason'], 'password': ['Jason_2002']}>
+2022-07-15 18:39:55,191 events.views INFO     Login successful
+2022-07-15 18:39:55,192 events.views INFO     Redirecting to profile page
+2022-07-15 18:39:55,215 events.views INFO     Loading profile.html
+2022-07-15 18:39:55,287 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 146, in profile
+    return render(req, 'profiles/profile.html', context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: profiles/profile.html
+2022-07-15 18:40:27,957 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 18:40:28,855 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 18:40:31,690 events.views INFO     Loading profile.html
+2022-07-15 18:41:11,685 events.views INFO     Loading profile.html
+2022-07-15 18:41:35,823 events.views INFO     Loading profile.html
+2022-07-15 18:42:25,103 events.views INFO     Loading profile.html
+2022-07-15 18:43:01,931 events.views INFO     Loading register.html
+2022-07-15 18:43:14,758 events.views INFO     Loading profile.html
+2022-07-15 18:43:44,629 events.views INFO     Loading profile.html
+2022-07-15 18:44:33,651 events.views INFO     Loading profile.html
+2022-07-15 18:45:03,285 events.views INFO     Loading edit.html
+2022-07-15 18:45:12,692 events.views INFO     Loading profile.html
+2022-07-15 18:46:00,031 events.views INFO     Loading edit.html
+2022-07-15 18:46:17,040 events.views INFO     Loading profile.html
+2022-07-15 18:46:17,041 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['5zvC6tTKMt3C6lCXg8axHLuILwvZAuE6pFi8ztm3BvKXi9Xgu6gyVvg1y7TaoJlO'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['Jason_2002'], 'password2': ['Jason_2002'], 'dob': ['12/19/2002']}>
+2022-07-15 18:46:17,272 events.views INFO     Loading login.html
+2022-07-15 18:46:37,842 events.views INFO     Loading login.html
+2022-07-15 18:46:41,350 events.views INFO     Loading login.html
+2022-07-15 18:46:44,302 events.views INFO     Logout initiated
+2022-07-15 18:46:44,303 events.views INFO     Logged out succesfully
+2022-07-15 18:46:44,303 events.views INFO     Redirecting to main page
+2022-07-15 18:46:45,852 events.views INFO     Loading login.html
+2022-07-15 18:46:52,767 events.views INFO     Logout initiated
+2022-07-15 18:46:52,767 events.views INFO     Logged out succesfully
+2022-07-15 18:46:52,768 events.views INFO     Redirecting to main page
+2022-07-15 18:46:55,264 events.views INFO     Loading login.html
+2022-07-15 18:47:03,680 events.views INFO     Loading login.html
+2022-07-15 18:47:03,680 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['iJuztQwjItAvUBG5YjkXIFzYfPpQQl8GCPh5WQZCxvhQ6p1ochqYWplh2qN1EAPo'], 'username': ['jason'], 'password': ['Jason_2002']}>
+2022-07-15 18:47:03,882 events.views INFO     Login successful
+2022-07-15 18:47:03,883 events.views INFO     Redirecting to profile page
+2022-07-15 18:47:03,898 events.views INFO     Loading profile.html
+2022-07-15 18:50:38,341 events.views INFO     Loading edit.html
+2022-07-15 18:50:39,675 events.views INFO     Loading profile.html
+2022-07-15 19:11:26,257 events.views INFO     Loading profile.html
+2022-07-15 19:11:48,266 events.views INFO     Loading profile.html
+2022-07-15 19:14:36,093 events.views INFO     Loading profile.html
+2022-07-15 19:14:57,652 events.views INFO     Loading profile.html
+2022-07-15 19:15:00,174 events.views INFO     Loading profile.html
+2022-07-15 19:15:10,651 events.views INFO     Loading profile.html
+2022-07-15 19:15:13,866 events.views INFO     Loading edit.html

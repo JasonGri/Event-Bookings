@@ -1,8 +1,22 @@
 {% extends "events/base.html" %} {% load static %} {% block body %}
 <h1>Profile</h1>
-{% if request.user.is_authenticated %}
+<!-- {% if request.user.is_authenticated %}
 <p>User is logged in :)</p>
-<p>Username --> {{ request.user.username }}</p>
+<p>Username  {{ request.user.username }}</p>
 {% else %}
 <p>User is not logged in :(</p>
-{% endif %} {%endblock %}
+{% endif %} -->
+
+<div class = "profile-menu">
+    <button class="btn">Edit Profile Details</button>
+</div> 
+
+<div id="profile-edit" class="form hide">
+    <button class="btn close">X</button>
+    <form action="{% url 'profile' %}" method="post">
+    {% csrf_token %} {{ user_form }} {{ profile_form }}
+    <input type="submit"></input>
+    </form>
+</div>
+
+{%endblock %}

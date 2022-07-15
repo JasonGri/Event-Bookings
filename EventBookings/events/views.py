@@ -71,9 +71,9 @@ def logout_view(req):
     logger.info('Redirecting to main page')
     return HttpResponseRedirect(reverse(index))
 
-@login_required
-def profile(req):
-    return render(req, 'events/profile.html')
+# @login_required
+# def profile(req):
+#     return render(req, 'events/profile.html')
 
 @staff_member_required
 def edit(req):
@@ -120,3 +120,27 @@ def edit(req):
 
     
     return render(req, 'events/edit.html', context)
+
+@login_required
+def profile(req):
+    logger.info('Loading profile.html')
+    if req.method == 'POST':
+        logger.info(f'Received POST request: {req.POST}')
+        user_form = UserForm(req.POST, instance=req.user)
+        profile_form = ProfileForm(req.POST, instance=req.user.profile)
+        if user_form.is_valid() and profile_form.is_valid():
+            user_form.save()
+            profile_form.save()
+            return HttpResponseRedirect(reverse(profile))
+        logger.error('Error in updating the profile')
+    else:
+        user_form = UserForm(instance=req.user)
+        profile_form = ProfileForm(instance=req.user.profile)
+
+
+    context = {
+        'user_form': user_form,
+        'profile_form': profile_form
+    }
+
+    return render(req, 'events/profile.html', context)
