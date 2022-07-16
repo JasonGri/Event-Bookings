@@ -10,7 +10,15 @@ h1 {
 }
 
 h3 {
+  margin-top: 5%;
+  margin-bottom: 5%;
   text-align: center;
+}
+
+hr {
+  background-color: #5cbdb9;
+  border: none;
+  opacity: 100%;
 }
 
 .svg {
@@ -96,15 +104,30 @@ form {
 }
 
 /* Edit Page Items */
-
-.edit-menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10%;
-  flex-wrap: wrap;
+.add-menu button {
+  font-size: x-large;
 }
 
-.edit-menu button {
-  font-size: x-large;
+/* Event Images */
+.events {
+  border: 3px solid #5cbdb9;
+  padding: 2px;
+  box-shadow: 5px 10px 8px #999;
+}
+
+.events:hover {
+  cursor: pointer;
+  transform: scale(1.03, 1.04);
+}
+
+/* Calendar pop up */
+.calendar {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border: none;
 }

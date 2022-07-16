@@ -16,7 +16,14 @@ logger = logging.getLogger(__name__)
 # Create your views here.
 
 def index(req):
-    return render(req, 'events/index.html')
+
+
+    context = {
+        'events': Event.objects.all(),
+        'sub_categories': Sub_category.objects.all(),
+        'categories': Category.objects.all(),
+    }
+    return render(req, 'events/index.html', context)
 
 def register(req):
     logger.info('Loading register.html')
@@ -81,7 +88,7 @@ def edit(req):
         form1 = EventForm(req.POST, req.FILES, prefix='form1')
         form2 = CategoryForm(req.POST, prefix='form2')
         form3 = SubCategoryForm(req.POST, prefix='form3')
-        form4 = LocationForm(req.POST, prefix='form4')  
+        form4 = LocationForm(req.POST, prefix='form4')
 
         if form1.is_valid():
             logger.info('form1 saved')
@@ -110,7 +117,9 @@ def edit(req):
     'form2' : form2,
     'form3' : form3,
     'form4' : form4, 
-    'events': Event.objects.all()
+    'events': Event.objects.all(),
+    'sub_categories': Sub_category.objects.all(),
+    'locations': Location.objects.all(),
     }
 
     

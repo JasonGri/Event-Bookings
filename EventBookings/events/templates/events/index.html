@@ -1,3 +1,58 @@
 {% extends "events/base.html" %} {% load static %} {% block body %}
 <h1>Events</h1>
+
+<div class="container-fluid">
+  <!-- Event Search Filters -->
+  <div class="row">
+    <div class="col-4">
+      <h3>Search by Category:</h3>
+      <select class="form-select cat-dropdown">
+        <option value="all">All</option>
+        {% for category in categories%}
+        <option value="{{category}}">{{category}}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="col-4">
+      <h3>Search by Sub-Category:</h3>
+      <select class="form-select subCat-dropdown">
+        <option value="all">All</option>
+        {% for sub_category in sub_categories%}
+        <option value="{{sub_category}}">{{sub_category}}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="col-4">
+      <h3>Search by Date:</h3>
+      <div class="calendar">
+        <img class="svg" src="{% static 'svgIcons/calendar.svg' %}" />
+        <input
+          type="search"
+          class="datepicker_input form-control"
+          placeholder="Event Date"
+          required
+          aria-label="Calendar"
+        />
+      </div>
+    </div>
+  </div>
+  <hr class="my-5" />
+  <!-- Event Images -->
+  <div class="row">
+    {% for event in events %}
+    <div
+      class="col-4 all {{event.sub_category.category}} {{event.date|date:'d/m/Y'}} {{event.sub_category|cut:' ' }}"
+    >
+      <h3>{{event}}</h3>
+      <img
+        class="img-fluid rounded events"
+        src="media/{{event.image}}"
+        alt="{{event.title}}"
+      />
+    </div>
+    {% endfor %}
+  </div>
+</div>
+<hr class="my-5" />
+
 {%endblock %}

@@ -903,3 +903,542 @@ ValueError: The Event could not be created because the data didn't validate.
 2022-07-15 20:54:29,843 PIL.Image    DEBUG    Importing XVThumbImagePlugin
 2022-07-15 20:54:29,876 events.views INFO     Redirecting to main page
 2022-07-15 20:54:41,060 events.views INFO     Loading edit.html
+2022-07-15 21:06:31,007 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 21:06:32,882 events.views INFO     Loading profile.html
+2022-07-15 21:06:39,305 events.views INFO     Loading profile.html
+2022-07-15 21:06:40,485 events.views INFO     Loading edit.html
+2022-07-15 21:07:15,982 events.views INFO     Loading profile.html
+2022-07-15 21:07:32,885 events.views INFO     Loading profile.html
+2022-07-15 21:07:33,568 events.views INFO     Loading edit.html
+2022-07-15 21:07:34,343 events.views INFO     Loading profile.html
+2022-07-15 21:07:37,353 events.views INFO     Loading edit.html
+2022-07-15 21:07:38,932 events.views INFO     Loading register.html
+2022-07-15 21:09:26,798 events.views INFO     Loading register.html
+2022-07-15 21:09:28,253 events.views INFO     Loading login.html
+2022-07-15 21:09:30,027 events.views INFO     Loading register.html
+2022-07-15 21:09:32,428 events.views INFO     Logout initiated
+2022-07-15 21:09:32,439 events.views INFO     Logged out succesfully
+2022-07-15 21:09:32,439 events.views INFO     Redirecting to main page
+2022-07-15 21:09:33,564 events.views INFO     Loading login.html
+2022-07-15 21:11:15,136 events.views INFO     Loading edit.html
+2022-07-15 21:14:29,999 events.views INFO     Loading edit.html
+2022-07-15 21:15:09,915 events.views INFO     Loading edit.html
+2022-07-15 21:16:56,118 events.views INFO     Loading edit.html
+2022-07-15 21:20:21,837 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 21:20:22,513 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 21:20:25,946 events.views INFO     Loading edit.html
+2022-07-15 21:20:26,049 django.request ERROR    Internal Server Error: /events/edit/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 119, in edit
+    return render(req, 'events/edit.html', context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 701, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '-categories' from 'sub-categories'
+2022-07-15 21:20:57,438 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 21:20:58,164 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 21:20:58,691 events.views INFO     Loading edit.html
+2022-07-15 21:21:25,519 events.views INFO     Loading edit.html
+2022-07-15 21:22:35,136 events.views INFO     Loading edit.html
+2022-07-15 21:22:35,881 events.views INFO     Loading edit.html
+2022-07-15 21:22:41,388 events.views INFO     Loading edit.html
+2022-07-15 21:22:42,141 events.views INFO     Loading edit.html
+2022-07-15 21:22:47,826 events.views INFO     Loading edit.html
+2022-07-15 21:23:16,443 events.views INFO     Loading edit.html
+2022-07-15 21:23:36,786 events.views INFO     Loading edit.html
+2022-07-15 21:24:31,424 events.views INFO     Loading edit.html
+2022-07-15 21:24:32,340 events.views INFO     Loading edit.html
+2022-07-15 21:25:23,462 events.views INFO     Loading edit.html
+2022-07-15 21:25:49,270 events.views INFO     Loading edit.html
+2022-07-15 21:25:49,864 events.views INFO     Loading edit.html
+2022-07-15 21:26:29,517 events.views INFO     Loading edit.html
+2022-07-15 21:26:30,307 events.views INFO     Loading edit.html
+2022-07-15 21:26:31,120 events.views INFO     Loading edit.html
+2022-07-15 21:27:07,250 events.views INFO     Loading edit.html
+2022-07-15 21:27:07,675 events.views INFO     Loading edit.html
+2022-07-15 21:28:26,161 events.views INFO     Loading edit.html
+2022-07-15 21:28:26,795 events.views INFO     Loading edit.html
+2022-07-15 21:29:03,627 events.views INFO     Loading edit.html
+2022-07-15 21:29:04,253 events.views INFO     Loading edit.html
+2022-07-15 21:29:05,043 events.views INFO     Loading edit.html
+2022-07-15 21:30:46,238 events.views INFO     Loading edit.html
+2022-07-15 21:32:34,888 events.views INFO     Loading edit.html
+2022-07-15 21:32:40,290 events.views INFO     Loading edit.html
+2022-07-15 21:32:41,689 events.views INFO     Loading edit.html
+2022-07-15 21:33:12,633 events.views INFO     Loading edit.html
+2022-07-15 21:37:13,404 events.views INFO     Loading edit.html
+2022-07-15 21:37:29,532 events.views INFO     Loading edit.html
+2022-07-15 21:37:30,460 events.views INFO     Loading edit.html
+2022-07-15 21:37:53,585 events.views INFO     Loading login.html
+2022-07-15 21:38:00,869 events.views INFO     Loading login.html
+2022-07-15 21:38:00,870 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['SSOZPud9iXNpDZjMhbDMtrmGBw5SVQfjSq0q3astFukUJUrkb6DjUiEQ2LW0m7s3'], 'username': ['jason'], 'password': ['Jason_2002']}>
+2022-07-15 21:38:01,096 events.views INFO     Login successful
+2022-07-15 21:38:01,097 events.views INFO     Redirecting to profile page
+2022-07-15 21:38:01,119 events.views INFO     Loading profile.html
+2022-07-15 21:38:02,774 events.views INFO     Loading edit.html
+2022-07-15 21:39:00,233 events.views INFO     Loading edit.html
+2022-07-15 21:40:23,976 events.views INFO     Loading edit.html
+2022-07-15 21:41:14,314 events.views INFO     Loading edit.html
+2022-07-15 21:41:51,303 events.views INFO     Loading edit.html
+2022-07-15 21:41:55,947 events.views INFO     Loading edit.html
+2022-07-15 21:42:16,644 events.views INFO     Loading edit.html
+2022-07-15 21:42:32,013 events.views INFO     Loading edit.html
+2022-07-15 21:43:10,162 events.views INFO     Loading edit.html
+2022-07-15 21:43:42,643 events.views INFO     Loading edit.html
+2022-07-15 21:54:30,751 events.views INFO     Loading edit.html
+2022-07-15 22:03:16,582 events.views INFO     Loading edit.html
+2022-07-15 22:03:43,888 events.views INFO     Loading edit.html
+2022-07-15 22:03:51,587 events.views INFO     Loading edit.html
+2022-07-15 22:03:51,588 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['8zPPs3OahoSsRhz65LA9cWnhbjp69OqaLXkaTJlHq6kPEMHiyiMSV5RBH9Q4reaC']}>
+2022-07-15 22:03:51,590 events.views INFO     Redirecting to main page
+2022-07-15 22:05:03,188 events.views INFO     Loading edit.html
+2022-07-15 22:05:03,290 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 22:05:04,038 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 22:05:04,412 events.views INFO     Loading edit.html
+2022-07-15 22:06:09,778 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 22:06:10,465 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 22:07:27,550 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 22:07:28,271 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 22:08:29,497 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 22:08:30,209 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 22:10:16,809 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 22:10:17,586 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 22:11:28,119 events.views INFO     Loading edit.html
+2022-07-15 22:11:28,182 django.request ERROR    Internal Server Error: /events/edit/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 119, in edit
+    form5 = EventForm(instance= req.event, prefix='form5')
+AttributeError: 'WSGIRequest' object has no attribute 'event'
+2022-07-15 22:13:15,854 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-15 22:13:16,601 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-15 22:13:17,427 events.views INFO     Loading edit.html
+2022-07-15 22:13:27,354 events.views INFO     Loading edit.html
+2022-07-16 12:56:38,344 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-16 12:56:47,944 django.request WARNING  Not Found: /favicon.ico
+2022-07-16 12:56:50,523 events.views INFO     Loading profile.html
+2022-07-16 12:56:53,494 events.views INFO     Loading edit.html
+2022-07-16 12:56:58,253 events.views INFO     Loading register.html
+2022-07-16 12:59:10,428 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-16 12:59:11,128 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-16 13:05:40,421 django.request ERROR    Internal Server Error: /events/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 24, in index
+    return render(req, 'events/index.html', context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 12: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2022-07-16 13:06:01,903 django.request ERROR    Internal Server Error: /events/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 24, in index
+    return render(req, 'events/index.html', context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 12: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2022-07-16 13:06:04,449 django.request ERROR    Internal Server Error: /events/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 24, in index
+    return render(req, 'events/index.html', context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 12: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2022-07-16 13:15:00,528 django.request WARNING  Not Found: /media/images/crowdNEW.jpeg
+2022-07-16 13:15:35,105 PIL.Image    DEBUG    Importing BlpImagePlugin
+2022-07-16 13:15:35,107 PIL.Image    DEBUG    Importing BmpImagePlugin
+2022-07-16 13:15:35,107 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2022-07-16 13:15:35,109 PIL.Image    DEBUG    Importing CurImagePlugin
+2022-07-16 13:15:35,110 PIL.Image    DEBUG    Importing DcxImagePlugin
+2022-07-16 13:15:35,113 PIL.Image    DEBUG    Importing DdsImagePlugin
+2022-07-16 13:15:35,115 PIL.Image    DEBUG    Importing EpsImagePlugin
+2022-07-16 13:15:35,202 PIL.Image    DEBUG    Importing FitsImagePlugin
+2022-07-16 13:15:35,204 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2022-07-16 13:15:35,206 PIL.Image    DEBUG    Importing FliImagePlugin
+2022-07-16 13:15:35,207 PIL.Image    DEBUG    Importing FpxImagePlugin
+2022-07-16 13:15:35,209 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-07-16 13:15:35,209 PIL.Image    DEBUG    Importing FtexImagePlugin
+2022-07-16 13:15:35,211 PIL.Image    DEBUG    Importing GbrImagePlugin
+2022-07-16 13:15:35,212 PIL.Image    DEBUG    Importing GifImagePlugin
+2022-07-16 13:15:35,212 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2022-07-16 13:15:35,214 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2022-07-16 13:15:35,215 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2022-07-16 13:15:35,218 PIL.Image    DEBUG    Importing IcoImagePlugin
+2022-07-16 13:15:35,220 PIL.Image    DEBUG    Importing ImImagePlugin
+2022-07-16 13:15:35,222 PIL.Image    DEBUG    Importing ImtImagePlugin
+2022-07-16 13:15:35,224 PIL.Image    DEBUG    Importing IptcImagePlugin
+2022-07-16 13:15:35,225 PIL.Image    DEBUG    Importing JpegImagePlugin
+2022-07-16 13:15:35,225 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2022-07-16 13:15:35,225 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2022-07-16 13:15:35,226 PIL.Image    DEBUG    Importing MicImagePlugin
+2022-07-16 13:15:35,228 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-07-16 13:15:35,228 PIL.Image    DEBUG    Importing MpegImagePlugin
+2022-07-16 13:15:35,229 PIL.Image    DEBUG    Importing MpoImagePlugin
+2022-07-16 13:15:35,230 PIL.Image    DEBUG    Importing MspImagePlugin
+2022-07-16 13:15:35,232 PIL.Image    DEBUG    Importing PalmImagePlugin
+2022-07-16 13:15:35,235 PIL.Image    DEBUG    Importing PcdImagePlugin
+2022-07-16 13:15:35,237 PIL.Image    DEBUG    Importing PcxImagePlugin
+2022-07-16 13:15:35,237 PIL.Image    DEBUG    Importing PdfImagePlugin
+2022-07-16 13:15:35,244 PIL.Image    DEBUG    Importing PixarImagePlugin
+2022-07-16 13:15:35,245 PIL.Image    DEBUG    Importing PngImagePlugin
+2022-07-16 13:15:35,245 PIL.Image    DEBUG    Importing PpmImagePlugin
+2022-07-16 13:15:35,245 PIL.Image    DEBUG    Importing PsdImagePlugin
+2022-07-16 13:15:35,247 PIL.Image    DEBUG    Importing SgiImagePlugin
+2022-07-16 13:15:35,248 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2022-07-16 13:15:35,250 PIL.Image    DEBUG    Importing SunImagePlugin
+2022-07-16 13:15:35,251 PIL.Image    DEBUG    Importing TgaImagePlugin
+2022-07-16 13:15:35,253 PIL.Image    DEBUG    Importing TiffImagePlugin
+2022-07-16 13:15:35,253 PIL.Image    DEBUG    Importing WebPImagePlugin
+2022-07-16 13:15:35,269 PIL.Image    DEBUG    Importing WmfImagePlugin
+2022-07-16 13:15:35,270 PIL.Image    DEBUG    Importing XbmImagePlugin
+2022-07-16 13:15:35,272 PIL.Image    DEBUG    Importing XpmImagePlugin
+2022-07-16 13:15:35,274 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2022-07-16 13:18:17,103 django.request WARNING  Not Found: /events/media/images/Coachella_66UBxa9.jpg
+2022-07-16 13:18:17,728 django.request WARNING  Not Found: /events/media/images/Coachella_66UBxa9.jpg
+2022-07-16 13:18:31,012 django.request WARNING  Not Found: /events/media/images/Coachella_66UBxa9.jpg
+2022-07-16 13:18:32,078 django.request WARNING  Not Found: /events/media/images/Coachella_66UBxa9.jpg
+2022-07-16 13:20:23,324 events.views INFO     Loading edit.html
+2022-07-16 13:21:07,909 events.views INFO     Loading edit.html
+2022-07-16 13:21:07,910 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['yVA5mpswrRCS18ZpxgNn2TDkx46xhhGLbj5qN5Z3Az4fOD7B0NZ6L27E3UxvzHqd'], 'form3-name': ['Cooking'], 'form3-category': ['2'], 'form3-submit': ['Add']}>
+2022-07-16 13:21:07,914 events.views INFO     form3 saved
+2022-07-16 13:21:07,924 events.views INFO     Redirecting to main page
+2022-07-16 13:21:09,490 events.views INFO     Loading edit.html
+2022-07-16 13:21:35,257 events.views INFO     Loading edit.html
+2022-07-16 13:21:35,258 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['jqTdHDBNpSvPJaU2dnIAHpdLIyyiKCnDWOoy8j8kyAXcwF2eGUUjqyH5eoZg2275'], 'form1-title': ['Jamie Oliver'], 'form1-date': ['2022-07-23'], 'form1-duration': ['45'], 'form1-likes': ['0'], 'form1-sub_category': ['5'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-16 13:21:35,264 events.views INFO     form1 saved
+2022-07-16 13:21:35,277 events.views INFO     Redirecting to main page
+2022-07-16 14:00:49,793 events.views INFO     Loading profile.html
+2022-07-16 15:15:05,234 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-16 15:15:05,948 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-16 15:15:15,120 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-16 15:15:15,833 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-16 15:15:20,691 django.request ERROR    Internal Server Error: /events/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 26, in index
+    return render(req, 'events/index.html', context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 88: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2022-07-16 15:20:25,456 events.views INFO     Loading profile.html
+2022-07-16 15:20:29,743 events.views INFO     Loading edit.html
+2022-07-16 15:20:36,555 events.views INFO     Loading register.html
+2022-07-16 15:20:43,429 events.views INFO     Loading login.html
+2022-07-16 15:20:56,159 events.views INFO     Loading login.html
+2022-07-16 15:20:56,160 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['6PpzixFjXXJPijk68hIjkaObLQ0PuljkJdUUJdcQ6Fbc5OsiBOU23jivhGrNML3M'], 'username': ['Spiros123'], 'password': ['Jason_2002']}>
+2022-07-16 15:20:56,357 events.views INFO     Login successful
+2022-07-16 15:20:56,357 events.views INFO     Redirecting to profile page
+2022-07-16 15:20:56,376 events.views INFO     Loading profile.html
+2022-07-16 15:35:05,945 django.request ERROR    Internal Server Error: /events/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 26, in index
+    return render(req, 'events/index.html', context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 701, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' d, Y' from 'event.date|date:M d, Y'
+2022-07-16 18:12:40,253 events.views INFO     Loading profile.html
+2022-07-16 18:12:43,431 events.views INFO     Loading profile.html
+2022-07-16 18:13:54,551 events.views INFO     Loading profile.html
+2022-07-16 18:14:57,156 events.views INFO     Loading profile.html
+2022-07-16 18:15:05,949 events.views INFO     Logout initiated
+2022-07-16 18:15:05,961 events.views INFO     Logged out succesfully
+2022-07-16 18:15:05,961 events.views INFO     Redirecting to main page
+2022-07-16 18:15:07,434 events.views INFO     Loading login.html
+2022-07-16 18:15:15,337 events.views INFO     Loading login.html
+2022-07-16 18:15:15,338 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['RC29XQvYWGC1HZjksuEYs0SABdj3P63bdffmiVWwcRyVkaJJXnbcG40hgOds7Whg'], 'username': ['Spiros123'], 'password': ['Jason_2002']}>
+2022-07-16 18:15:15,534 events.views INFO     Login successful
+2022-07-16 18:15:15,534 events.views INFO     Redirecting to profile page
+2022-07-16 18:15:15,553 events.views INFO     Loading profile.html
