@@ -55,4 +55,47 @@
 </div>
 <hr class="my-5" />
 
+<!-- Selected Event Display Card -->
+
+<div class="sel-evn-container p-5">
+  {% for event in events %}
+  <div class="card hide {{event.title|cut:' '}}">
+    <div class="row g-0">
+      <div class="col-md-6 img-container p-1">
+        <img
+          src="media/{{event.image}}"
+          class="img-fluid rounded"
+          alt="{{event.title}}"
+        />
+        <h4> Likes💖: {{event.likes}} </h4>
+        <h4> RATING </h4>
+      </div>
+      <div class="col-md-6">
+        <div class="card-body m-4">
+          <h3 class="card-title">{{event.title}} </h3>
+          <ul>
+            <li> Category: {{event.sub_category.category}} </li>
+            <li> Sub-Category: {{event.sub_category}} </li>
+            <li> Date📅: {{event.date }}</li>
+            <li> Duration⏳: {{event.duration}}m </li>
+            <li>
+              Seats🪑:
+              {{event.location.capacity}}/{{event.location.capacity}}</li
+            >
+            <li> Location📍: {{event.location}} </li>
+            <li><a href="#">💬REVIEWS</a></li>
+          </ul>
+          <button class="btn">Book Event!</button>
+          <p class="card-text"
+            ><small class="text-muted"
+              >Last updated {{event.updated_at}}</small
+            ></p
+          >
+        </div>
+      </div>
+    </div></div
+  >
+  {% endfor %}</div
+>
+
 {%endblock %}

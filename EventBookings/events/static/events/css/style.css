@@ -131,3 +131,28 @@ form {
 input {
   border: none;
 }
+
+/* Selected Event Card */
+
+.card {
+  background-color: #5cbdb9;
+  font-size: x-large;
+}
+
+.img-container img {
+  border: 3px solid #fbe3e8;
+}
+
+.img-container h4 {
+  text-align: center;
+}
+
+.img-container h4:hover {
+  cursor: pointer;
+  transform: scale(1.03, 1.04);
+}
+
+.card button {
+  border: solid #f8ccd6fd;
+  background-color: #fbe3e8;
+}

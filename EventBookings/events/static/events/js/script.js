@@ -1,4 +1,5 @@
 "use strict";
+const events = document.querySelectorAll(".events");
 
 // Forms Close Buttons
 const formCloseBtns = document.querySelectorAll(".close");
@@ -57,7 +58,6 @@ for (const elem of elems) {
 }
 
 // Filtering Events
-const events = document.querySelectorAll(".events");
 const catDropdown = document.querySelector(".cat-dropdown");
 const subCatDropdown = document.querySelector(".subCat-dropdown");
 const dateField = document.querySelector(".datepicker_input");
@@ -204,3 +204,18 @@ dateField.addEventListener("changeDate", (e) => {
     }
   });
 });
+
+// Selected Event Card
+const eventCards = document.querySelectorAll(".card");
+
+events.forEach((event) =>
+  event.addEventListener("click", (e) =>
+    eventCards.forEach((card) => {
+      card.classList.add("hide");
+      let eventTitle = e.target.parentElement.children[0].innerHTML
+        .split(",")[0]
+        .replace(/\s+/g, "");
+      if (card.classList.contains(eventTitle)) card.classList.remove("hide");
+    })
+  )
+);
