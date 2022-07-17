@@ -67,8 +67,21 @@
           class="img-fluid rounded"
           alt="{{event.title}}"
         />
-        <h4> Likes💖: {{event.likes}} </h4>
-        <h4> RATING </h4>
+        <form action="{% url 'like_event' event.pk %}" method="POST">
+          {% csrf_token %}
+          <button
+            type="submit"
+            name="event_id"
+            value="{{ event.id }}"
+            class="btn like fill"
+            ><img
+              class="svg"
+              src="{% static 'svgIcons/heart.svg' %}"
+              alt="heart-empty"
+          /></button>
+        </form>
+          <p>{{event.likes.count}}</p>
+        </button>
       </div>
       <div class="col-md-6">
         <div class="card-body m-4">
@@ -78,14 +91,20 @@
             <li> Sub-Category: {{event.sub_category}} </li>
             <li> Date📅: {{event.date }}</li>
             <li> Duration⏳: {{event.duration}}m </li>
-            <li>
-              Seats🪑:
-              {{event.location.capacity}}/{{event.location.capacity}}</li
-            >
+            <li> Seats🪑: {{event.users.count}}/{{event.location.capacity}}</li>
             <li> Location📍: {{event.location}} </li>
             <li><a href="#">💬REVIEWS</a></li>
           </ul>
-          <button class="btn">Book Event!</button>
+          <form action="{% url 'book_event' event.pk %}" method="POST">
+            {% csrf_token %}
+            <button
+              type="submit"
+              name="event_id"
+              value="{{ event.id }}"
+              class="btn book"
+              >Book Event!</button
+            >
+          </form>
           <p class="card-text"
             ><small class="text-muted"
               >Last updated {{event.updated_at}}</small

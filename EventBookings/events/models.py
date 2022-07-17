@@ -35,7 +35,7 @@ class Event(models.Model):
     title = models.CharField(max_length=64)
     date = models.DateField()
     duration = models.IntegerField() #In minutes
-    likes = models.IntegerField(default=0)
+    likes = models.ManyToManyField(User, blank= True, related_name='liked_events')
     image = models.ImageField(upload_to='images/')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)

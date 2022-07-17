@@ -4,7 +4,8 @@ from .models import *
 # Register your models here.
 
 class EventAdmin(admin.ModelAdmin):
-    list_display = ('id', 'title', 'date', 'duration', 'likes', 'image', 'created_at', 'updated_at', 'location', 'sub_category')
+    list_display = ('id', 'title', 'date', 'duration', 'image', 'created_at', 'updated_at', 'location', 'sub_category')
+    filter_horizontal = ('likes',)
     
 class LocationAdmin(admin.ModelAdmin):
     list_display = ('id', 'city', 'country', 'street', 'street_num', 'capacity')

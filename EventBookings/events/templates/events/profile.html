@@ -7,10 +7,12 @@
 <p>User is not logged in :(</p>
 {% endif %} -->
 
+<!-- Profile Menu -->
 <div class = "profile-menu">
     <button class="btn">Edit Profile Details</button>
 </div> 
 
+<!-- Edit Profile Details Form -->
 <div id="profile-edit" class="form hide">
     <button class="btn close">X</button>
     <form action="{% url 'profile' %}" method="post">
@@ -18,5 +20,52 @@
     <input type="submit"></input>
     </form>
 </div>
+
+<!-- Profile Details -->
+
+<div class="sel-evn-container p-5">
+    {% for event in events %}
+    <div class="card {{event.title|cut:' '}}">
+      <div class="row g-0">
+        <div class="col-md-6 img-container p-1">
+            <img
+            src="../../../media/{{event.image}}"
+            class="img-fluid rounded"
+            alt="{{event.title}}"
+          />
+        </div>
+        <div class="col-md-6">
+          <div class="card-body m-4">
+            <h3 class="card-title">{{event.title}} </h3>
+            <ul>
+              <li> Category: {{event.sub_category.category}} </li>
+              <li> Sub-Category: {{event.sub_category}} </li>
+              <li> Date📅: {{event.date }}</li>
+              <li> Duration⏳: {{event.duration}}m </li>
+              <li> Seats🪑: {{event.users.count}}/{{event.location.capacity}}</li>
+              <li> Location📍: {{event.location}} </li>
+              <li><a href="#">💬REVIEWS</a></li>
+            </ul>
+            <form action="{% url 'book_event' event.pk %}" method="POST">
+                {% csrf_token %}
+                <button
+                  type="submit"
+                  name="event_id"
+                  value="{{ event.id }}"
+                  class="btn book"
+                  >Cancel Event</button
+                >
+              </form>
+            <p class="card-text"
+              ><small class="text-muted"
+                >Last updated {{event.updated_at}}</small
+              ></p
+            >
+          </div>
+        </div>
+      </div></div
+    >
+    {% endfor %}</div
+  >
 
 {%endblock %}

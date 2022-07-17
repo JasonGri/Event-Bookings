@@ -1589,3 +1589,1313 @@ Traceback (most recent call last):
 django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0].title' from 'events[0].title'
 2022-07-16 20:59:35,699 django.request WARNING  Not Found: /events/media/
 2022-07-16 21:01:05,675 django.request WARNING  Not Found: /events/media/
+2022-07-17 13:59:21,956 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 13:59:34,507 django.request WARNING  Not Found: /favicon.ico
+2022-07-17 14:47:59,034 events.views INFO     Loading profile.html
+2022-07-17 14:48:02,347 events.views INFO     Loading edit.html
+2022-07-17 17:36:43,965 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 17:36:50,668 events.views INFO     Loading login.html
+2022-07-17 17:53:44,610 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 17:54:28,178 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 17:54:49,088 events.views INFO     Loading register.html
+2022-07-17 17:55:07,131 events.views INFO     Loading register.html
+2022-07-17 17:55:07,131 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['fFKFxvE3eG6dob3csDM8XWNKF6p9dYawMrqdMed1lP6R2wlcsN1377yeC9bPjPd2'], 'first_name': ['Kostas'], 'last_name': ['Kapellas'], 'username': ['SweetMango'], 'password1': ['Jason_2002'], 'password2': ['Jason_2002']}>
+2022-07-17 17:55:07,351 events.views INFO     Registration successful
+2022-07-17 17:55:07,351 events.views INFO     Redirecting to profile page
+2022-07-17 17:55:07,369 events.views INFO     Loading profile.html
+2022-07-17 17:55:10,569 events.views INFO     Loading register.html
+2022-07-17 17:55:26,529 events.views INFO     Loading register.html
+2022-07-17 17:55:26,530 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['RWw3q9UMhtqtUS46PwZLOdr3lQ2oNNbaGAi9Y6kvgrAvhtvlkBtx6BMCSHxygw8J'], 'first_name': ['Spiros'], 'last_name': ['Gatsoulis'], 'username': ['Spiros123'], 'password1': ['Jason_2002'], 'password2': ['Jason_2002']}>
+2022-07-17 17:55:26,747 events.views INFO     Registration successful
+2022-07-17 17:55:26,747 events.views INFO     Redirecting to profile page
+2022-07-17 17:55:26,765 events.views INFO     Loading profile.html
+2022-07-17 17:55:38,813 events.views INFO     Loading edit.html
+2022-07-17 17:55:59,397 events.views INFO     Loading edit.html
+2022-07-17 17:55:59,398 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['Tjpvqu5rhI7LO58jQiOiKjMV8O0ZQyRX0UoEZ95NlCtP3AAJctLJsYoeXIv1SHeK'], 'form4-city': ['London'], 'form4-country': ['United Kingdom'], 'form4-street': ['Queen'], 'form4-street_num': ['23'], 'form4-capacity': ['2500'], 'form4-submit': ['Add']}>
+2022-07-17 17:55:59,401 events.views INFO     form4 saved
+2022-07-17 17:55:59,407 events.views INFO     Redirecting to main page
+2022-07-17 17:56:01,867 events.views INFO     Loading edit.html
+2022-07-17 17:56:11,141 events.views INFO     Loading edit.html
+2022-07-17 17:56:11,141 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['UPbkUG9tZHPIjf2kTghIqbWEZo7P60yf1qattl9P3BbMyKuKfre98QyXOiCR89V2'], 'form2-name': ['Concert'], 'form2-submit': ['Add']}>
+2022-07-17 17:56:11,143 events.views INFO     form2 saved
+2022-07-17 17:56:11,149 events.views INFO     Redirecting to main page
+2022-07-17 17:56:12,258 events.views INFO     Loading edit.html
+2022-07-17 17:56:17,872 events.views INFO     Loading edit.html
+2022-07-17 17:56:17,873 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['o4u3Xh8WonVfcUDkLSPezIDqkH4UpV9hvFtcwW8ishhjrp5K73MFhnfJ9BzWr4w4'], 'form2-name': ['Seminar'], 'form2-submit': ['Add']}>
+2022-07-17 17:56:17,875 events.views INFO     form2 saved
+2022-07-17 17:56:17,883 events.views INFO     Redirecting to main page
+2022-07-17 17:56:18,597 events.views INFO     Loading edit.html
+2022-07-17 17:56:22,426 events.views INFO     Loading edit.html
+2022-07-17 17:56:22,426 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['vAArwi9IS8Myk5GckKcECqOLg46SQkrsCbzA5X94W28CzA8CGV95k5q45YBUStOf'], 'form2-name': ['Dances'], 'form2-submit': ['Add']}>
+2022-07-17 17:56:22,427 events.views INFO     form2 saved
+2022-07-17 17:56:22,434 events.views INFO     Redirecting to main page
+2022-07-17 17:56:23,185 events.views INFO     Loading edit.html
+2022-07-17 17:56:31,409 events.views INFO     Loading edit.html
+2022-07-17 17:56:31,410 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['HC34m0SQHz8BQPwr6vcCcWJkFRLFbTPzOd2dVFScLtuF5kYRsG93UBlDuLgHd2cm'], 'form2-name': ['Show'], 'form2-submit': ['Add']}>
+2022-07-17 17:56:31,412 events.views INFO     form2 saved
+2022-07-17 17:56:31,417 events.views INFO     Redirecting to main page
+2022-07-17 17:56:32,659 events.views INFO     Loading edit.html
+2022-07-17 17:56:37,277 events.views INFO     Loading edit.html
+2022-07-17 17:56:37,278 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['O8W3UcHn9gwtUnuZmSLMw9ZHx6zhQNfhVJVctRHJdaSx9SWpI3IdeOB0m04jSWC4'], 'form3-name': ['Rap'], 'form3-category': ['1'], 'form3-submit': ['Add']}>
+2022-07-17 17:56:37,281 events.views INFO     form3 saved
+2022-07-17 17:56:37,288 events.views INFO     Redirecting to main page
+2022-07-17 17:56:38,281 events.views INFO     Loading edit.html
+2022-07-17 17:56:41,535 events.views INFO     Loading edit.html
+2022-07-17 17:56:41,536 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['KkLiWIKleJHrdnIoQfVGrm7wMP1nQchYRVKrvnKHiD3vsSaOcqS791JPBJwpSlEL'], 'form3-name': ['Rock'], 'form3-category': ['1'], 'form3-submit': ['Add']}>
+2022-07-17 17:56:41,539 events.views INFO     form3 saved
+2022-07-17 17:56:41,546 events.views INFO     Redirecting to main page
+2022-07-17 17:56:43,107 events.views INFO     Loading edit.html
+2022-07-17 17:57:32,064 events.views INFO     Loading edit.html
+2022-07-17 17:57:32,065 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['rpULBXkKQKgU8V1GJBok6ycmDxjIgIT8y0TUaCk6UECYnqt65MlLOdOFsrOKiRgV'], 'form1-title': ['Coachella'], 'form1-date': ['2022-08-08'], 'form1-duration': ['5760'], 'form1-likes': ['0'], 'form1-sub_category': ['1'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-17 17:57:32,096 PIL.Image    DEBUG    Importing BlpImagePlugin
+2022-07-17 17:57:32,099 PIL.Image    DEBUG    Importing BmpImagePlugin
+2022-07-17 17:57:32,099 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2022-07-17 17:57:32,101 PIL.Image    DEBUG    Importing CurImagePlugin
+2022-07-17 17:57:32,103 PIL.Image    DEBUG    Importing DcxImagePlugin
+2022-07-17 17:57:32,106 PIL.Image    DEBUG    Importing DdsImagePlugin
+2022-07-17 17:57:32,107 PIL.Image    DEBUG    Importing EpsImagePlugin
+2022-07-17 17:57:32,190 PIL.Image    DEBUG    Importing FitsImagePlugin
+2022-07-17 17:57:32,193 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2022-07-17 17:57:32,194 PIL.Image    DEBUG    Importing FliImagePlugin
+2022-07-17 17:57:32,196 PIL.Image    DEBUG    Importing FpxImagePlugin
+2022-07-17 17:57:32,199 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-07-17 17:57:32,199 PIL.Image    DEBUG    Importing FtexImagePlugin
+2022-07-17 17:57:32,201 PIL.Image    DEBUG    Importing GbrImagePlugin
+2022-07-17 17:57:32,203 PIL.Image    DEBUG    Importing GifImagePlugin
+2022-07-17 17:57:32,203 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2022-07-17 17:57:32,205 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2022-07-17 17:57:32,207 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2022-07-17 17:57:32,211 PIL.Image    DEBUG    Importing IcoImagePlugin
+2022-07-17 17:57:32,213 PIL.Image    DEBUG    Importing ImImagePlugin
+2022-07-17 17:57:32,215 PIL.Image    DEBUG    Importing ImtImagePlugin
+2022-07-17 17:57:32,217 PIL.Image    DEBUG    Importing IptcImagePlugin
+2022-07-17 17:57:32,218 PIL.Image    DEBUG    Importing JpegImagePlugin
+2022-07-17 17:57:32,219 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2022-07-17 17:57:32,219 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2022-07-17 17:57:32,221 PIL.Image    DEBUG    Importing MicImagePlugin
+2022-07-17 17:57:32,223 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-07-17 17:57:32,223 PIL.Image    DEBUG    Importing MpegImagePlugin
+2022-07-17 17:57:32,225 PIL.Image    DEBUG    Importing MpoImagePlugin
+2022-07-17 17:57:32,227 PIL.Image    DEBUG    Importing MspImagePlugin
+2022-07-17 17:57:32,229 PIL.Image    DEBUG    Importing PalmImagePlugin
+2022-07-17 17:57:32,233 PIL.Image    DEBUG    Importing PcdImagePlugin
+2022-07-17 17:57:32,234 PIL.Image    DEBUG    Importing PcxImagePlugin
+2022-07-17 17:57:32,235 PIL.Image    DEBUG    Importing PdfImagePlugin
+2022-07-17 17:57:32,242 PIL.Image    DEBUG    Importing PixarImagePlugin
+2022-07-17 17:57:32,244 PIL.Image    DEBUG    Importing PngImagePlugin
+2022-07-17 17:57:32,244 PIL.Image    DEBUG    Importing PpmImagePlugin
+2022-07-17 17:57:32,244 PIL.Image    DEBUG    Importing PsdImagePlugin
+2022-07-17 17:57:32,246 PIL.Image    DEBUG    Importing SgiImagePlugin
+2022-07-17 17:57:32,248 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2022-07-17 17:57:32,250 PIL.Image    DEBUG    Importing SunImagePlugin
+2022-07-17 17:57:32,251 PIL.Image    DEBUG    Importing TgaImagePlugin
+2022-07-17 17:57:32,253 PIL.Image    DEBUG    Importing TiffImagePlugin
+2022-07-17 17:57:32,253 PIL.Image    DEBUG    Importing WebPImagePlugin
+2022-07-17 17:57:32,285 PIL.Image    DEBUG    Importing WmfImagePlugin
+2022-07-17 17:57:32,287 PIL.Image    DEBUG    Importing XbmImagePlugin
+2022-07-17 17:57:32,289 PIL.Image    DEBUG    Importing XpmImagePlugin
+2022-07-17 17:57:32,291 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2022-07-17 17:57:32,296 events.views INFO     form1 saved
+2022-07-17 17:57:32,307 events.views INFO     Redirecting to main page
+2022-07-17 18:01:19,212 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 18:01:19,951 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 18:01:48,187 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\urls.py changed, reloading.
+2022-07-17 18:01:48,871 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 18:12:09,091 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 18:12:17,588 events.views INFO     Loading profile.html
+2022-07-17 18:12:50,922 django.request ERROR    Internal Server Error: /events/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 26, in index
+    return render(req, 'events/index.html', context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'book' not found. 'book' is not a valid view function or pattern name.
+2022-07-17 18:13:10,181 events.views INFO     Logout initiated
+2022-07-17 18:13:10,195 events.views INFO     Logged out succesfully
+2022-07-17 18:13:10,195 events.views INFO     Redirecting to main page
+2022-07-17 18:13:16,516 events.views INFO     Loading login.html
+2022-07-17 18:13:29,755 events.views INFO     Loading login.html
+2022-07-17 18:13:29,756 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['TQo2wnIM9lQbMT93Yz428N5q6QbFFkWn0rnb52I8dfcf1oBtkK1tQsHJVKGHHtja'], 'username': ['SweetMango'], 'password': ['Jason_2002']}>
+2022-07-17 18:13:29,989 events.views INFO     Login successful
+2022-07-17 18:13:29,990 events.views INFO     Redirecting to profile page
+2022-07-17 18:13:30,012 events.views INFO     Loading profile.html
+2022-07-17 18:13:42,677 django.request ERROR    Internal Server Error: /events/book/1
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 157, in book_view
+    event.users.add(req.user)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\related_descriptors.py", line 1048, in add
+    self._add_items(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\related_descriptors.py", line 1263, in _add_items
+    target_ids = self._get_target_ids(target_field_name, objs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\related_descriptors.py", line 1192, in _get_target_ids
+    raise TypeError(
+TypeError: 'Profile' instance expected, got <SimpleLazyObject: <User: SweetMango>>
+2022-07-17 18:15:09,028 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 18:15:09,796 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 18:15:36,211 events.views INFO     Logout initiated
+2022-07-17 18:15:36,224 events.views INFO     Logged out succesfully
+2022-07-17 18:15:36,225 events.views INFO     Redirecting to main page
+2022-07-17 18:15:38,785 events.views INFO     Loading register.html
+2022-07-17 18:15:40,702 events.views INFO     Loading login.html
+2022-07-17 18:15:47,666 events.views INFO     Loading login.html
+2022-07-17 18:15:47,667 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['4TFg4x1lFx115KuOKYaGClu5gOsFJ7YwkiaSN59E7U9iKGjkcXGziYdwW0WjCZr7'], 'username': ['jason'], 'password': ['Jason_2002']}>
+2022-07-17 18:15:47,898 events.views INFO     Login successful
+2022-07-17 18:15:47,898 events.views INFO     Redirecting to profile page
+2022-07-17 18:15:47,921 events.views INFO     Loading profile.html
+2022-07-17 18:17:59,336 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 18:18:00,085 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 18:20:55,213 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 18:20:56,335 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 18:21:00,943 events.views INFO     Loading profile.html
+2022-07-17 18:21:50,507 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 18:21:51,322 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 18:22:15,380 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\urls.py changed, reloading.
+2022-07-17 18:22:16,062 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 18:33:31,528 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 18:34:05,747 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 18:36:41,967 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\models.py changed, reloading.
+2022-07-17 18:36:43,072 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 18:41:22,088 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\models.py changed, reloading.
+2022-07-17 18:41:22,902 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 18:45:02,126 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\models.py changed, reloading.
+2022-07-17 18:45:02,828 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 18:46:02,803 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 18:48:45,077 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 18:48:53,590 events.views INFO     Loading edit.html
+2022-07-17 18:49:07,040 events.views INFO     Loading edit.html
+2022-07-17 18:49:07,040 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['siwe7uvIAQQ85DBAFoQPgPhYMhHydRx928HmomdgHcoIcIvhO1f7kE75f9pQiNoW'], 'form4-city': ['London'], 'form4-country': ['United Kingdom'], 'form4-street': ['Queen'], 'form4-street_num': ['23'], 'form4-capacity': ['2500'], 'form4-submit': ['Add']}>
+2022-07-17 18:49:07,043 events.views INFO     form4 saved
+2022-07-17 18:49:07,050 events.views INFO     Redirecting to main page
+2022-07-17 18:49:08,391 events.views INFO     Loading edit.html
+2022-07-17 18:49:11,834 events.views INFO     Loading edit.html
+2022-07-17 18:49:11,834 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['k3ETjNSeTapRGgTOf09Y5TVOJISEl9tpUTP1AFAM0wXrNlNvoDyg9ILVcAAWq5kc'], 'form2-name': ['Concert'], 'form2-submit': ['Add']}>
+2022-07-17 18:49:11,836 events.views INFO     form2 saved
+2022-07-17 18:49:11,841 events.views INFO     Redirecting to main page
+2022-07-17 18:49:12,809 events.views INFO     Loading edit.html
+2022-07-17 18:49:16,390 events.views INFO     Loading edit.html
+2022-07-17 18:49:16,391 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['1cD44zwp7NTqZHSo94DhAzaNdbtl6abCB2OclreXe9r06MM5iH2zEo0UG3bDb62p'], 'form2-name': ['Seminar'], 'form2-submit': ['Add']}>
+2022-07-17 18:49:16,392 events.views INFO     form2 saved
+2022-07-17 18:49:16,399 events.views INFO     Redirecting to main page
+2022-07-17 18:49:17,288 events.views INFO     Loading edit.html
+2022-07-17 18:49:19,654 events.views INFO     Loading edit.html
+2022-07-17 18:49:19,655 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['zin4921jUTpjTvcO6v756WnGBqEUXHI298ycqUJR1fXT0A6vf8wnaLdN4imc2DzP'], 'form2-name': ['Show'], 'form2-submit': ['Add']}>
+2022-07-17 18:49:19,656 events.views INFO     form2 saved
+2022-07-17 18:49:19,663 events.views INFO     Redirecting to main page
+2022-07-17 18:49:20,707 events.views INFO     Loading edit.html
+2022-07-17 18:49:24,773 events.views INFO     Loading edit.html
+2022-07-17 18:49:24,774 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['CULJRO4v8fDi9ZrMiyiZrv0LW19TzTzlcKWR8GM3fBbSg4ltrbHhvkQSpTRbEPq8'], 'form3-name': ['Hip Hop'], 'form3-category': ['1'], 'form3-submit': ['Add']}>
+2022-07-17 18:49:24,777 events.views INFO     form3 saved
+2022-07-17 18:49:24,784 events.views INFO     Redirecting to main page
+2022-07-17 18:49:25,908 events.views INFO     Loading edit.html
+2022-07-17 18:49:30,948 events.views INFO     Loading edit.html
+2022-07-17 18:49:30,949 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['iYK6NJz8W97Fe26VciRa3cRkkcR9DyXtSOVe4BhG3vFfl70ClVgs71HrN4zrIuOg'], 'form3-name': ['Self Development'], 'form3-category': ['2'], 'form3-submit': ['Add']}>
+2022-07-17 18:49:30,951 events.views INFO     form3 saved
+2022-07-17 18:49:30,959 events.views INFO     Redirecting to main page
+2022-07-17 18:49:32,228 events.views INFO     Loading edit.html
+2022-07-17 18:50:45,506 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\models.py changed, reloading.
+2022-07-17 18:50:46,268 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 18:50:56,705 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 18:50:58,113 events.views INFO     Loading edit.html
+2022-07-17 18:51:25,270 events.views INFO     Loading edit.html
+2022-07-17 18:51:25,270 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['YIqRhJL4O9zAc7cHMhDsNl7x2C4TiFklyyBZyBtCVv7ajc6oVU2KRaXEvuMbnBb8'], 'form1-title': ['Coachella'], 'form1-date': ['2022-08-08'], 'form1-duration': ['5760'], 'form1-sub_category': ['1'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-17 18:51:25,297 PIL.Image    DEBUG    Importing BlpImagePlugin
+2022-07-17 18:51:25,299 PIL.Image    DEBUG    Importing BmpImagePlugin
+2022-07-17 18:51:25,300 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2022-07-17 18:51:25,301 PIL.Image    DEBUG    Importing CurImagePlugin
+2022-07-17 18:51:25,304 PIL.Image    DEBUG    Importing DcxImagePlugin
+2022-07-17 18:51:25,306 PIL.Image    DEBUG    Importing DdsImagePlugin
+2022-07-17 18:51:25,308 PIL.Image    DEBUG    Importing EpsImagePlugin
+2022-07-17 18:51:25,415 PIL.Image    DEBUG    Importing FitsImagePlugin
+2022-07-17 18:51:25,416 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2022-07-17 18:51:25,418 PIL.Image    DEBUG    Importing FliImagePlugin
+2022-07-17 18:51:25,419 PIL.Image    DEBUG    Importing FpxImagePlugin
+2022-07-17 18:51:25,421 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-07-17 18:51:25,422 PIL.Image    DEBUG    Importing FtexImagePlugin
+2022-07-17 18:51:25,427 PIL.Image    DEBUG    Importing GbrImagePlugin
+2022-07-17 18:51:25,430 PIL.Image    DEBUG    Importing GifImagePlugin
+2022-07-17 18:51:25,431 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2022-07-17 18:51:25,433 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2022-07-17 18:51:25,435 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2022-07-17 18:51:25,440 PIL.Image    DEBUG    Importing IcoImagePlugin
+2022-07-17 18:51:25,442 PIL.Image    DEBUG    Importing ImImagePlugin
+2022-07-17 18:51:25,444 PIL.Image    DEBUG    Importing ImtImagePlugin
+2022-07-17 18:51:25,446 PIL.Image    DEBUG    Importing IptcImagePlugin
+2022-07-17 18:51:25,448 PIL.Image    DEBUG    Importing JpegImagePlugin
+2022-07-17 18:51:25,448 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2022-07-17 18:51:25,449 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2022-07-17 18:51:25,450 PIL.Image    DEBUG    Importing MicImagePlugin
+2022-07-17 18:51:25,453 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-07-17 18:51:25,453 PIL.Image    DEBUG    Importing MpegImagePlugin
+2022-07-17 18:51:25,455 PIL.Image    DEBUG    Importing MpoImagePlugin
+2022-07-17 18:51:25,457 PIL.Image    DEBUG    Importing MspImagePlugin
+2022-07-17 18:51:25,459 PIL.Image    DEBUG    Importing PalmImagePlugin
+2022-07-17 18:51:25,461 PIL.Image    DEBUG    Importing PcdImagePlugin
+2022-07-17 18:51:25,463 PIL.Image    DEBUG    Importing PcxImagePlugin
+2022-07-17 18:51:25,464 PIL.Image    DEBUG    Importing PdfImagePlugin
+2022-07-17 18:51:25,474 PIL.Image    DEBUG    Importing PixarImagePlugin
+2022-07-17 18:51:25,475 PIL.Image    DEBUG    Importing PngImagePlugin
+2022-07-17 18:51:25,476 PIL.Image    DEBUG    Importing PpmImagePlugin
+2022-07-17 18:51:25,476 PIL.Image    DEBUG    Importing PsdImagePlugin
+2022-07-17 18:51:25,478 PIL.Image    DEBUG    Importing SgiImagePlugin
+2022-07-17 18:51:25,479 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2022-07-17 18:51:25,481 PIL.Image    DEBUG    Importing SunImagePlugin
+2022-07-17 18:51:25,483 PIL.Image    DEBUG    Importing TgaImagePlugin
+2022-07-17 18:51:25,485 PIL.Image    DEBUG    Importing TiffImagePlugin
+2022-07-17 18:51:25,486 PIL.Image    DEBUG    Importing WebPImagePlugin
+2022-07-17 18:51:25,489 PIL.Image    DEBUG    Importing WmfImagePlugin
+2022-07-17 18:51:25,491 PIL.Image    DEBUG    Importing XbmImagePlugin
+2022-07-17 18:51:25,493 PIL.Image    DEBUG    Importing XpmImagePlugin
+2022-07-17 18:51:25,496 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2022-07-17 18:51:25,503 events.views INFO     form1 saved
+2022-07-17 18:51:25,518 events.views INFO     Redirecting to main page
+2022-07-17 18:51:35,001 events.views INFO     Loading edit.html
+2022-07-17 18:51:36,963 events.views INFO     Loading register.html
+2022-07-17 18:51:51,991 events.views INFO     Loading register.html
+2022-07-17 18:51:51,992 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['HttwHjHYO8jc0iAgzJ4o0RqsllVybahMhjEEYbpwVuRM7nuXImtG4GgzOdDQg68z'], 'first_name': ['Kostas'], 'last_name': ['Kapellas'], 'username': ['SweetMango'], 'password1': ['Jason_2002'], 'password2': ['Jason_2002']}>
+2022-07-17 18:51:52,248 events.views INFO     Registration successful
+2022-07-17 18:51:52,249 events.views INFO     Redirecting to profile page
+2022-07-17 18:51:52,275 events.views INFO     Loading profile.html
+2022-07-17 18:51:57,318 events.views INFO     Loading profile.html
+2022-07-17 18:52:15,313 events.views INFO     Loading register.html
+2022-07-17 18:52:16,608 events.views INFO     Loading login.html
+2022-07-17 18:52:17,907 events.views INFO     Logout initiated
+2022-07-17 18:52:17,918 events.views INFO     Logged out succesfully
+2022-07-17 18:52:17,919 events.views INFO     Redirecting to main page
+2022-07-17 18:52:20,137 events.views INFO     Loading login.html
+2022-07-17 18:52:25,192 events.views INFO     Loading login.html
+2022-07-17 18:52:31,184 events.views INFO     Loading login.html
+2022-07-17 18:52:38,038 events.views INFO     Loading login.html
+2022-07-17 18:52:38,038 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['7C8j8VcLBakr6P7Q6gRzR8abtx82CdmfpNlUWysnv7k9q1NmhgIQlQaa5rCQWYGi'], 'username': ['jason'], 'password': ['Jason_2002']}>
+2022-07-17 18:52:38,272 events.views INFO     Login successful
+2022-07-17 18:52:38,272 events.views INFO     Redirecting to profile page
+2022-07-17 18:52:38,291 events.views INFO     Loading profile.html
+2022-07-17 18:52:43,754 events.views INFO     Loading profile.html
+2022-07-17 19:24:33,223 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 19:24:33,931 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 19:24:44,175 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 19:24:44,894 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 19:43:10,804 events.views INFO     Loading profile.html
+2022-07-17 19:46:07,410 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 19:46:08,100 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 19:46:51,030 events.views INFO     Loading profile.html
+2022-07-17 19:46:51,122 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 148, in profile
+    'events': Profile.events.objects.all()
+AttributeError: 'ManyToManyDescriptor' object has no attribute 'objects'
+2022-07-17 19:47:23,267 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 19:47:24,016 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 19:49:23,099 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 19:49:23,796 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 19:49:25,542 events.views INFO     Loading profile.html
+2022-07-17 19:49:25,676 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 151, in profile
+    return render(req, 'events/profile.html', context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'ManyToManyDescriptor' object is not iterable
+2022-07-17 19:49:59,963 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 19:50:00,767 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 19:50:07,198 events.views INFO     Loading profile.html
+2022-07-17 19:50:25,172 events.views INFO     Loading profile.html
+2022-07-17 19:50:39,508 events.views INFO     Loading profile.html
+2022-07-17 19:50:40,447 events.views INFO     Loading profile.html
+2022-07-17 19:50:52,670 events.views INFO     Loading login.html
+2022-07-17 19:50:59,465 events.views INFO     Loading login.html
+2022-07-17 19:50:59,466 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['qAWGheCseZGYH70pIJng4vfjw7H5FjeNzWburD4QeC50opbAOcaRIu3KHlI9j916'], 'username': ['jason'], 'password': ['Jason_2002']}>
+2022-07-17 19:50:59,672 events.views INFO     Login successful
+2022-07-17 19:50:59,672 events.views INFO     Redirecting to profile page
+2022-07-17 19:50:59,692 events.views INFO     Loading profile.html
+2022-07-17 19:51:12,276 events.views INFO     Loading profile.html
+2022-07-17 19:53:00,174 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 19:53:01,502 events.views INFO     Loading profile.html
+2022-07-17 19:53:43,796 events.views INFO     Loading profile.html
+2022-07-17 19:54:49,352 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 19:54:50,098 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 19:54:51,832 events.views INFO     Loading profile.html
+2022-07-17 19:55:04,178 events.views INFO     Logout initiated
+2022-07-17 19:55:04,192 events.views INFO     Logged out succesfully
+2022-07-17 19:55:04,193 events.views INFO     Redirecting to main page
+2022-07-17 19:55:05,825 events.views INFO     Loading login.html
+2022-07-17 19:55:14,108 events.views INFO     Loading login.html
+2022-07-17 19:55:14,109 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['cPr7GPtTtPjep0Dm6QcEhNuUbtyfhTjJKCSiL2hAtWusAIPjADhQ0fnZnMbBbq0v'], 'username': ['SweetMango'], 'password': ['Jason_2002']}>
+2022-07-17 19:55:14,321 events.views INFO     Login successful
+2022-07-17 19:55:14,322 events.views INFO     Redirecting to profile page
+2022-07-17 19:55:14,340 events.views INFO     Loading profile.html
+2022-07-17 19:56:15,700 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 19:56:16,527 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 19:56:20,487 events.views INFO     Loading profile.html
+2022-07-17 19:57:32,206 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 19:57:33,084 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 19:57:33,474 events.views INFO     Loading profile.html
+2022-07-17 19:57:33,538 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 148, in profile
+    'profile': Profile.objects.filter(id=req.user.id).value_list('events')
+AttributeError: 'QuerySet' object has no attribute 'value_list'
+2022-07-17 19:57:47,768 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 19:57:48,543 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 19:57:54,579 events.views INFO     Loading profile.html
+2022-07-17 20:00:17,062 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 20:00:17,799 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:01:25,820 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:01:26,174 events.views INFO     Loading profile.html
+2022-07-17 20:01:26,252 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 151, in profile
+    print(context['profile'])
+KeyError: 'profile'
+2022-07-17 20:01:56,313 events.views INFO     Loading profile.html
+2022-07-17 20:01:56,356 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 151, in profile
+    print(context['profile'])
+KeyError: 'profile'
+2022-07-17 20:02:04,120 events.views INFO     Loading profile.html
+2022-07-17 20:02:04,175 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 151, in profile
+    return render(req, 'events/profile.html', context)
+KeyError: 'profile'
+2022-07-17 20:02:04,984 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 20:02:05,780 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:02:06,200 events.views INFO     Loading profile.html
+2022-07-17 20:02:06,313 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 151, in profile
+    return render(req, 'events/profile.html', context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'ManyRelatedManager' object is not iterable
+2022-07-17 20:02:42,414 events.views INFO     Loading profile.html
+2022-07-17 20:02:42,533 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 151, in profile
+    return render(req, 'events/profile.html', context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 701, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'profile.events.all()'
+2022-07-17 20:02:44,135 events.views INFO     Loading profile.html
+2022-07-17 20:02:44,196 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 151, in profile
+    return render(req, 'events/profile.html', context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 701, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'profile.events.all()'
+2022-07-17 20:04:25,720 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 20:04:26,377 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:05:04,065 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 20:05:04,810 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:05:07,198 events.views INFO     Loading profile.html
+2022-07-17 20:05:07,264 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 146, in profile
+    for event in currentUser.events.all():
+AttributeError: 'QuerySet' object has no attribute 'events'
+2022-07-17 20:05:25,511 events.views INFO     Loading profile.html
+2022-07-17 20:05:25,556 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 146, in profile
+    print(currentUser)
+AttributeError: 'QuerySet' object has no attribute 'events'
+2022-07-17 20:05:25,993 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 20:05:26,840 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:05:27,193 events.views INFO     Loading profile.html
+2022-07-17 20:05:27,280 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 157, in profile
+    return render(req, 'events/profile.html', context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 701, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'profile.events.all()'
+2022-07-17 20:05:32,721 events.views INFO     Loading profile.html
+2022-07-17 20:05:49,259 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 20:05:50,032 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:05:51,081 events.views INFO     Loading profile.html
+2022-07-17 20:05:51,144 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 146, in profile
+    print(currentUser.objects.all())
+AttributeError: 'QuerySet' object has no attribute 'objects'
+2022-07-17 20:05:57,094 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 20:05:57,855 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:05:58,948 events.views INFO     Loading profile.html
+2022-07-17 20:05:59,011 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 146, in profile
+    print(currentUser.events.all())
+AttributeError: 'QuerySet' object has no attribute 'events'
+2022-07-17 20:06:16,829 events.views INFO     Loading profile.html
+2022-07-17 20:06:16,891 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 146, in profile
+    print(currentUser.events)
+AttributeError: 'QuerySet' object has no attribute 'events'
+2022-07-17 20:06:17,706 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 20:06:18,620 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:06:18,968 events.views INFO     Loading profile.html
+2022-07-17 20:06:19,022 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 146, in profile
+    print(currentUser.events)
+AttributeError: 'QuerySet' object has no attribute 'events'
+2022-07-17 20:07:01,798 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 20:07:02,554 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:07:04,235 events.views INFO     Loading profile.html
+2022-07-17 20:07:15,967 events.views INFO     Loading profile.html
+2022-07-17 20:07:16,424 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 20:07:17,226 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:07:21,060 events.views INFO     Loading profile.html
+2022-07-17 20:07:54,282 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 20:07:55,189 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:07:55,922 events.views INFO     Loading profile.html
+2022-07-17 20:07:55,979 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 146, in profile
+    print(Profile.objects.filter(pk = req.user.id).events.all())
+AttributeError: 'QuerySet' object has no attribute 'events'
+2022-07-17 20:08:02,267 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 20:08:03,141 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:08:03,413 events.views INFO     Loading profile.html
+2022-07-17 20:08:26,250 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 20:08:26,963 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:08:39,264 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 20:08:39,980 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:08:53,697 events.views INFO     Loading profile.html
+2022-07-17 20:08:56,120 events.views INFO     Loading profile.html
+2022-07-17 20:09:08,459 events.views INFO     Loading profile.html
+2022-07-17 20:10:58,495 events.views INFO     Loading profile.html
+2022-07-17 20:10:58,655 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 152, in profile
+    return render(req, 'events/profile.html', context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'like_event' with arguments '('',)' not found. 1 pattern(s) tried: ['events/like/(?P<pk>[0-9]+)\\Z']
+2022-07-17 20:11:40,291 events.views INFO     Loading profile.html
+2022-07-17 20:11:40,364 django.request WARNING  Not Found: /events/profile/media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:11:58,880 events.views INFO     Loading profile.html
+2022-07-17 20:11:58,982 django.request WARNING  Not Found: /events/profile/media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:12:00,002 events.views INFO     Loading profile.html
+2022-07-17 20:12:00,094 django.request WARNING  Not Found: /events/profile/media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:12:44,687 events.views INFO     Loading login.html
+2022-07-17 20:12:50,878 events.views INFO     Loading login.html
+2022-07-17 20:12:50,879 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['NKqOYVpC7sSyLiJQWXqw0JC2yFO3jGl3G4o54plIXzaB3Z0PokRGv9X8rGQq2ul7'], 'username': ['jason'], 'password': ['Jaosn_2002']}>
+2022-07-17 20:12:51,068 events.views ERROR    Unsuccessful registration. Invalid information.
+2022-07-17 20:12:58,244 events.views INFO     Loading login.html
+2022-07-17 20:12:58,245 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['Ilka5fISTmPupQokfijFuZVuEApGXogmBFirbJEYJt7xHxFjHFKPZpgAxBr3Gcgq'], 'username': ['jason'], 'password': ['Jason_2002']}>
+2022-07-17 20:12:58,477 events.views INFO     Login successful
+2022-07-17 20:12:58,478 events.views INFO     Redirecting to profile page
+2022-07-17 20:12:58,499 events.views INFO     Loading profile.html
+2022-07-17 20:12:58,571 django.request WARNING  Not Found: /events/profile/media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:13:37,080 events.views INFO     Loading profile.html
+2022-07-17 20:13:39,149 events.views INFO     Loading profile.html
+2022-07-17 20:13:49,153 events.views INFO     Loading profile.html
+2022-07-17 20:13:49,855 events.views INFO     Loading profile.html
+2022-07-17 20:14:03,221 events.views INFO     Loading profile.html
+2022-07-17 20:14:04,125 events.views INFO     Loading profile.html
+2022-07-17 20:15:16,461 events.views INFO     Loading profile.html
+2022-07-17 20:15:17,655 events.views INFO     Loading profile.html
+2022-07-17 20:15:17,732 django.request WARNING  Not Found: /events/profile/media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:17:15,377 events.views INFO     Loading profile.html
+2022-07-17 20:17:15,507 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 152, in profile
+    return render(req, 'events/profile.html', context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 1373, in url
+    viewname = parser.compile_filter(bits[1])
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 701, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '/{{event.image}}' from 'media/{{event.image}}'
+2022-07-17 20:17:24,880 events.views INFO     Loading profile.html
+2022-07-17 20:17:25,003 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 152, in profile
+    return render(req, 'events/profile.html', context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 1373, in url
+    viewname = parser.compile_filter(bits[1])
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 701, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '/{{event.image}}' from 'media/{{event.image}}'
+2022-07-17 20:17:25,893 events.views INFO     Loading profile.html
+2022-07-17 20:17:26,042 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 152, in profile
+    return render(req, 'events/profile.html', context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'media/{{event.image}}' not found. 'media/{{event.image}}' is not a valid view function or pattern name.
+2022-07-17 20:19:00,372 events.views INFO     Loading profile.html
+2022-07-17 20:19:22,613 events.views INFO     Loading profile.html
+2022-07-17 20:19:22,712 django.request ERROR    Internal Server Error: /events/profile/
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'media'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py", line 152, in profile
+    return render(req, 'events/profile.html', context)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 32: 'media', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2022-07-17 20:23:10,244 events.views INFO     Loading profile.html
+2022-07-17 20:23:10,359 django.request WARNING  Not Found: /media/images/images/Coachella_t3aogk0.jpg
+2022-07-17 20:23:25,347 events.views INFO     Loading profile.html
+2022-07-17 20:23:25,451 django.request WARNING  Not Found: /media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:23:26,211 events.views INFO     Loading profile.html
+2022-07-17 20:23:26,282 django.request WARNING  Not Found: /media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:23:48,906 events.views INFO     Loading profile.html
+2022-07-17 20:23:48,983 django.request WARNING  Not Found: /media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:24:35,030 events.views INFO     Loading profile.html
+2022-07-17 20:24:35,146 django.request WARNING  Not Found: /media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:25:10,872 events.views INFO     Loading profile.html
+2022-07-17 20:25:10,970 django.request WARNING  Not Found: /media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:27:06,579 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 20:27:07,339 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:27:10,339 events.views INFO     Loading profile.html
+2022-07-17 20:27:10,452 django.request WARNING  Not Found: /media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:27:12,369 events.views INFO     Loading profile.html
+2022-07-17 20:27:27,974 events.views INFO     Loading profile.html
+2022-07-17 20:27:28,070 django.request WARNING  Not Found: /media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:27:37,208 events.views INFO     Loading profile.html
+2022-07-17 20:27:37,279 django.request WARNING  Not Found: /media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:40:00,312 events.views INFO     Loading edit.html
+2022-07-17 20:47:58,636 PIL.Image    DEBUG    Importing BlpImagePlugin
+2022-07-17 20:47:58,638 PIL.Image    DEBUG    Importing BmpImagePlugin
+2022-07-17 20:47:58,638 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2022-07-17 20:47:58,640 PIL.Image    DEBUG    Importing CurImagePlugin
+2022-07-17 20:47:58,641 PIL.Image    DEBUG    Importing DcxImagePlugin
+2022-07-17 20:47:58,644 PIL.Image    DEBUG    Importing DdsImagePlugin
+2022-07-17 20:47:58,645 PIL.Image    DEBUG    Importing EpsImagePlugin
+2022-07-17 20:47:58,726 PIL.Image    DEBUG    Importing FitsImagePlugin
+2022-07-17 20:47:58,727 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2022-07-17 20:47:58,728 PIL.Image    DEBUG    Importing FliImagePlugin
+2022-07-17 20:47:58,730 PIL.Image    DEBUG    Importing FpxImagePlugin
+2022-07-17 20:47:58,732 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-07-17 20:47:58,732 PIL.Image    DEBUG    Importing FtexImagePlugin
+2022-07-17 20:47:58,734 PIL.Image    DEBUG    Importing GbrImagePlugin
+2022-07-17 20:47:58,737 PIL.Image    DEBUG    Importing GifImagePlugin
+2022-07-17 20:47:58,737 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2022-07-17 20:47:58,738 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2022-07-17 20:47:58,740 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2022-07-17 20:47:58,743 PIL.Image    DEBUG    Importing IcoImagePlugin
+2022-07-17 20:47:58,744 PIL.Image    DEBUG    Importing ImImagePlugin
+2022-07-17 20:47:58,746 PIL.Image    DEBUG    Importing ImtImagePlugin
+2022-07-17 20:47:58,747 PIL.Image    DEBUG    Importing IptcImagePlugin
+2022-07-17 20:47:58,748 PIL.Image    DEBUG    Importing JpegImagePlugin
+2022-07-17 20:47:58,748 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2022-07-17 20:47:58,749 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2022-07-17 20:47:58,750 PIL.Image    DEBUG    Importing MicImagePlugin
+2022-07-17 20:47:58,752 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-07-17 20:47:58,752 PIL.Image    DEBUG    Importing MpegImagePlugin
+2022-07-17 20:47:58,753 PIL.Image    DEBUG    Importing MpoImagePlugin
+2022-07-17 20:47:58,754 PIL.Image    DEBUG    Importing MspImagePlugin
+2022-07-17 20:47:58,755 PIL.Image    DEBUG    Importing PalmImagePlugin
+2022-07-17 20:47:58,757 PIL.Image    DEBUG    Importing PcdImagePlugin
+2022-07-17 20:47:58,758 PIL.Image    DEBUG    Importing PcxImagePlugin
+2022-07-17 20:47:58,758 PIL.Image    DEBUG    Importing PdfImagePlugin
+2022-07-17 20:47:58,765 PIL.Image    DEBUG    Importing PixarImagePlugin
+2022-07-17 20:47:58,767 PIL.Image    DEBUG    Importing PngImagePlugin
+2022-07-17 20:47:58,767 PIL.Image    DEBUG    Importing PpmImagePlugin
+2022-07-17 20:47:58,767 PIL.Image    DEBUG    Importing PsdImagePlugin
+2022-07-17 20:47:58,769 PIL.Image    DEBUG    Importing SgiImagePlugin
+2022-07-17 20:47:58,770 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2022-07-17 20:47:58,771 PIL.Image    DEBUG    Importing SunImagePlugin
+2022-07-17 20:47:58,772 PIL.Image    DEBUG    Importing TgaImagePlugin
+2022-07-17 20:47:58,773 PIL.Image    DEBUG    Importing TiffImagePlugin
+2022-07-17 20:47:58,773 PIL.Image    DEBUG    Importing WebPImagePlugin
+2022-07-17 20:47:58,776 PIL.Image    DEBUG    Importing WmfImagePlugin
+2022-07-17 20:47:58,778 PIL.Image    DEBUG    Importing XbmImagePlugin
+2022-07-17 20:47:58,779 PIL.Image    DEBUG    Importing XpmImagePlugin
+2022-07-17 20:47:58,781 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2022-07-17 20:50:11,138 events.views INFO     Loading profile.html
+2022-07-17 20:50:12,469 events.views INFO     Loading profile.html
+2022-07-17 20:50:15,454 events.views INFO     Loading profile.html
+2022-07-17 20:50:22,209 events.views INFO     Loading profile.html
+2022-07-17 20:50:22,269 django.request WARNING  Not Found: /media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:50:26,333 events.views INFO     Loading profile.html
+2022-07-17 20:50:28,280 events.views INFO     Logout initiated
+2022-07-17 20:50:28,293 events.views INFO     Logged out succesfully
+2022-07-17 20:50:28,293 events.views INFO     Redirecting to main page
+2022-07-17 20:50:31,513 events.views INFO     Loading login.html
+2022-07-17 20:50:38,383 events.views INFO     Loading login.html
+2022-07-17 20:50:38,384 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['wsZi3iuxY4dQEF6adxP5wscq4ovoma8cdpJrgyLYrkMMSMLs5pc7cAuxwpz2dLqA'], 'username': ['Spiros123'], 'password': ['Jason_2002']}>
+2022-07-17 20:50:38,562 events.views ERROR    Unsuccessful registration. Invalid information.
+2022-07-17 20:50:40,081 events.views INFO     Loading register.html
+2022-07-17 20:50:53,181 events.views INFO     Loading register.html
+2022-07-17 20:50:53,182 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['e61EzTgklUGZdAFejGLQDcDSxyC6kc5tV3LNM9xLOafVrHkwby8SjkVZZzGKbNnR'], 'first_name': ['Spiros'], 'last_name': ['Gatsoulis'], 'username': ['Spiros123'], 'password1': ['Jason_2002'], 'password2': ['Jason_2002']}>
+2022-07-17 20:50:53,402 events.views INFO     Registration successful
+2022-07-17 20:50:53,402 events.views INFO     Redirecting to profile page
+2022-07-17 20:50:53,420 events.views INFO     Loading profile.html
+2022-07-17 20:51:01,283 events.views INFO     Loading profile.html
+2022-07-17 20:51:01,346 django.request WARNING  Not Found: /media/images/Swan_Lake_0B6gfIX.jpg
+2022-07-17 20:51:09,401 events.views INFO     Loading profile.html
+2022-07-17 20:51:09,467 django.request WARNING  Not Found: /media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:51:09,468 django.request WARNING  Not Found: /media/images/Swan_Lake_0B6gfIX.jpg
+2022-07-17 20:51:15,307 events.views INFO     Loading profile.html
+2022-07-17 20:51:15,380 django.request WARNING  Not Found: /media/images/Swan_Lake_0B6gfIX.jpg
+2022-07-17 20:51:15,382 django.request WARNING  Not Found: /media/images/Astroworld_OTXF8Ob.jpg
+2022-07-17 20:51:15,383 django.request WARNING  Not Found: /media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:51:52,366 events.views INFO     Loading profile.html
+2022-07-17 20:51:52,367 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['1G8bOsfhk0QsJ1DMP5hbY7AE1xUX6lXNHYjvuPOV7g8S40NEmv8EbC1CckTvust3'], 'first_name': ['Spiros'], 'last_name': ['Gatsoulis'], 'username': ['Spiros123'], 'password1': ['Jason_2002'], 'password2': ['Jason_2002'], 'dob': ['01/27/2002'], 'events': ['1', '2', '3']}>
+2022-07-17 20:51:52,586 events.views INFO     Loading login.html
+2022-07-17 20:52:00,251 events.views INFO     Loading login.html
+2022-07-17 20:52:00,252 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['fraze31TNTHOVGm4NSAfRTGahAud5932VJlTUqAxA9ZegFwWkirI4o78sntLtgzi'], 'username': ['Spiros123'], 'password': ['Jason_2002']}>
+2022-07-17 20:52:00,451 events.views INFO     Login successful
+2022-07-17 20:52:00,451 events.views INFO     Redirecting to profile page
+2022-07-17 20:52:00,467 events.views INFO     Loading profile.html
+2022-07-17 20:52:00,537 django.request WARNING  Not Found: /media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:52:00,538 django.request WARNING  Not Found: /media/images/Swan_Lake_0B6gfIX.jpg
+2022-07-17 20:52:00,539 django.request WARNING  Not Found: /media/images/Astroworld_OTXF8Ob.jpg
+2022-07-17 20:55:22,021 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 20:55:22,796 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:55:34,218 events.views INFO     Loading profile.html
+2022-07-17 20:55:34,334 django.request WARNING  Not Found: /media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:55:34,335 django.request WARNING  Not Found: /media/images/Swan_Lake_0B6gfIX.jpg
+2022-07-17 20:55:34,336 django.request WARNING  Not Found: /media/images/Astroworld_OTXF8Ob.jpg
+2022-07-17 20:55:34,338 django.request WARNING  Not Found: /media/images/Jamie_Oliver_mi4UA4R.jpg
+2022-07-17 20:56:44,711 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 20:56:45,522 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:57:09,531 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 20:57:10,368 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:57:10,791 events.views INFO     Loading profile.html
+2022-07-17 20:57:10,956 django.request WARNING  Not Found: /media/images/Swan_Lake_0B6gfIX.jpg
+2022-07-17 20:57:10,965 django.request WARNING  Not Found: /media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:57:10,980 django.request WARNING  Not Found: /media/images/Astroworld_OTXF8Ob.jpg
+2022-07-17 20:57:10,984 django.request WARNING  Not Found: /media/images/Jamie_Oliver_mi4UA4R.jpg
+2022-07-17 20:57:24,554 events.views INFO     Loading profile.html
+2022-07-17 20:57:24,716 django.request WARNING  Not Found: /media/images/Swan_Lake_0B6gfIX.jpg
+2022-07-17 20:57:24,717 django.request WARNING  Not Found: /media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:57:24,718 django.request WARNING  Not Found: /media/images/Jamie_Oliver_mi4UA4R.jpg
+2022-07-17 20:58:21,489 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 20:58:22,247 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 20:58:31,142 events.views INFO     Loading profile.html
+2022-07-17 20:58:31,366 django.request WARNING  Not Found: /media/images/Jamie_Oliver_mi4UA4R.jpg
+2022-07-17 20:58:31,368 django.request WARNING  Not Found: /media/images/Swan_Lake_0B6gfIX.jpg
+2022-07-17 20:58:31,369 django.request WARNING  Not Found: /media/images/Coachella_t3aogk0.jpg
+2022-07-17 20:58:45,609 events.views INFO     Loading profile.html
+2022-07-17 20:58:52,493 events.views INFO     Loading profile.html
+2022-07-17 20:58:52,574 django.request WARNING  Not Found: /media/images/Jamie_Oliver_mi4UA4R.jpg
+2022-07-17 20:58:57,955 events.views INFO     Loading profile.html
+2022-07-17 21:05:08,914 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 21:05:09,676 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 21:06:55,036 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 21:06:55,858 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 21:22:24,189 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\views.py changed, reloading.
+2022-07-17 21:22:25,170 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 21:41:15,285 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-17 21:41:16,604 events.views INFO     Loading profile.html
+2022-07-17 21:41:23,583 events.views INFO     Loading profile.html
+2022-07-17 21:41:23,659 django.request WARNING  Not Found: /media/images/Coachella_t3aogk0.jpg
+2022-07-17 21:41:26,731 events.views INFO     Loading profile.html
+2022-07-17 21:44:30,455 events.views INFO     Logout initiated
+2022-07-17 21:44:30,468 events.views INFO     Logged out succesfully
+2022-07-17 21:44:30,468 events.views INFO     Redirecting to main page
+2022-07-17 21:44:32,307 events.views INFO     Logout initiated
+2022-07-17 21:44:32,308 events.views INFO     Logged out succesfully
+2022-07-17 21:44:32,309 events.views INFO     Redirecting to main page
+2022-07-17 21:44:34,455 events.views INFO     Loading login.html
+2022-07-17 21:44:36,424 events.views INFO     Loading login.html
+2022-07-17 21:44:40,063 events.views INFO     Loading register.html
+2022-07-17 21:44:41,922 events.views INFO     Loading login.html
+2022-07-17 21:44:43,302 events.views INFO     Loading register.html
+2022-07-17 21:44:44,440 events.views INFO     Loading login.html
+2022-07-17 21:44:47,982 events.views INFO     Loading login.html
+2022-07-17 21:44:56,452 events.views INFO     Loading login.html
+2022-07-17 21:44:58,731 events.views INFO     Loading login.html
+2022-07-17 21:45:32,604 events.views INFO     Loading edit.html

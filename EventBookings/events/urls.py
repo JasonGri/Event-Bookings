@@ -10,6 +10,8 @@ urlpatterns = [
     path('logout/', views.logout_view, name='logout'),
     path('profile/', views.profile, name='profile'),
     path('edit/', views.edit, name='edit'),
+    path('book/<int:pk>', views.book_view, name='book_event'),
+    path('like/<int:pk>', views.like_view, name='like_event'),
 ]
 
 if settings.DEBUG:

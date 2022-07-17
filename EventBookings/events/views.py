@@ -1,5 +1,5 @@
 from django.http import HttpResponseRedirect
-from django.shortcuts import render
+from django.shortcuts import get_object_or_404, render, get_list_or_404
 from django.urls import reverse
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
@@ -141,10 +141,47 @@ def profile(req):
         user_form = UserForm(instance=req.user)
         profile_form = ProfileForm(instance=req.user.profile)
 
+    currentUserProfile = Profile.objects.filter(pk = req.user.id)
 
     context = {
         'user_form': user_form,
         'profile_form': profile_form,
+        'events':currentUserProfile[0].events.all()
     }
 
     return render(req, 'events/profile.html', context)
+
+@login_required
+def book_view(req, pk):
+    
+    event = get_object_or_404(Event, id=req.POST.get('event_id'))
+    booked = False
+    
+    if event.location.capacity > event.users.count():
+
+        if event.users.filter(id=req.user.profile.id).exists():
+            event.users.remove(req.user.profile)
+            booked = False
+        else:
+            event.users.add(req.user.profile)
+            booked = True
+
+    else:
+        HttpResponseRedirect(reverse(index))
+
+    return HttpResponseRedirect(reverse('profile'))
+
+@login_required
+def like_view(req, pk):
+    
+    event = get_object_or_404(Event, id=req.POST.get('event_id'))
+    liked = False
+
+    if event.likes.filter(id=req.user.id).exists():
+        event.likes.remove(req.user)
+        liked = False
+    else:
+        event.likes.add(req.user)
+        liked = True
+
+    return HttpResponseRedirect(reverse('index'))

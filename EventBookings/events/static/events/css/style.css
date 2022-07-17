@@ -139,12 +139,13 @@ input {
   font-size: x-large;
 }
 
-.img-container img {
+.img-container > img {
   border: 3px solid #fbe3e8;
 }
 
-.img-container h4 {
-  text-align: center;
+.like {
+  background-color: #5cbdb9;
+  border: none;
 }
 
 .img-container h4:hover {
@@ -152,7 +153,7 @@ input {
   transform: scale(1.03, 1.04);
 }
 
-.card button {
+.book {
   border: solid #f8ccd6fd;
   background-color: #fbe3e8;
 }

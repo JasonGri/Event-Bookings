@@ -154,8 +154,7 @@ dateField.addEventListener("changeDate", (e) => {
   events.forEach((event) => {
     if (e.target.value === "") {
       if (subCat === "all" && cat === "all") {
-        if (!event.parentElement.classList.contains(e.target.value))
-          event.parentElement.classList.add("hide");
+        event.parentElement.classList.remove("hide");
       } else if (subCat === "all" && cat !== "all") {
         if (!event.parentElement.classList.contains(cat))
           event.parentElement.classList.add("hide");
@@ -219,3 +218,27 @@ events.forEach((event) =>
     })
   )
 );
+
+// Likes
+const toggleHeart = function (img) {
+  const heartFill = " ../static/svgIcons/heart-fill.svg";
+  const heartEmpty = "../static/svgIcons/heart.svg";
+
+  let btn = img.parentElement;
+  console;
+
+  if (btn.classList.contains("fill")) {
+    img.src = heartFill;
+    btn.classList.remove("fill");
+  } else {
+    btn.classList.add("fill");
+    img.src = heartEmpty;
+  }
+};
+
+const likeBtn = document.querySelector(".like");
+
+likeBtn.addEventListener("click", (e) => {
+  console.log(e.target.tagName);
+  if (e.target.tagName === "IMG") toggleHeart(e.target);
+});
