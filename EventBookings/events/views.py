@@ -147,6 +147,7 @@ def profile(req):
     context = {
         'user_form': user_form,
         'profile_form': profile_form,
+        'profile': Profile.objects.get(user=req.user),
         'events':currentUserProfile[0].events.all()
     }
 

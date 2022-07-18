@@ -155,6 +155,7 @@ input {
 .card {
   background-color: #5cbdb9;
   font-size: x-large;
+  box-shadow: 5px 10px 8px #999;
 }
 
 .img-container > img {
@@ -176,6 +177,13 @@ input {
   background-color: #fbe3e8;
 }
 
-.x {
-  float: right;
+.profile-details {
+  font-size: large;
+}
+
+.booked-events div {
+  box-shadow: 5px 10px 8px #999;
+  border-radius: 5px;
+  background-color: #5cbdb9;
+  font-size: large;
 }
