@@ -255,3 +255,27 @@ def edit_location(req, pk):
     }
 
     return render(req, 'events/edit.html', context)
+
+@staff_member_required
+def delete_event(req, pk):
+
+    event = Event.objects.get(id=pk)
+    event.delete()
+
+    return redirect('edit')
+
+@staff_member_required
+def delete_sub_category(req, pk):
+
+    sub_category = Sub_category.objects.get(id=pk)
+    sub_category.delete()
+
+    return redirect('edit')
+
+@staff_member_required
+def delete_location(req, pk):
+
+    location = Location.objects.get(id=pk)
+    location.delete()
+
+    return redirect('edit')
