@@ -5097,3 +5097,82 @@ TypeError: Profile() got an unexpected keyword argument 'istance'
 2022-07-18 20:51:26,888 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2022-07-18 20:54:26,145 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\models.py changed, reloading.
 2022-07-18 20:54:27,044 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-18 20:57:24,347 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-18 21:00:17,102 PIL.Image    DEBUG    Importing BlpImagePlugin
+2022-07-18 21:00:17,106 PIL.Image    DEBUG    Importing BmpImagePlugin
+2022-07-18 21:00:17,106 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2022-07-18 21:00:17,108 PIL.Image    DEBUG    Importing CurImagePlugin
+2022-07-18 21:00:17,110 PIL.Image    DEBUG    Importing DcxImagePlugin
+2022-07-18 21:00:17,113 PIL.Image    DEBUG    Importing DdsImagePlugin
+2022-07-18 21:00:17,114 PIL.Image    DEBUG    Importing EpsImagePlugin
+2022-07-18 21:00:17,202 PIL.Image    DEBUG    Importing FitsImagePlugin
+2022-07-18 21:00:17,204 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2022-07-18 21:00:17,206 PIL.Image    DEBUG    Importing FliImagePlugin
+2022-07-18 21:00:17,208 PIL.Image    DEBUG    Importing FpxImagePlugin
+2022-07-18 21:00:17,210 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-07-18 21:00:17,211 PIL.Image    DEBUG    Importing FtexImagePlugin
+2022-07-18 21:00:17,213 PIL.Image    DEBUG    Importing GbrImagePlugin
+2022-07-18 21:00:17,214 PIL.Image    DEBUG    Importing GifImagePlugin
+2022-07-18 21:00:17,215 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2022-07-18 21:00:17,216 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2022-07-18 21:00:17,218 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2022-07-18 21:00:17,222 PIL.Image    DEBUG    Importing IcoImagePlugin
+2022-07-18 21:00:17,224 PIL.Image    DEBUG    Importing ImImagePlugin
+2022-07-18 21:00:17,226 PIL.Image    DEBUG    Importing ImtImagePlugin
+2022-07-18 21:00:17,228 PIL.Image    DEBUG    Importing IptcImagePlugin
+2022-07-18 21:00:17,229 PIL.Image    DEBUG    Importing JpegImagePlugin
+2022-07-18 21:00:17,230 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2022-07-18 21:00:17,230 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2022-07-18 21:00:17,231 PIL.Image    DEBUG    Importing MicImagePlugin
+2022-07-18 21:00:17,233 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-07-18 21:00:17,233 PIL.Image    DEBUG    Importing MpegImagePlugin
+2022-07-18 21:00:17,235 PIL.Image    DEBUG    Importing MpoImagePlugin
+2022-07-18 21:00:17,236 PIL.Image    DEBUG    Importing MspImagePlugin
+2022-07-18 21:00:17,238 PIL.Image    DEBUG    Importing PalmImagePlugin
+2022-07-18 21:00:17,242 PIL.Image    DEBUG    Importing PcdImagePlugin
+2022-07-18 21:00:17,243 PIL.Image    DEBUG    Importing PcxImagePlugin
+2022-07-18 21:00:17,243 PIL.Image    DEBUG    Importing PdfImagePlugin
+2022-07-18 21:00:17,251 PIL.Image    DEBUG    Importing PixarImagePlugin
+2022-07-18 21:00:17,253 PIL.Image    DEBUG    Importing PngImagePlugin
+2022-07-18 21:00:17,254 PIL.Image    DEBUG    Importing PpmImagePlugin
+2022-07-18 21:00:17,254 PIL.Image    DEBUG    Importing PsdImagePlugin
+2022-07-18 21:00:17,256 PIL.Image    DEBUG    Importing SgiImagePlugin
+2022-07-18 21:00:17,257 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2022-07-18 21:00:17,259 PIL.Image    DEBUG    Importing SunImagePlugin
+2022-07-18 21:00:17,261 PIL.Image    DEBUG    Importing TgaImagePlugin
+2022-07-18 21:00:17,262 PIL.Image    DEBUG    Importing TiffImagePlugin
+2022-07-18 21:00:17,262 PIL.Image    DEBUG    Importing WebPImagePlugin
+2022-07-18 21:00:17,268 PIL.Image    DEBUG    Importing WmfImagePlugin
+2022-07-18 21:00:17,269 PIL.Image    DEBUG    Importing XbmImagePlugin
+2022-07-18 21:00:17,271 PIL.Image    DEBUG    Importing XpmImagePlugin
+2022-07-18 21:00:17,273 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2022-07-18 21:11:09,172 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2022-07-18 21:11:09,173 PIL.PngImagePlugin DEBUG    STREAM b'pHYs' 41 9
+2022-07-18 21:11:09,173 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 62 8192
+2022-07-18 21:12:37,170 events.views INFO     Loading edit.html
+2022-07-18 21:13:21,068 events.views INFO     Loading edit.html
+2022-07-18 21:13:21,068 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['Z4NvIcFntM9bLvIYNW05Zjcygp61qVCVnCRZkbyiaGSeFQfBcZI8C8JpwAcHDom2'], 'form1-title': ['ACDC'], 'form1-date': ['2022-07-29'], 'form1-duration': ['117'], 'form1-sub_category': ['4'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-18 21:13:21,072 events.views INFO     form1 saved
+2022-07-18 21:13:21,083 events.views INFO     Redirecting to main page
+2022-07-18 21:15:48,786 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2022-07-18 21:15:48,786 PIL.PngImagePlugin DEBUG    STREAM b'pHYs' 41 9
+2022-07-18 21:15:48,787 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 62 8192
+2022-07-18 21:17:41,263 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2022-07-18 21:17:41,263 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2022-07-18 21:17:41,264 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2022-07-18 21:17:41,264 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2022-07-18 21:17:41,265 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: <table: 36 bytes>
+2022-07-18 21:17:41,265 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 150 - value: b'2018:07:25 12:23:59\x00'
+2022-07-18 21:17:41,266 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xac'
+2022-07-18 21:20:12,974 django.request WARNING  Not Found: /media/images/The-Office.jpg
+2022-07-18 21:26:45,606 events.views INFO     Loading edit.html
+2022-07-18 21:27:18,486 events.views INFO     Loading edit.html
+2022-07-18 21:27:18,487 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['fDWHCwvzIpQTHbXBWX8hOCWEVRQ6G3YdDb0bevoupjzWBwuel0Qkrrtvb2WMTwIk'], 'form1-title': ['Kendrick Lamar'], 'form1-date': ['2022-11-10'], 'form1-duration': ['125'], 'form1-sub_category': ['5'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-18 21:27:18,493 events.views INFO     form1 saved
+2022-07-18 21:27:18,504 events.views INFO     Redirecting to main page
+2022-07-18 21:27:47,332 events.views INFO     Loading profile.html
+2022-07-18 21:28:01,261 events.views INFO     Logout initiated
+2022-07-18 21:28:01,275 events.views INFO     Logged out succesfully
+2022-07-18 21:28:01,275 events.views INFO     Redirecting to main page
+2022-07-18 21:28:02,492 events.views INFO     Loading login.html
+2022-07-18 21:28:12,227 events.views INFO     Loading login.html
