@@ -72,10 +72,8 @@ hr {
 }
 
 .close {
-  position: absolute;
-  right: 0%;
-  top: 0%;
-  padding: 10px;
+  float: right;
+  cursor: pointer;
 }
 
 form {
@@ -108,11 +106,13 @@ form {
   background-color: #5cbdb9;
   border-radius: 5px;
   font-size: x-large;
+  border: solid;
 }
 
-.add-menu button {
-  font-size: x-large;
-  border: solid;
+.add-form {
+  background-color: #5cbdb9;
+  border-radius: 5px;
+  border: solid rgb(109, 102, 102);
 }
 
 .edit-menu div {
@@ -174,4 +174,8 @@ input {
 .book {
   border: solid #f8ccd6fd;
   background-color: #fbe3e8;
+}
+
+.x {
+  float: right;
 }

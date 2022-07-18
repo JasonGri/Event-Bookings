@@ -14,11 +14,11 @@
 
 <!-- Edit Profile Details Form -->
 <div id="profile-edit" class="form hide">
-    <button class="btn close">X</button>
-    <form action="{% url 'profile' %}" method="post">
-    {% csrf_token %} {{ user_form }} {{ profile_form }}
-    <input type="submit"></input>
-    </form>
+  <img class="svg close mt-2" src="{% static 'svgIcons/x-lg.svg' %}" alt="large-X">
+  <form action="{% url 'profile' %}" method="post">
+  {% csrf_token %} {{ user_form }} {{ profile_form }}
+  <input type="submit"></input>
+  </form>
 </div>
 
 <!-- Profile Details -->

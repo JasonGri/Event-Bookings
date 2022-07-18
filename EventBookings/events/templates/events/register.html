@@ -3,7 +3,12 @@
 
 <!-- Registration Form -->
 <div id="register" class="form">
-  <button class="btn close">X</button>
+  <a href="{% url 'index' %}"
+    ><img
+      class="svg close mt-2"
+      src="{% static 'svgIcons/x-lg.svg' %}"
+      alt="large-X"
+  /></a>
   <form action="{% url 'register' %}" method="post">
     {% csrf_token %} {{ form }}
     <input type="submit" value="Submit" />
