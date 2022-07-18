@@ -163,6 +163,7 @@ input {
 }
 
 .like {
+  font-size: x-large;
   background-color: #5cbdb9;
   border: none;
 }

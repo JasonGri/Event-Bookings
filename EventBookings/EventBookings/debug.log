@@ -5089,3 +5089,11 @@ TypeError: Profile() got an unexpected keyword argument 'istance'
 2022-07-18 18:45:01,156 events.views INFO     Loading profile.html
 2022-07-18 18:45:13,886 events.views INFO     Loading profile.html
 2022-07-18 18:45:48,762 events.views INFO     Loading profile.html
+2022-07-18 18:54:09,656 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-18 20:16:19,815 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-18 20:16:34,435 django.request WARNING  Not Found: /favicon.ico
+2022-07-18 20:42:08,888 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\models.py changed, reloading.
+2022-07-18 20:42:09,611 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-18 20:51:26,888 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-18 20:54:26,145 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\models.py changed, reloading.
+2022-07-18 20:54:27,044 django.utils.autoreload INFO     Watching for file changes with StatReloader

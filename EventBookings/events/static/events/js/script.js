@@ -239,6 +239,5 @@ const toggleHeart = function (img) {
 const likeBtn = document.querySelector(".like");
 
 likeBtn.addEventListener("click", (e) => {
-  console.log(e.target.tagName);
   if (e.target.tagName === "IMG") toggleHeart(e.target);
 });

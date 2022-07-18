@@ -47,6 +47,21 @@ class Event(models.Model):
     def __str__(self):
         return f'{self.title}, {self.sub_category}.'
 
+    def get_duration(self):
+        
+        if self.duration>1440:
+            days = self.duration // 1440
+            hours = self.duration % 1440
+            minutes = self.duration % 60
+            return f"{days}d, {hours}h, {minutes}min"
+
+        if self.duration>60:
+            hours = self.duration // 60
+            minutes = self.duration % 60
+            return f"{hours}h, {minutes}min"
+
+        return f'{self.duration}min'
+
 
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)

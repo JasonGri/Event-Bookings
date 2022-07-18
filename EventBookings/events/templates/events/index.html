@@ -64,7 +64,7 @@
       <div class="col-md-6 img-container p-1">
         <img
           src="media/{{event.image}}"
-          class="img-fluid rounded"
+          class="img-fluid rounded m-4"
           alt="{{event.title}}"
         />
         <form action="{% url 'like_event' event.pk %}" method="POST">
@@ -78,9 +78,8 @@
               class="svg"
               src="{% static 'svgIcons/heart.svg' %}"
               alt="heart-empty"
-          /></button>
+          />{{event.likes.count}}</button>
         </form>
-          <p>{{event.likes.count}}</p>
         </button>
       </div>
       <div class="col-md-6">
@@ -90,10 +89,9 @@
             <li> Category: {{event.sub_category.category}} </li>
             <li> Sub-Category: {{event.sub_category}} </li>
             <li> Date📅: {{event.date }}</li>
-            <li> Duration⏳: {{event.duration}}m </li>
+            <li> Duration⏳: {{event.get_duration}} </li>
             <li> Seats🪑: {{event.users.count}}/{{event.location.capacity}}</li>
             <li> Location📍: {{event.location}} </li>
-            <li><a href="#">💬REVIEWS</a></li>
           </ul>
           <form action="{% url 'book_event' event.pk %}" method="POST">
             {% csrf_token %}
