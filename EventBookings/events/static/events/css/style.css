@@ -105,7 +105,25 @@ form {
 
 /* Edit Page Items */
 .add-menu button {
+  background-color: #5cbdb9;
+  border-radius: 5px;
   font-size: x-large;
+}
+
+.add-menu button {
+  font-size: x-large;
+  border: solid;
+}
+
+.edit-menu div {
+  background-color: #5cbdb9;
+  border-radius: 5px;
+  border: solid;
+}
+
+.edit-menu ul {
+  text-align: start;
+  list-style: none;
 }
 
 /* Event Images */

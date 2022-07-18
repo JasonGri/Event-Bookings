@@ -3,11 +3,11 @@
 
 <!-- Menu for adding Components -->
 <h3>Add Components</h3>
-<div class="row add-menu">
-  <button class="btn col-3" value="event">Add an Event</button>
-  <button class="btn col-3" value="category">Add a Category</button>
-  <button class="btn col-3" value="sub-category">Add a Sub-Category</button>
-  <button class="btn col-3" value="location">Add a Location </button>
+<div class="row add-menu justify-content-center">
+  <button class="btn col-2 mx-5" value="event">Add an Event</button>
+  <button class="btn col-2 mx-5" value="category">Add a Category</button>
+  <button class="btn col-2 mx-5" value="sub-category">Add a Sub-Category</button>
+  <button class="btn col-2 mx-5" value="location">Add a Location </button>
 </div>
 <!-- Adding forms -->
 <div id="event" class="form add-form hide">
@@ -39,6 +39,70 @@
   </form>
 </div>
 
+<hr>
+
+<!-- Menu for Editing Components -->
+<h3>Editing Components</h3>
+<div class="row edit-menu justify-content-center">
+  <div class="event col-3 mx-5">
+    <h3>Edit an Event</h3>
+    <ul>
+      {% for event in events %}
+        <li class="my-1 p-1"><a href="{% url 'edit_event' event.id %}">{{event.title}}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="sub_category col-3 mx-5">
+    <h3 >Edit a Sub-Category</h3>
+    <ul>
+      {% for sub_category in sub_categories %}
+        <li class="my-1 p-1"><a href="{% url 'edit_sub_category' sub_category.id %}">{{sub_category.name}}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="location col-3 mx-5">
+    <h3 >Edit a Location </h3>
+    <ul>
+      {% for location in locations %}
+        <li class="my-1 p-1"><a href="{% url 'edit_location' location.id %}">{{location}}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+
+<!-- Editing forms -->
+<div class="row justify-content-center">
+
+  <div class="col-3 edit-form mx-5">
+    <button class="btn close">X</button>
+    <form action="" method="POST">
+      {% csrf_token %}
+      {{eventForm}}
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  
+  <div class="col-3 edit-form mx-5">
+    <button class="btn close">X</button>
+    <form action="" method="POST">
+      {% csrf_token %}
+      {{subCategoryForm}}
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  
+  <div class="col-3 edit-form mx-5">
+    <button class="btn close">X</button>
+    <form action="" method="POST" >
+      {% csrf_token %}
+      {{locationForm}}
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+
+<hr>
 
 
 {%endblock %}

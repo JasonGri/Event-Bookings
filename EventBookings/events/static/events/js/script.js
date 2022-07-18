@@ -10,13 +10,13 @@ formCloseBtns.forEach((btn) =>
   })
 );
 
-// Edit Page: Edit Forms
-const editSelectBtns = document.querySelectorAll(".add-menu button");
-const editForms = document.querySelectorAll(".add-form");
+// Edit Page: Add Forms
+const addSelectBtns = document.querySelectorAll(".add-menu button");
+const addForms = document.querySelectorAll(".add-form");
 
-editSelectBtns.forEach((btn) =>
+addSelectBtns.forEach((btn) =>
   btn.addEventListener("click", (e) => {
-    editForms.forEach((form) => {
+    addForms.forEach((form) => {
       form.classList.add("hide");
       if (form.id === e.target.value.toLowerCase()) {
         form.classList.remove("hide");

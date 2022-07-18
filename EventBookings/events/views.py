@@ -1,5 +1,6 @@
-from django.http import HttpResponseRedirect
-from django.shortcuts import get_object_or_404, render, get_list_or_404
+from xml.sax.xmlreader import Locator
+from django.http import HttpResponseRedirect, JsonResponse
+from django.shortcuts import get_object_or_404, redirect, render, get_list_or_404
 from django.urls import reverse
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
@@ -185,3 +186,72 @@ def like_view(req, pk):
         liked = True
 
     return HttpResponseRedirect(reverse('index'))
+
+@staff_member_required
+def edit_event(req, pk):
+
+    event = Event.objects.get(id=pk)
+
+    if req.method == 'POST':
+        eventForm = EventForm(req.POST, instance=event)
+        
+        if eventForm.is_valid():
+            eventForm.save()
+
+        return redirect('index')
+        
+    else:
+        eventForm = EventForm(instance=event)
+
+    context = {
+        'eventForm' : eventForm,
+    }
+
+    return render(req, 'events/edit.html', context)
+
+@staff_member_required
+def edit_sub_category(req, pk):
+
+    sub_category = Sub_category.objects.get(id=pk)
+
+    if req.method == 'POST':
+        subCategoryForm = SubCategoryForm(req.POST, instance=sub_category)
+
+        if subCategoryForm.is_valid():
+            subCategoryForm.save()
+
+        return redirect('index')
+        
+    else:
+        subCategoryForm = SubCategoryForm(instance=sub_category)
+
+
+    context = {
+        'subCategoryForm' : subCategoryForm,
+    }
+
+    return render(req, 'events/edit.html', context)
+
+@staff_member_required
+def edit_location(req, pk):
+
+    location = Location.objects.get(id=pk)
+
+    if req.method == 'POST':
+        locationForm = LocationForm(req.POST, instance=location)
+
+        if locationForm.is_valid():
+            locationForm.save()
+
+
+        return redirect('index')
+        
+    else:
+        locationForm = LocationForm(instance=location)
+
+
+    context = {
+        'locationForm' : locationForm,
+    }
+
+    return render(req, 'events/edit.html', context)
