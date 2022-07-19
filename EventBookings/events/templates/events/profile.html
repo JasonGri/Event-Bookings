@@ -31,6 +31,14 @@
   </form>
 </div>
 
+{% if user_form.errors %}
+    <div class="danger-message">
+      <img class="svg close m-5" src="{% static 'svgIcons/x-lg.svg' %}" alt="large-X">
+      <div class="p-5 m-4">{{ user_form.errors}}</div>
+      <img src="{% static 'svgIcons/exclamation-octagon.svg' %}" class="svg" alt="exclamation-octagon">
+    </div>
+{% endif %}
+
 <hr>
 <!-- Booked Events -->
 <div class="row booked-events">

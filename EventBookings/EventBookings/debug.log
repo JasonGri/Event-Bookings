@@ -5176,3 +5176,172 @@ TypeError: Profile() got an unexpected keyword argument 'istance'
 2022-07-18 21:28:01,275 events.views INFO     Redirecting to main page
 2022-07-18 21:28:02,492 events.views INFO     Loading login.html
 2022-07-18 21:28:12,227 events.views INFO     Loading login.html
+2022-07-19 16:33:02,588 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-19 16:33:21,001 django.request WARNING  Not Found: /favicon.ico
+2022-07-19 16:34:16,983 events.views INFO     Loading login.html
+2022-07-19 16:34:23,962 events.views INFO     Loading login.html
+2022-07-19 16:34:23,963 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['nF6mwIAN7LbFJrFBq4Sf9Zap9c54NSbNLdaQ8HtIOFUIDMceP7AiMOHgpnbK0lVU'], 'username': ['jason'], 'password': ['Jason_2002']}>
+2022-07-19 16:34:24,172 events.views INFO     Login successful
+2022-07-19 16:34:24,173 events.views INFO     Redirecting to profile page
+2022-07-19 16:34:24,193 events.views INFO     Loading profile.html
+2022-07-19 16:34:52,529 events.views INFO     Loading edit.html
+2022-07-19 16:35:50,665 events.views INFO     Loading edit.html
+2022-07-19 16:35:53,765 events.views INFO     Loading edit.html
+2022-07-19 16:35:53,766 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['8BgsuNS4DPZFhMzxMBPcRtOl6Y8YNSCnlNKa43NGUB7PBpArmKj3ZhIlMFsKB82x']}>
+2022-07-19 16:35:53,768 events.views INFO     Redirecting to main page
+2022-07-19 16:36:08,369 events.views INFO     Logout initiated
+2022-07-19 16:36:08,380 events.views INFO     Logged out succesfully
+2022-07-19 16:36:08,380 events.views INFO     Redirecting to main page
+2022-07-19 16:36:12,720 events.views INFO     Loading register.html
+2022-07-19 16:39:48,977 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-19 16:40:24,017 events.views INFO     Loading edit.html
+2022-07-19 16:40:59,296 events.views INFO     Loading edit.html
+2022-07-19 16:44:47,094 events.views INFO     Loading edit.html
+2022-07-19 16:44:54,610 events.views INFO     Loading profile.html
+2022-07-19 16:45:10,750 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\forms.py changed, reloading.
+2022-07-19 16:45:11,480 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-19 16:45:38,043 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-19 16:45:40,938 events.views INFO     Loading profile.html
+2022-07-19 16:50:44,589 events.views INFO     Loading edit.html
+2022-07-19 16:52:42,041 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\forms.py changed, reloading.
+2022-07-19 16:52:42,925 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-19 16:54:21,817 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-19 16:54:23,644 events.views INFO     Loading edit.html
+2022-07-19 16:54:27,831 events.views INFO     Loading edit.html
+2022-07-19 16:54:52,775 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\forms.py changed, reloading.
+2022-07-19 16:54:53,520 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-19 16:54:54,930 events.views INFO     Loading edit.html
+2022-07-19 16:57:05,131 events.views INFO     Loading edit.html
+2022-07-19 16:57:05,904 events.views INFO     Loading edit.html
+2022-07-19 16:57:21,968 events.views INFO     Loading edit.html
+2022-07-19 17:04:03,935 events.views INFO     Loading profile.html
+2022-07-19 17:04:39,179 events.views INFO     Loading profile.html
+2022-07-19 17:04:40,015 events.views INFO     Loading profile.html
+2022-07-19 17:04:48,627 events.views INFO     Loading profile.html
+2022-07-19 17:04:48,628 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['EMPjFN429Z7IMxV3IE4HXIhWA30wa7mkschoohVRx0AKhBHEtAuNYEgBaWX1wheC'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdf'], 'password2': ['asdfasdfsad'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:04:48,632 events.views ERROR    Error in updating the profile
+2022-07-19 17:14:33,329 events.views INFO     Loading profile.html
+2022-07-19 17:14:34,374 events.views INFO     Loading profile.html
+2022-07-19 17:14:41,328 events.views INFO     Loading profile.html
+2022-07-19 17:14:41,329 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['QWCyzPJR2MTgaFZBjH95cKnvB3Q4qUAoEm4DijAGqNmiFJLc4DzbdGmabWNzM4sG'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['dsafasd'], 'password2': ['asdfsadfasd'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:14:41,332 events.views ERROR    Error in updating the profile
+2022-07-19 17:18:34,155 events.views INFO     Loading profile.html
+2022-07-19 17:18:34,155 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['EXUBKq4iLm79mVAr9uDF76zDJusowJYzsnmGtUV79nAbRZm2Uq3L82yijnpTSTQR'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['dsaf'], 'password2': ['asdfasdfas'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:18:34,160 events.views ERROR    Error in updating the profile
+2022-07-19 17:19:01,217 events.views INFO     Loading profile.html
+2022-07-19 17:22:07,790 events.views INFO     Loading profile.html
+2022-07-19 17:22:11,607 events.views INFO     Loading profile.html
+2022-07-19 17:22:11,607 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:22:11,611 events.views ERROR    Error in updating the profile
+2022-07-19 17:22:48,411 events.views INFO     Loading profile.html
+2022-07-19 17:22:48,412 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:22:48,420 events.views ERROR    Error in updating the profile
+2022-07-19 17:23:05,797 events.views INFO     Loading profile.html
+2022-07-19 17:23:05,798 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:23:05,807 events.views ERROR    Error in updating the profile
+2022-07-19 17:23:42,298 events.views INFO     Loading profile.html
+2022-07-19 17:23:42,300 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:23:42,304 events.views ERROR    Error in updating the profile
+2022-07-19 17:24:14,958 events.views INFO     Loading profile.html
+2022-07-19 17:24:14,959 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:24:14,964 events.views ERROR    Error in updating the profile
+2022-07-19 17:24:36,000 events.views INFO     Loading profile.html
+2022-07-19 17:24:36,002 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:24:36,009 events.views ERROR    Error in updating the profile
+2022-07-19 17:24:59,737 events.views INFO     Loading profile.html
+2022-07-19 17:24:59,738 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:24:59,745 events.views ERROR    Error in updating the profile
+2022-07-19 17:25:23,606 events.views INFO     Loading profile.html
+2022-07-19 17:25:23,607 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:25:23,617 events.views ERROR    Error in updating the profile
+2022-07-19 17:25:46,120 events.views INFO     Loading profile.html
+2022-07-19 17:25:46,121 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:25:46,128 events.views ERROR    Error in updating the profile
+2022-07-19 17:25:54,149 events.views INFO     Loading profile.html
+2022-07-19 17:25:54,150 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:25:54,158 events.views ERROR    Error in updating the profile
+2022-07-19 17:26:05,632 events.views INFO     Loading profile.html
+2022-07-19 17:26:05,633 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:26:05,640 events.views ERROR    Error in updating the profile
+2022-07-19 17:26:50,686 events.views INFO     Loading profile.html
+2022-07-19 17:26:50,687 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:26:50,693 events.views ERROR    Error in updating the profile
+2022-07-19 17:27:00,664 events.views INFO     Loading profile.html
+2022-07-19 17:27:00,664 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:27:00,671 events.views ERROR    Error in updating the profile
+2022-07-19 17:27:22,155 events.views INFO     Loading profile.html
+2022-07-19 17:27:22,156 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:27:22,163 events.views ERROR    Error in updating the profile
+2022-07-19 17:27:53,328 events.views INFO     Loading profile.html
+2022-07-19 17:27:53,329 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:27:53,335 events.views ERROR    Error in updating the profile
+2022-07-19 17:28:06,334 events.views INFO     Loading profile.html
+2022-07-19 17:28:06,335 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:28:06,340 events.views ERROR    Error in updating the profile
+2022-07-19 17:30:17,665 events.views INFO     Loading profile.html
+2022-07-19 17:30:17,666 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:30:17,670 events.views ERROR    Error in updating the profile
+2022-07-19 17:30:31,034 events.views INFO     Loading profile.html
+2022-07-19 17:30:31,035 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:30:31,042 events.views ERROR    Error in updating the profile
+2022-07-19 17:31:03,565 events.views INFO     Loading profile.html
+2022-07-19 17:31:03,566 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:31:03,574 events.views ERROR    Error in updating the profile
+2022-07-19 17:31:36,402 events.views INFO     Loading profile.html
+2022-07-19 17:31:36,403 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:31:36,409 events.views ERROR    Error in updating the profile
+2022-07-19 17:31:53,934 events.views INFO     Loading profile.html
+2022-07-19 17:31:53,935 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:31:53,939 events.views ERROR    Error in updating the profile
+2022-07-19 17:32:27,423 events.views INFO     Loading profile.html
+2022-07-19 17:32:27,424 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:32:27,431 events.views ERROR    Error in updating the profile
+2022-07-19 17:32:41,160 events.views INFO     Loading profile.html
+2022-07-19 17:32:41,161 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:32:41,169 events.views ERROR    Error in updating the profile
+2022-07-19 17:33:14,787 events.views INFO     Loading profile.html
+2022-07-19 17:33:14,788 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:33:14,794 events.views ERROR    Error in updating the profile
+2022-07-19 17:33:33,262 events.views INFO     Loading profile.html
+2022-07-19 17:33:33,263 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:33:33,268 events.views ERROR    Error in updating the profile
+2022-07-19 17:33:49,277 events.views INFO     Loading profile.html
+2022-07-19 17:33:49,277 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:33:49,286 events.views ERROR    Error in updating the profile
+2022-07-19 17:33:57,293 events.views INFO     Loading profile.html
+2022-07-19 17:33:57,294 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:33:57,300 events.views ERROR    Error in updating the profile
+2022-07-19 17:33:59,627 events.views INFO     Loading profile.html
+2022-07-19 17:33:59,627 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:33:59,635 events.views ERROR    Error in updating the profile
+2022-07-19 17:34:44,048 events.views INFO     Loading profile.html
+2022-07-19 17:34:44,049 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:34:44,056 events.views ERROR    Error in updating the profile
+2022-07-19 17:34:46,219 events.views INFO     Loading profile.html
+2022-07-19 17:34:46,220 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:34:46,227 events.views ERROR    Error in updating the profile
+2022-07-19 17:34:52,099 events.views INFO     Loading profile.html
+2022-07-19 17:34:52,099 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:34:52,107 events.views ERROR    Error in updating the profile
+2022-07-19 17:35:41,985 events.views INFO     Loading profile.html
+2022-07-19 17:35:41,986 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:35:41,993 events.views ERROR    Error in updating the profile
+2022-07-19 17:35:50,600 events.views INFO     Loading profile.html
+2022-07-19 17:35:50,601 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:35:50,607 events.views ERROR    Error in updating the profile
+2022-07-19 17:35:56,569 events.views INFO     Loading profile.html
+2022-07-19 17:35:56,570 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 17:35:56,575 events.views ERROR    Error in updating the profile
+2022-07-19 18:08:28,589 events.views INFO     Loading profile.html
+2022-07-19 18:08:28,590 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['u0pxsPDTiDWrVZEIkBIIfl1xe4S3zGg5iqRCbjuIGEptq3qj5x8Ogh0cOXPyVQ8n'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 18:08:28,594 events.views ERROR    Error in updating the profile
+2022-07-19 18:08:40,234 events.views INFO     Loading profile.html
+2022-07-19 18:08:44,548 events.views INFO     Loading profile.html
+2022-07-19 18:08:44,549 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['KkdyxTXgIdk7wkHXU8W3qSDcnq9Z6OK6yKFDgnO56eN91otyF4m9rOCRXj6usYCo'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 18:08:44,552 events.views ERROR    Error in updating the profile
+2022-07-19 18:08:54,200 events.views INFO     Loading profile.html
+2022-07-19 18:08:54,201 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['KkdyxTXgIdk7wkHXU8W3qSDcnq9Z6OK6yKFDgnO56eN91otyF4m9rOCRXj6usYCo'], 'first_name': ['Jason'], 'last_name': ['Grivas'], 'username': ['jason'], 'password1': ['asdfasdf'], 'password2': ['asdf'], 'dob': ['2002-12-19'], 'events': ['5', '6']}>
+2022-07-19 18:08:54,205 events.views ERROR    Error in updating the profile
+2022-07-19 18:09:12,391 events.views INFO     Loading edit.html
+2022-07-19 18:09:20,670 events.views INFO     Loading profile.html
+2022-07-19 18:09:25,839 events.views INFO     Loading edit.html

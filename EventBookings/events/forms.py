@@ -41,6 +41,11 @@ class ProfileForm(forms.ModelForm):
         model = Profile
         fields = ('dob', 'events')
 
+    events = forms.ModelMultipleChoiceField(
+        queryset=Event.objects.all(),
+        widget=forms.CheckboxSelectMultiple
+    )
+
 class EventForm(forms.ModelForm):
     
     class Meta():
@@ -50,3 +55,8 @@ class EventForm(forms.ModelForm):
         widgets = {
                 'date': forms.DateInput(attrs={'type': 'date'}),
             }
+
+    likes = forms.ModelMultipleChoiceField(
+        queryset=User.objects.all(),
+        widget=forms.CheckboxSelectMultiple
+    )

@@ -118,7 +118,6 @@ form {
 .edit-menu div {
   background-color: #5cbdb9;
   border-radius: 5px;
-  border: solid;
 }
 
 .edit-menu ul {
@@ -187,4 +186,34 @@ input {
   border-radius: 5px;
   background-color: #5cbdb9;
   font-size: large;
+}
+
+/* Validation Error message */
+
+.danger-message {
+  position: absolute;
+  min-height: 420px;
+  min-width: 244px;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 10000;
+  background-color: #5cbdb9;
+  border-radius: 5px;
+  text-align: center;
+  border: solid rgb(109, 102, 102);
+  list-style: none;
+}
+
+.danger-message div {
+  font-size: large;
+  color: red;
+  border: solid;
+  border-radius: 5px;
+  background-color: #ff9494;
+}
+
+.danger-message img {
+  text-align: center;
 }
