@@ -56,7 +56,3 @@ class EventForm(forms.ModelForm):
                 'date': forms.DateInput(attrs={'type': 'date'}),
             }
 
-    likes = forms.ModelMultipleChoiceField(
-        queryset=User.objects.all(),
-        widget=forms.CheckboxSelectMultiple
-    )

@@ -5345,3 +5345,368 @@ TypeError: Profile() got an unexpected keyword argument 'istance'
 2022-07-19 18:09:12,391 events.views INFO     Loading edit.html
 2022-07-19 18:09:20,670 events.views INFO     Loading profile.html
 2022-07-19 18:09:25,839 events.views INFO     Loading edit.html
+2022-07-19 18:11:36,542 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-19 18:11:40,071 events.views INFO     Loading profile.html
+2022-07-19 18:16:48,989 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-19 18:17:17,761 events.views INFO     Loading edit.html
+2022-07-19 18:17:59,063 events.views INFO     Loading edit.html
+2022-07-19 18:17:59,064 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['K7W8csCJXLGM4ItN3SYJs8hxs94gkoOlyxodVWtylM9OzMfoOOoPt4gc221LGyGD'], 'form1-title': ['Another Level'], 'form1-date': ['2022-08-10'], 'form1-duration': ['25'], 'form1-sub_category': ['12'], 'form1-location': ['5'], 'form1-submit': ['Add']}>
+2022-07-19 18:17:59,100 PIL.Image    DEBUG    Importing BlpImagePlugin
+2022-07-19 18:17:59,102 PIL.Image    DEBUG    Importing BmpImagePlugin
+2022-07-19 18:17:59,102 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2022-07-19 18:17:59,104 PIL.Image    DEBUG    Importing CurImagePlugin
+2022-07-19 18:17:59,107 PIL.Image    DEBUG    Importing DcxImagePlugin
+2022-07-19 18:17:59,112 PIL.Image    DEBUG    Importing DdsImagePlugin
+2022-07-19 18:17:59,114 PIL.Image    DEBUG    Importing EpsImagePlugin
+2022-07-19 18:17:59,212 PIL.Image    DEBUG    Importing FitsImagePlugin
+2022-07-19 18:17:59,214 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2022-07-19 18:17:59,216 PIL.Image    DEBUG    Importing FliImagePlugin
+2022-07-19 18:17:59,217 PIL.Image    DEBUG    Importing FpxImagePlugin
+2022-07-19 18:17:59,220 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-07-19 18:17:59,220 PIL.Image    DEBUG    Importing FtexImagePlugin
+2022-07-19 18:17:59,222 PIL.Image    DEBUG    Importing GbrImagePlugin
+2022-07-19 18:17:59,223 PIL.Image    DEBUG    Importing GifImagePlugin
+2022-07-19 18:17:59,223 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2022-07-19 18:17:59,226 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2022-07-19 18:17:59,228 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2022-07-19 18:17:59,232 PIL.Image    DEBUG    Importing IcoImagePlugin
+2022-07-19 18:17:59,234 PIL.Image    DEBUG    Importing ImImagePlugin
+2022-07-19 18:17:59,236 PIL.Image    DEBUG    Importing ImtImagePlugin
+2022-07-19 18:17:59,239 PIL.Image    DEBUG    Importing IptcImagePlugin
+2022-07-19 18:17:59,242 PIL.Image    DEBUG    Importing JpegImagePlugin
+2022-07-19 18:17:59,243 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2022-07-19 18:17:59,243 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2022-07-19 18:17:59,246 PIL.Image    DEBUG    Importing MicImagePlugin
+2022-07-19 18:17:59,248 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-07-19 18:17:59,249 PIL.Image    DEBUG    Importing MpegImagePlugin
+2022-07-19 18:17:59,251 PIL.Image    DEBUG    Importing MpoImagePlugin
+2022-07-19 18:17:59,254 PIL.Image    DEBUG    Importing MspImagePlugin
+2022-07-19 18:17:59,257 PIL.Image    DEBUG    Importing PalmImagePlugin
+2022-07-19 18:17:59,262 PIL.Image    DEBUG    Importing PcdImagePlugin
+2022-07-19 18:17:59,264 PIL.Image    DEBUG    Importing PcxImagePlugin
+2022-07-19 18:17:59,265 PIL.Image    DEBUG    Importing PdfImagePlugin
+2022-07-19 18:17:59,272 PIL.Image    DEBUG    Importing PixarImagePlugin
+2022-07-19 18:17:59,274 PIL.Image    DEBUG    Importing PngImagePlugin
+2022-07-19 18:17:59,274 PIL.Image    DEBUG    Importing PpmImagePlugin
+2022-07-19 18:17:59,275 PIL.Image    DEBUG    Importing PsdImagePlugin
+2022-07-19 18:17:59,276 PIL.Image    DEBUG    Importing SgiImagePlugin
+2022-07-19 18:17:59,278 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2022-07-19 18:17:59,281 PIL.Image    DEBUG    Importing SunImagePlugin
+2022-07-19 18:17:59,283 PIL.Image    DEBUG    Importing TgaImagePlugin
+2022-07-19 18:17:59,284 PIL.Image    DEBUG    Importing TiffImagePlugin
+2022-07-19 18:17:59,285 PIL.Image    DEBUG    Importing WebPImagePlugin
+2022-07-19 18:17:59,307 PIL.Image    DEBUG    Importing WmfImagePlugin
+2022-07-19 18:17:59,310 PIL.Image    DEBUG    Importing XbmImagePlugin
+2022-07-19 18:17:59,312 PIL.Image    DEBUG    Importing XpmImagePlugin
+2022-07-19 18:17:59,314 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2022-07-19 18:17:59,320 events.views INFO     Redirecting to main page
+2022-07-19 18:18:20,642 events.views INFO     Loading edit.html
+2022-07-19 18:19:08,665 events.views INFO     Loading edit.html
+2022-07-19 18:19:08,666 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['ssHYBeFWO186aPLLtIxVbyBFZyyvOzl6gS93kIwLc2B8FTxmeEX1cuAkzrv0aJdo'], 'form4-city': ['Los Angeles'], 'form4-country': ['United States of America'], 'form4-street': ['Golden'], 'form4-street_num': ['45'], 'form4-capacity': ['470'], 'form4-submit': ['Add']}>
+2022-07-19 18:19:08,668 events.views INFO     form4 saved
+2022-07-19 18:19:08,675 events.views INFO     Redirecting to main page
+2022-07-19 18:19:15,947 events.views INFO     Loading edit.html
+2022-07-19 18:19:44,315 events.views INFO     Loading edit.html
+2022-07-19 18:19:44,316 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['ODZepZD0ItY3u8sy952oCrn6zZBuk9cEC3rj8tuP6ur5Zce9U1suDnmL9SyZGj4W'], 'form1-title': ['Another Level'], 'form1-date': ['2022-08-17'], 'form1-duration': ['25'], 'form1-sub_category': ['12'], 'form1-location': ['5'], 'form1-submit': ['Add']}>
+2022-07-19 18:19:44,322 events.views INFO     Redirecting to main page
+2022-07-19 18:19:58,292 events.views INFO     Loading edit.html
+2022-07-19 18:20:21,762 events.views INFO     Loading edit.html
+2022-07-19 18:20:21,762 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['rLbc5Jbkf8IjtA0KlBH5nS70tcJQ04GzfbDhOd29D9blYEMl6x7boO6F35GlmeyR'], 'form1-title': ['Another Level'], 'form1-date': ['2022-08-17'], 'form1-duration': ['25'], 'form1-likes': ['1'], 'form1-sub_category': ['12'], 'form1-location': ['5'], 'form1-submit': ['Add']}>
+2022-07-19 18:20:21,767 events.views INFO     form1 saved
+2022-07-19 18:20:21,784 events.views INFO     Redirecting to main page
+2022-07-19 18:22:37,439 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\forms.py changed, reloading.
+2022-07-19 18:22:38,348 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-19 18:23:24,133 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\forms.py changed, reloading.
+2022-07-19 18:23:24,912 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-19 18:23:37,941 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\forms.py changed, reloading.
+2022-07-19 18:23:38,664 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-19 18:23:40,652 events.views INFO     Loading edit.html
+2022-07-19 18:24:36,215 events.views INFO     Loading edit.html
+2022-07-19 18:24:36,215 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['GzLVWktE1Rjf9DjtBlUtgaDNIjp9VF9XuZd0FOktpSMhEH54mhkzh6CsicmEhP1f'], 'form1-title': ['Hot Shots'], 'form1-date': ['2022-08-17'], 'form1-duration': ['156'], 'form1-sub_category': ['13'], 'form1-location': ['2'], 'form1-submit': ['Add']}>
+2022-07-19 18:24:36,239 PIL.Image    DEBUG    Importing BlpImagePlugin
+2022-07-19 18:24:36,240 PIL.Image    DEBUG    Importing BmpImagePlugin
+2022-07-19 18:24:36,241 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2022-07-19 18:24:36,242 PIL.Image    DEBUG    Importing CurImagePlugin
+2022-07-19 18:24:36,243 PIL.Image    DEBUG    Importing DcxImagePlugin
+2022-07-19 18:24:36,246 PIL.Image    DEBUG    Importing DdsImagePlugin
+2022-07-19 18:24:36,247 PIL.Image    DEBUG    Importing EpsImagePlugin
+2022-07-19 18:24:36,336 PIL.Image    DEBUG    Importing FitsImagePlugin
+2022-07-19 18:24:36,338 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2022-07-19 18:24:36,339 PIL.Image    DEBUG    Importing FliImagePlugin
+2022-07-19 18:24:36,341 PIL.Image    DEBUG    Importing FpxImagePlugin
+2022-07-19 18:24:36,343 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-07-19 18:24:36,343 PIL.Image    DEBUG    Importing FtexImagePlugin
+2022-07-19 18:24:36,345 PIL.Image    DEBUG    Importing GbrImagePlugin
+2022-07-19 18:24:36,346 PIL.Image    DEBUG    Importing GifImagePlugin
+2022-07-19 18:24:36,346 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2022-07-19 18:24:36,348 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2022-07-19 18:24:36,349 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2022-07-19 18:24:36,352 PIL.Image    DEBUG    Importing IcoImagePlugin
+2022-07-19 18:24:36,354 PIL.Image    DEBUG    Importing ImImagePlugin
+2022-07-19 18:24:36,356 PIL.Image    DEBUG    Importing ImtImagePlugin
+2022-07-19 18:24:36,357 PIL.Image    DEBUG    Importing IptcImagePlugin
+2022-07-19 18:24:36,359 PIL.Image    DEBUG    Importing JpegImagePlugin
+2022-07-19 18:24:36,359 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2022-07-19 18:24:36,359 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2022-07-19 18:24:36,361 PIL.Image    DEBUG    Importing MicImagePlugin
+2022-07-19 18:24:36,362 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-07-19 18:24:36,363 PIL.Image    DEBUG    Importing MpegImagePlugin
+2022-07-19 18:24:36,364 PIL.Image    DEBUG    Importing MpoImagePlugin
+2022-07-19 18:24:36,365 PIL.Image    DEBUG    Importing MspImagePlugin
+2022-07-19 18:24:36,366 PIL.Image    DEBUG    Importing PalmImagePlugin
+2022-07-19 18:24:36,369 PIL.Image    DEBUG    Importing PcdImagePlugin
+2022-07-19 18:24:36,371 PIL.Image    DEBUG    Importing PcxImagePlugin
+2022-07-19 18:24:36,372 PIL.Image    DEBUG    Importing PdfImagePlugin
+2022-07-19 18:24:36,380 PIL.Image    DEBUG    Importing PixarImagePlugin
+2022-07-19 18:24:36,382 PIL.Image    DEBUG    Importing PngImagePlugin
+2022-07-19 18:24:36,383 PIL.Image    DEBUG    Importing PpmImagePlugin
+2022-07-19 18:24:36,383 PIL.Image    DEBUG    Importing PsdImagePlugin
+2022-07-19 18:24:36,385 PIL.Image    DEBUG    Importing SgiImagePlugin
+2022-07-19 18:24:36,387 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2022-07-19 18:24:36,388 PIL.Image    DEBUG    Importing SunImagePlugin
+2022-07-19 18:24:36,390 PIL.Image    DEBUG    Importing TgaImagePlugin
+2022-07-19 18:24:36,391 PIL.Image    DEBUG    Importing TiffImagePlugin
+2022-07-19 18:24:36,391 PIL.Image    DEBUG    Importing WebPImagePlugin
+2022-07-19 18:24:36,394 PIL.Image    DEBUG    Importing WmfImagePlugin
+2022-07-19 18:24:36,395 PIL.Image    DEBUG    Importing XbmImagePlugin
+2022-07-19 18:24:36,398 PIL.Image    DEBUG    Importing XpmImagePlugin
+2022-07-19 18:24:36,400 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2022-07-19 18:24:36,405 events.views INFO     Redirecting to main page
+2022-07-19 18:24:44,486 events.views INFO     Loading edit.html
+2022-07-19 18:25:03,350 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\forms.py changed, reloading.
+2022-07-19 18:25:04,084 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-19 18:25:33,435 events.views INFO     Loading edit.html
+2022-07-19 18:25:33,436 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['QH2hGcZAoeRrdtoMjH8dbcdfbM7Ff1mlE7umpGQpMfktIxan4Dyjc8cULF4aBbeD'], 'form1-title': ['Hot Shots'], 'form1-date': ['2022-08-17'], 'form1-duration': ['154'], 'form1-sub_category': ['13'], 'form1-location': ['3'], 'form1-submit': ['Add']}>
+2022-07-19 18:25:33,463 PIL.Image    DEBUG    Importing BlpImagePlugin
+2022-07-19 18:25:33,465 PIL.Image    DEBUG    Importing BmpImagePlugin
+2022-07-19 18:25:33,465 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2022-07-19 18:25:33,467 PIL.Image    DEBUG    Importing CurImagePlugin
+2022-07-19 18:25:33,468 PIL.Image    DEBUG    Importing DcxImagePlugin
+2022-07-19 18:25:33,471 PIL.Image    DEBUG    Importing DdsImagePlugin
+2022-07-19 18:25:33,472 PIL.Image    DEBUG    Importing EpsImagePlugin
+2022-07-19 18:25:33,589 PIL.Image    DEBUG    Importing FitsImagePlugin
+2022-07-19 18:25:33,591 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2022-07-19 18:25:33,592 PIL.Image    DEBUG    Importing FliImagePlugin
+2022-07-19 18:25:33,593 PIL.Image    DEBUG    Importing FpxImagePlugin
+2022-07-19 18:25:33,595 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-07-19 18:25:33,596 PIL.Image    DEBUG    Importing FtexImagePlugin
+2022-07-19 18:25:33,597 PIL.Image    DEBUG    Importing GbrImagePlugin
+2022-07-19 18:25:33,598 PIL.Image    DEBUG    Importing GifImagePlugin
+2022-07-19 18:25:33,598 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2022-07-19 18:25:33,600 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2022-07-19 18:25:33,601 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2022-07-19 18:25:33,604 PIL.Image    DEBUG    Importing IcoImagePlugin
+2022-07-19 18:25:33,606 PIL.Image    DEBUG    Importing ImImagePlugin
+2022-07-19 18:25:33,607 PIL.Image    DEBUG    Importing ImtImagePlugin
+2022-07-19 18:25:33,608 PIL.Image    DEBUG    Importing IptcImagePlugin
+2022-07-19 18:25:33,609 PIL.Image    DEBUG    Importing JpegImagePlugin
+2022-07-19 18:25:33,610 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2022-07-19 18:25:33,610 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2022-07-19 18:25:33,611 PIL.Image    DEBUG    Importing MicImagePlugin
+2022-07-19 18:25:33,613 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-07-19 18:25:33,613 PIL.Image    DEBUG    Importing MpegImagePlugin
+2022-07-19 18:25:33,614 PIL.Image    DEBUG    Importing MpoImagePlugin
+2022-07-19 18:25:33,616 PIL.Image    DEBUG    Importing MspImagePlugin
+2022-07-19 18:25:33,617 PIL.Image    DEBUG    Importing PalmImagePlugin
+2022-07-19 18:25:33,618 PIL.Image    DEBUG    Importing PcdImagePlugin
+2022-07-19 18:25:33,620 PIL.Image    DEBUG    Importing PcxImagePlugin
+2022-07-19 18:25:33,620 PIL.Image    DEBUG    Importing PdfImagePlugin
+2022-07-19 18:25:33,626 PIL.Image    DEBUG    Importing PixarImagePlugin
+2022-07-19 18:25:33,627 PIL.Image    DEBUG    Importing PngImagePlugin
+2022-07-19 18:25:33,628 PIL.Image    DEBUG    Importing PpmImagePlugin
+2022-07-19 18:25:33,628 PIL.Image    DEBUG    Importing PsdImagePlugin
+2022-07-19 18:25:33,629 PIL.Image    DEBUG    Importing SgiImagePlugin
+2022-07-19 18:25:33,630 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2022-07-19 18:25:33,632 PIL.Image    DEBUG    Importing SunImagePlugin
+2022-07-19 18:25:33,633 PIL.Image    DEBUG    Importing TgaImagePlugin
+2022-07-19 18:25:33,634 PIL.Image    DEBUG    Importing TiffImagePlugin
+2022-07-19 18:25:33,634 PIL.Image    DEBUG    Importing WebPImagePlugin
+2022-07-19 18:25:33,637 PIL.Image    DEBUG    Importing WmfImagePlugin
+2022-07-19 18:25:33,638 PIL.Image    DEBUG    Importing XbmImagePlugin
+2022-07-19 18:25:33,640 PIL.Image    DEBUG    Importing XpmImagePlugin
+2022-07-19 18:25:33,642 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2022-07-19 18:25:33,647 events.views INFO     form1 saved
+2022-07-19 18:25:33,657 events.views INFO     Redirecting to main page
+2022-07-19 18:25:38,891 events.views INFO     Loading edit.html
+2022-07-19 18:25:48,178 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\forms.py changed, reloading.
+2022-07-19 18:25:48,928 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-19 18:25:56,226 events.views INFO     Loading edit.html
+2022-07-19 18:25:57,168 events.views INFO     Loading edit.html
+2022-07-19 18:25:57,313 events.views INFO     Loading edit.html
+2022-07-19 18:25:57,509 events.views INFO     Loading edit.html
+2022-07-19 18:25:57,671 events.views INFO     Loading edit.html
+2022-07-19 18:28:49,172 events.views INFO     Loading edit.html
+2022-07-19 18:28:49,173 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['Nrna9hdyHlDKynlSSF1ECAa6e6QNubsQBRPfSL4n5m6M3r7tDBrKDw9LOZNiQlk8'], 'form1-title': ['Level Up'], 'form1-date': ['2022-08-25'], 'form1-duration': ['45'], 'form1-sub_category': ['13'], 'form1-location': ['4'], 'form1-submit': ['Add']}>
+2022-07-19 18:28:49,196 PIL.Image    DEBUG    Importing BlpImagePlugin
+2022-07-19 18:28:49,197 PIL.Image    DEBUG    Importing BmpImagePlugin
+2022-07-19 18:28:49,198 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2022-07-19 18:28:49,199 PIL.Image    DEBUG    Importing CurImagePlugin
+2022-07-19 18:28:49,201 PIL.Image    DEBUG    Importing DcxImagePlugin
+2022-07-19 18:28:49,203 PIL.Image    DEBUG    Importing DdsImagePlugin
+2022-07-19 18:28:49,206 PIL.Image    DEBUG    Importing EpsImagePlugin
+2022-07-19 18:28:49,291 PIL.Image    DEBUG    Importing FitsImagePlugin
+2022-07-19 18:28:49,293 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2022-07-19 18:28:49,294 PIL.Image    DEBUG    Importing FliImagePlugin
+2022-07-19 18:28:49,295 PIL.Image    DEBUG    Importing FpxImagePlugin
+2022-07-19 18:28:49,297 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-07-19 18:28:49,298 PIL.Image    DEBUG    Importing FtexImagePlugin
+2022-07-19 18:28:49,299 PIL.Image    DEBUG    Importing GbrImagePlugin
+2022-07-19 18:28:49,300 PIL.Image    DEBUG    Importing GifImagePlugin
+2022-07-19 18:28:49,301 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2022-07-19 18:28:49,302 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2022-07-19 18:28:49,303 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2022-07-19 18:28:49,306 PIL.Image    DEBUG    Importing IcoImagePlugin
+2022-07-19 18:28:49,307 PIL.Image    DEBUG    Importing ImImagePlugin
+2022-07-19 18:28:49,308 PIL.Image    DEBUG    Importing ImtImagePlugin
+2022-07-19 18:28:49,310 PIL.Image    DEBUG    Importing IptcImagePlugin
+2022-07-19 18:28:49,311 PIL.Image    DEBUG    Importing JpegImagePlugin
+2022-07-19 18:28:49,311 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2022-07-19 18:28:49,312 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2022-07-19 18:28:49,313 PIL.Image    DEBUG    Importing MicImagePlugin
+2022-07-19 18:28:49,314 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-07-19 18:28:49,315 PIL.Image    DEBUG    Importing MpegImagePlugin
+2022-07-19 18:28:49,316 PIL.Image    DEBUG    Importing MpoImagePlugin
+2022-07-19 18:28:49,317 PIL.Image    DEBUG    Importing MspImagePlugin
+2022-07-19 18:28:49,318 PIL.Image    DEBUG    Importing PalmImagePlugin
+2022-07-19 18:28:49,320 PIL.Image    DEBUG    Importing PcdImagePlugin
+2022-07-19 18:28:49,321 PIL.Image    DEBUG    Importing PcxImagePlugin
+2022-07-19 18:28:49,321 PIL.Image    DEBUG    Importing PdfImagePlugin
+2022-07-19 18:28:49,329 PIL.Image    DEBUG    Importing PixarImagePlugin
+2022-07-19 18:28:49,331 PIL.Image    DEBUG    Importing PngImagePlugin
+2022-07-19 18:28:49,331 PIL.Image    DEBUG    Importing PpmImagePlugin
+2022-07-19 18:28:49,331 PIL.Image    DEBUG    Importing PsdImagePlugin
+2022-07-19 18:28:49,332 PIL.Image    DEBUG    Importing SgiImagePlugin
+2022-07-19 18:28:49,334 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2022-07-19 18:28:49,335 PIL.Image    DEBUG    Importing SunImagePlugin
+2022-07-19 18:28:49,336 PIL.Image    DEBUG    Importing TgaImagePlugin
+2022-07-19 18:28:49,338 PIL.Image    DEBUG    Importing TiffImagePlugin
+2022-07-19 18:28:49,338 PIL.Image    DEBUG    Importing WebPImagePlugin
+2022-07-19 18:28:49,342 PIL.Image    DEBUG    Importing WmfImagePlugin
+2022-07-19 18:28:49,343 PIL.Image    DEBUG    Importing XbmImagePlugin
+2022-07-19 18:28:49,345 PIL.Image    DEBUG    Importing XpmImagePlugin
+2022-07-19 18:28:49,347 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2022-07-19 18:28:49,351 events.views INFO     Redirecting to main page
+2022-07-19 18:29:05,242 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\forms.py changed, reloading.
+2022-07-19 18:29:05,978 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-19 18:29:07,183 events.views INFO     Loading edit.html
+2022-07-19 18:29:27,983 events.views INFO     Loading edit.html
+2022-07-19 18:29:27,983 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['UQMljF3Iu3F8wQw9PCkVMzPFvWvD8reGIgeq29UxS48a1UiKAyK1NvOk5Ps8uB6Y'], 'form1-title': ['Level Up'], 'form1-date': ['2022-08-25'], 'form1-duration': ['45'], 'form1-sub_category': ['13'], 'form1-location': ['6'], 'form1-submit': ['Add']}>
+2022-07-19 18:29:28,007 PIL.Image    DEBUG    Importing BlpImagePlugin
+2022-07-19 18:29:28,009 PIL.Image    DEBUG    Importing BmpImagePlugin
+2022-07-19 18:29:28,010 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2022-07-19 18:29:28,011 PIL.Image    DEBUG    Importing CurImagePlugin
+2022-07-19 18:29:28,013 PIL.Image    DEBUG    Importing DcxImagePlugin
+2022-07-19 18:29:28,015 PIL.Image    DEBUG    Importing DdsImagePlugin
+2022-07-19 18:29:28,017 PIL.Image    DEBUG    Importing EpsImagePlugin
+2022-07-19 18:29:28,104 PIL.Image    DEBUG    Importing FitsImagePlugin
+2022-07-19 18:29:28,105 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2022-07-19 18:29:28,106 PIL.Image    DEBUG    Importing FliImagePlugin
+2022-07-19 18:29:28,108 PIL.Image    DEBUG    Importing FpxImagePlugin
+2022-07-19 18:29:28,110 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-07-19 18:29:28,110 PIL.Image    DEBUG    Importing FtexImagePlugin
+2022-07-19 18:29:28,112 PIL.Image    DEBUG    Importing GbrImagePlugin
+2022-07-19 18:29:28,113 PIL.Image    DEBUG    Importing GifImagePlugin
+2022-07-19 18:29:28,113 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2022-07-19 18:29:28,115 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2022-07-19 18:29:28,116 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2022-07-19 18:29:28,119 PIL.Image    DEBUG    Importing IcoImagePlugin
+2022-07-19 18:29:28,121 PIL.Image    DEBUG    Importing ImImagePlugin
+2022-07-19 18:29:28,122 PIL.Image    DEBUG    Importing ImtImagePlugin
+2022-07-19 18:29:28,124 PIL.Image    DEBUG    Importing IptcImagePlugin
+2022-07-19 18:29:28,125 PIL.Image    DEBUG    Importing JpegImagePlugin
+2022-07-19 18:29:28,125 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2022-07-19 18:29:28,126 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2022-07-19 18:29:28,127 PIL.Image    DEBUG    Importing MicImagePlugin
+2022-07-19 18:29:28,128 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-07-19 18:29:28,129 PIL.Image    DEBUG    Importing MpegImagePlugin
+2022-07-19 18:29:28,130 PIL.Image    DEBUG    Importing MpoImagePlugin
+2022-07-19 18:29:28,131 PIL.Image    DEBUG    Importing MspImagePlugin
+2022-07-19 18:29:28,132 PIL.Image    DEBUG    Importing PalmImagePlugin
+2022-07-19 18:29:28,134 PIL.Image    DEBUG    Importing PcdImagePlugin
+2022-07-19 18:29:28,135 PIL.Image    DEBUG    Importing PcxImagePlugin
+2022-07-19 18:29:28,135 PIL.Image    DEBUG    Importing PdfImagePlugin
+2022-07-19 18:29:28,142 PIL.Image    DEBUG    Importing PixarImagePlugin
+2022-07-19 18:29:28,143 PIL.Image    DEBUG    Importing PngImagePlugin
+2022-07-19 18:29:28,144 PIL.Image    DEBUG    Importing PpmImagePlugin
+2022-07-19 18:29:28,144 PIL.Image    DEBUG    Importing PsdImagePlugin
+2022-07-19 18:29:28,146 PIL.Image    DEBUG    Importing SgiImagePlugin
+2022-07-19 18:29:28,147 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2022-07-19 18:29:28,148 PIL.Image    DEBUG    Importing SunImagePlugin
+2022-07-19 18:29:28,150 PIL.Image    DEBUG    Importing TgaImagePlugin
+2022-07-19 18:29:28,151 PIL.Image    DEBUG    Importing TiffImagePlugin
+2022-07-19 18:29:28,151 PIL.Image    DEBUG    Importing WebPImagePlugin
+2022-07-19 18:29:28,154 PIL.Image    DEBUG    Importing WmfImagePlugin
+2022-07-19 18:29:28,155 PIL.Image    DEBUG    Importing XbmImagePlugin
+2022-07-19 18:29:28,157 PIL.Image    DEBUG    Importing XpmImagePlugin
+2022-07-19 18:29:28,158 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2022-07-19 18:29:28,163 events.views INFO     form1 saved
+2022-07-19 18:29:28,174 events.views INFO     Redirecting to main page
+2022-07-19 18:29:46,779 events.views INFO     Loading edit.html
+2022-07-19 18:32:00,818 events.views INFO     Loading edit.html
+2022-07-19 18:32:00,819 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['DkBzrhhcyewvIIKB3qBsNLJxoWsjDRcurK3EaL81WfZxdMwcOm1yOHIcYPpOZ14M'], 'form1-title': ['Freediving'], 'form1-date': ['2022-08-24'], 'form1-duration': ['440'], 'form1-sub_category': ['7'], 'form1-location': ['4'], 'form1-submit': ['Add']}>
+2022-07-19 18:32:00,824 events.views INFO     form1 saved
+2022-07-19 18:32:00,835 events.views INFO     Redirecting to main page
+2022-07-19 18:32:06,431 events.views INFO     Loading edit.html
+2022-07-19 18:32:40,919 events.views INFO     Loading edit.html
+2022-07-19 18:32:40,920 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['hsFZFmP34f5aSVOuCLa6WiZw6vIWMHNf5S74oQGSsgycnZA5nHAcXeYbGoFr8RFx'], 'form1-title': ['FixHabits'], 'form1-date': ['2022-08-24'], 'form1-duration': ['60'], 'form1-sub_category': ['2'], 'form1-location': ['2'], 'form1-submit': ['Add']}>
+2022-07-19 18:32:40,922 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2022-07-19 18:32:40,922 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2022-07-19 18:32:40,923 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2022-07-19 18:32:40,923 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2022-07-19 18:32:40,924 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2022-07-19 18:32:40,924 PIL.PngImagePlugin DEBUG    STREAM b'pHYs' 119 9
+2022-07-19 18:32:40,925 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 140 31843
+2022-07-19 18:32:40,928 events.views INFO     form1 saved
+2022-07-19 18:32:40,939 events.views INFO     Redirecting to main page
+2022-07-19 18:33:35,995 events.views INFO     Loading edit.html
+2022-07-19 18:34:04,898 events.views INFO     Loading edit.html
+2022-07-19 18:34:04,898 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['tP3xUoB5rP84dCbOdCCtnvSxUESaELCYhfvCDSsUPQB6IGXpYy2zorRcuxPF0Vug'], 'form1-title': ['Gordon Ramsay'], 'form1-date': ['2022-07-30'], 'form1-duration': ['50'], 'form1-sub_category': ['6'], 'form1-location': ['3'], 'form1-submit': ['Add']}>
+2022-07-19 18:34:04,904 events.views INFO     form1 saved
+2022-07-19 18:34:04,915 events.views INFO     Redirecting to main page
+2022-07-19 18:34:12,020 events.views INFO     Loading edit.html
+2022-07-19 18:36:28,027 events.views INFO     Loading edit.html
+2022-07-19 18:36:28,028 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['KJCV8Sak53LSTD4RZh6pI9x9sFEctyBOy940Rm19t4eUoHQsKdwvJ5wO2yBHPIt6'], 'form1-title': ['Resident Evil'], 'form1-date': ['2022-09-14'], 'form1-duration': ['180'], 'form1-sub_category': ['8'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-19 18:36:28,033 events.views INFO     form1 saved
+2022-07-19 18:36:28,046 events.views INFO     Redirecting to main page
+2022-07-19 18:38:58,978 events.views INFO     Loading edit.html
+2022-07-19 18:39:27,701 events.views INFO     Loading edit.html
+2022-07-19 18:39:27,702 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['vym5GAktWuR5Yut5lU9yuDejINMzNmacjYOap4bikvk7tyfG6QzEvzdYiGJ49w2u'], 'form1-title': ['Dua Lipa'], 'form1-date': ['2022-08-24'], 'form1-duration': ['160'], 'form1-sub_category': ['1'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-19 18:39:27,707 events.views INFO     form1 saved
+2022-07-19 18:39:27,719 events.views INFO     Redirecting to main page
+2022-07-19 18:39:33,032 events.views INFO     Loading edit.html
+2022-07-19 18:40:00,397 events.views INFO     Loading edit.html
+2022-07-19 18:40:00,398 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['Jeg1qmqkt13TnwSZNzOnLnlIGwz1yvi0xEI69Qh9R2wVSAEAyvetMjkngpwwUFai'], 'form1-title': ['Post Malone'], 'form1-date': ['2022-09-21'], 'form1-duration': ['148'], 'form1-sub_category': ['5'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-19 18:40:00,402 events.views INFO     form1 saved
+2022-07-19 18:40:00,412 events.views INFO     Redirecting to main page
+2022-07-19 18:41:44,083 events.views INFO     Loading edit.html
+2022-07-19 18:42:05,274 events.views INFO     Loading edit.html
+2022-07-19 18:42:05,275 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['mcqlvg2auE2XnCXsRP9pf3fIrxQ5wLoiaCSqeKTZSFvZSGJ3CLzvgZen1qNASVgA'], 'form1-title': ['Eminem'], 'form1-date': ['2022-10-12'], 'form1-duration': ['156'], 'form1-sub_category': ['5'], 'form1-location': ['4'], 'form1-submit': ['Add']}>
+2022-07-19 18:42:05,279 events.views INFO     form1 saved
+2022-07-19 18:42:05,289 events.views INFO     Redirecting to main page
+2022-07-19 18:42:12,932 events.views INFO     Loading edit.html
+2022-07-19 18:42:39,974 events.views INFO     Loading edit.html
+2022-07-19 18:42:39,974 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['3770Co2TCVSw4cWmcfiBcAmFv6psi4WDRxz5lSTI0WlyzgIXXbIHdwlk5ZmXEeOV'], 'form1-title': ['Lil Baby'], 'form1-date': ['2023-01-11'], 'form1-duration': ['189'], 'form1-sub_category': ['5'], 'form1-location': ['2'], 'form1-submit': ['Add']}>
+2022-07-19 18:42:39,978 events.views INFO     form1 saved
+2022-07-19 18:42:39,989 events.views INFO     Redirecting to main page
+2022-07-19 18:44:16,623 events.views INFO     Loading edit.html
+2022-07-19 18:44:47,691 events.views INFO     Loading edit.html
+2022-07-19 18:44:47,692 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['Y3qWEV3xOPjxvdI05aOts0RXQMbg7QryMtS1npUmcQMz0huBQ6eztWQCqF8Lt0jQ'], 'form1-title': ['Tempo'], 'form1-date': ['2022-11-08'], 'form1-duration': ['54'], 'form1-sub_category': ['9'], 'form1-location': ['3'], 'form1-submit': ['Add']}>
+2022-07-19 18:44:47,696 events.views INFO     form1 saved
+2022-07-19 18:44:47,707 events.views INFO     Redirecting to main page
+2022-07-19 18:46:26,143 events.views INFO     Loading edit.html
+2022-07-19 18:47:00,529 events.views INFO     Loading edit.html
+2022-07-19 18:47:00,530 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['eH7Gnsd4IIwsg4tPrCULkdvsoph5Df7927zL6W4T6JZuL8fqcykRl9u7YieAZpZr'], 'form1-title': ['Master of your Time'], 'form1-date': ['2022-09-07'], 'form1-duration': ['35'], 'form1-sub_category': ['2'], 'form1-location': ['2'], 'form1-submit': ['Add']}>
+2022-07-19 18:47:00,534 events.views INFO     form1 saved
+2022-07-19 18:47:00,544 events.views INFO     Redirecting to main page
+2022-07-19 19:04:38,647 events.views INFO     Loading edit.html
+2022-07-19 19:05:58,858 events.views INFO     Loading edit.html
+2022-07-19 19:05:58,858 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['qjJpV3lwTW1vlNTVXMrnh7miTeMlOZvseJbuExclhXuxQRFwIIRti3lXt7JQa9nK'], 'form1-title': ['Rick and Morty'], 'form1-date': ['2022-09-14'], 'form1-duration': ['1122'], 'form1-sub_category': ['3'], 'form1-location': ['3'], 'form1-submit': ['Add']}>
+2022-07-19 19:05:58,865 events.views INFO     form1 saved
+2022-07-19 19:05:58,876 events.views INFO     Redirecting to main page
+2022-07-19 19:06:08,585 events.views INFO     Loading edit.html
+2022-07-19 19:07:09,960 events.views INFO     Loading edit.html
+2022-07-19 19:07:09,961 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['SyxqD2csTHLELEev4wwXEmIaCiprUAcwGYZvmw3hhIeGgI06PsW3FiHPcbmWgK4O'], 'form1-title': ['Friends'], 'form1-date': ['2022-10-18'], 'form1-duration': ['5100'], 'form1-sub_category': ['3'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-19 19:07:09,967 events.views INFO     form1 saved
+2022-07-19 19:07:09,978 events.views INFO     Redirecting to main page
+2022-07-19 19:12:10,742 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\models.py changed, reloading.
+2022-07-19 19:12:11,482 django.utils.autoreload INFO     Watching for file changes with StatReloader

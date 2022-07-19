@@ -51,7 +51,7 @@ class Event(models.Model):
         
         if self.duration>1440:
             days = self.duration // 1440
-            hours = self.duration % 1440
+            hours = self.duration % 1440 // 60 
             minutes = self.duration % 60
             return f"{days}d, {hours}h, {minutes}min"
 

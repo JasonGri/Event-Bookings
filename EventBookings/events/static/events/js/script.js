@@ -210,6 +210,7 @@ const eventCards = document.querySelectorAll(".card");
 events.forEach((event) =>
   event.addEventListener("click", (e) =>
     eventCards.forEach((card) => {
+      card.scrollIntoView();
       card.classList.add("hide");
       let eventTitle = e.target.parentElement.children[0].innerHTML
         .split(",")[0]
