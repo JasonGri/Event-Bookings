@@ -23,7 +23,7 @@
 </div>
 
 <!-- Edit Profile Details Form -->
-<div id="profile-edit" class="form hide">
+<div id="profile-edit" class=" hide">
   <img class="svg close mt-2" src="{% static 'svgIcons/x-lg.svg' %}" alt="large-X">
   <form action="{% url 'profile' %}" method="post">
   {% csrf_token %} {{ user_form }} {{ profile_form }}
@@ -52,7 +52,6 @@
         <li> Duration⏳: {{event.duration}}m </li>
         <li> Seats🪑: {{event.users.count}}/{{event.location.capacity}}</li>
         <li> Location📍: {{event.location}} </li>
-        <li><a href="#">💬REVIEWS</a></li>
       </ul>
       <form action="{% url 'book_event' event.pk %}" method="POST">
           {% csrf_token %}

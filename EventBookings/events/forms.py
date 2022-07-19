@@ -41,6 +41,10 @@ class ProfileForm(forms.ModelForm):
         model = Profile
         fields = ('dob', 'events')
 
+        widgets = {
+                'dob': forms.DateInput(attrs={'type': 'date'}),
+            }
+
     events = forms.ModelMultipleChoiceField(
         queryset=Event.objects.all(),
         widget=forms.CheckboxSelectMultiple

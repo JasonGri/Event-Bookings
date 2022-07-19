@@ -5710,3 +5710,140 @@ TypeError: Profile() got an unexpected keyword argument 'istance'
 2022-07-19 19:07:09,978 events.views INFO     Redirecting to main page
 2022-07-19 19:12:10,742 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\models.py changed, reloading.
 2022-07-19 19:12:11,482 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-19 21:50:04,737 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-19 21:57:12,490 events.views INFO     Logout initiated
+2022-07-19 21:57:12,501 events.views INFO     Logged out succesfully
+2022-07-19 21:57:12,501 events.views INFO     Redirecting to main page
+2022-07-19 21:57:17,609 events.views INFO     Loading login.html
+2022-07-19 21:57:26,084 events.views INFO     Loading login.html
+2022-07-19 21:57:39,116 events.views INFO     Loading login.html
+2022-07-19 21:57:48,958 events.views INFO     Loading login.html
+2022-07-19 21:57:48,959 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['AupKxtmBaiqIQAlzXYVjt4nruoo0WSoYoURPgXdqyjTKlE7aIUlpu0m64hlvi2gg'], 'username': ['Spiros123'], 'password': ['Jason_2002']}>
+2022-07-19 21:57:49,168 events.views INFO     Login successful
+2022-07-19 21:57:49,168 events.views INFO     Redirecting to profile page
+2022-07-19 21:57:49,184 events.views INFO     Loading profile.html
+2022-07-19 21:58:33,538 events.views INFO     Loading profile.html
+2022-07-19 21:58:33,538 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['a3gNPudPBEdHxmGt8o8p1IagrIHFpGMzdHeCy28CJSqdFLsk2xpcuETp2AU0RFKW'], 'first_name': ['Spiros'], 'last_name': ['Gatsoulis'], 'username': ['SpirosGar'], 'password1': ['Jason_2002'], 'password2': ['Jason_22-'], 'dob': ['2002-01-27']}>
+2022-07-19 21:58:33,541 events.views ERROR    Error in updating the profile
+2022-07-19 21:58:54,191 events.views INFO     Loading profile.html
+2022-07-19 21:58:54,191 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['yTbNuJ5ohAZCTuZxkKf85vt9WOVFOqblBx9Cdh0bpOc81TLoeTwVyrcixG80gp9I'], 'first_name': ['Spiros'], 'last_name': ['Gatsoulis'], 'username': ['SpirosGar'], 'password1': ['Jason_2002'], 'password2': ['Jason_2002'], 'dob': ['2002-01-27']}>
+2022-07-19 21:58:54,212 events.views ERROR    Error in updating the profile
+2022-07-19 21:59:03,626 events.views INFO     Logout initiated
+2022-07-19 21:59:03,639 events.views INFO     Logged out succesfully
+2022-07-19 21:59:03,639 events.views INFO     Redirecting to main page
+2022-07-19 22:00:59,639 events.views INFO     Loading login.html
+2022-07-19 22:01:06,669 events.views INFO     Loading register.html
+2022-07-19 22:01:14,124 events.views INFO     Loading login.html
+2022-07-19 22:01:18,659 events.views INFO     Loading register.html
+2022-07-19 22:01:35,529 events.views INFO     Loading register.html
+2022-07-19 22:01:35,529 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['MgEdNRJrelNUPW9YnR6Nae8qLlfIqHPuPUC2wpEemz0qXlVPh0nADaRzmds3SGNR'], 'first_name': ['Kostas'], 'last_name': ['Grivas'], 'username': ['Kost123'], 'password1': ['Jason_2002'], 'password2': ['Jason_2002']}>
+2022-07-19 22:01:35,741 events.views INFO     Registration successful
+2022-07-19 22:01:35,741 events.views INFO     Redirecting to profile page
+2022-07-19 22:01:35,757 events.views INFO     Loading profile.html
+2022-07-19 22:02:26,640 events.views INFO     Loading profile.html
+2022-07-19 22:02:26,640 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['Gk130Q8ZzZdOxvhczAx7jHFBB4T1dpJ7TKTJNyWBmTlqDPaHUz0hV2mHBlxDan2r'], 'first_name': ['Kostas'], 'last_name': ['Grivas'], 'username': ['KostGri'], 'password1': ['Jason_2002'], 'password2': ['Jason_2002'], 'dob': ['12/19/2002'], 'events': ['5', '6', '7', '8']}>
+2022-07-19 22:02:26,872 events.views INFO     Loading login.html
+2022-07-19 22:02:40,442 events.views INFO     Loading login.html
+2022-07-19 22:02:40,442 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['QuLeQP7SRumILBIhQytTcFgZ837AgwvR3UDUDxVuEoukRVBMbxW3O0X58kLcduOb'], 'username': ['KostGri'], 'password': ['Jason_2002']}>
+2022-07-19 22:02:40,643 events.views INFO     Login successful
+2022-07-19 22:02:40,643 events.views INFO     Redirecting to profile page
+2022-07-19 22:02:40,659 events.views INFO     Loading profile.html
+2022-07-19 22:02:52,087 events.views INFO     Loading profile.html
+2022-07-19 22:02:53,543 events.views INFO     Loading profile.html
+2022-07-19 22:02:55,057 events.views INFO     Loading profile.html
+2022-07-19 22:03:04,858 events.views INFO     Loading profile.html
+2022-07-19 22:03:17,970 events.views INFO     Loading profile.html
+2022-07-19 22:05:08,858 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-19 22:05:14,307 events.views INFO     Loading profile.html
+2022-07-19 22:05:23,240 events.views INFO     Loading profile.html
+2022-07-19 22:07:48,717 events.views INFO     Logout initiated
+2022-07-19 22:07:48,730 events.views INFO     Logged out succesfully
+2022-07-19 22:07:48,730 events.views INFO     Redirecting to main page
+2022-07-19 22:07:53,113 events.views INFO     Loading login.html
+2022-07-19 22:08:00,871 events.views INFO     Loading login.html
+2022-07-19 22:08:07,171 events.views INFO     Loading register.html
+2022-07-19 22:08:08,172 events.views INFO     Loading register.html
+2022-07-19 22:08:31,528 events.views INFO     Loading register.html
+2022-07-19 22:08:31,529 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['hIgo79MLJz6Ng2j3omEFLF9rKKgb5LfhwyITeTGUTS0x4wSPzvE7AMsoX8KJadoo'], 'first_name': ['John'], 'last_name': ['Smith'], 'username': ['John123'], 'password1': ['Jason_2002'], 'password2': ['Jason_2002']}>
+2022-07-19 22:08:31,769 events.views INFO     Registration successful
+2022-07-19 22:08:31,770 events.views INFO     Redirecting to profile page
+2022-07-19 22:08:31,788 events.views INFO     Loading profile.html
+2022-07-19 22:09:09,815 events.views INFO     Loading profile.html
+2022-07-19 22:09:09,816 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['MmkuMqJQunSkvNMpVUWOpggBMRSP9MWyEedvCARSjbH6DtJvgrZl2eSBf27Nva76'], 'first_name': ['John'], 'last_name': ['Smith'], 'username': ['John123'], 'password1': ['Jason_2002'], 'password2': ['Jason_2002'], 'dob': ['12/19/2002'], 'events': ['23', '26', '31']}>
+2022-07-19 22:09:10,057 events.views INFO     Loading login.html
+2022-07-19 22:09:21,785 events.views INFO     Loading login.html
+2022-07-19 22:09:21,785 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['gfoZQ0gJOCojIh7jnTntS5jVrBzS4kfv87h0GaoLDqd5QX4pIqq0v3VVUMOQqIq3'], 'username': ['John123'], 'password': ['Jason_2002']}>
+2022-07-19 22:09:21,998 events.views INFO     Login successful
+2022-07-19 22:09:21,998 events.views INFO     Redirecting to profile page
+2022-07-19 22:09:22,018 events.views INFO     Loading profile.html
+2022-07-19 22:09:33,961 events.views INFO     Loading profile.html
+2022-07-19 22:09:34,690 events.views INFO     Loading profile.html
+2022-07-19 22:09:35,522 events.views INFO     Loading profile.html
+2022-07-19 22:09:41,465 events.views INFO     Loading profile.html
+2022-07-19 22:09:54,869 events.views INFO     Loading profile.html
+2022-07-19 22:10:00,009 events.views INFO     Loading profile.html
+2022-07-19 22:10:00,542 events.views INFO     Loading profile.html
+2022-07-19 22:10:27,291 events.views INFO     Loading edit.html
+2022-07-19 22:10:40,032 events.views INFO     Loading edit.html
+2022-07-19 22:10:44,692 events.views INFO     Loading edit.html
+2022-07-19 22:10:54,808 events.views INFO     Loading edit.html
+2022-07-19 22:11:07,701 events.views INFO     Loading edit.html
+2022-07-19 22:11:47,971 events.views INFO     Loading edit.html
+2022-07-19 22:11:47,972 events.views INFO     Received POST request: <QueryDict: {'csrfmiddlewaretoken': ['RxCo0lPT3fR0L245MfVoJM7yFnARyKQWZdR2ny3m9OjMKl3tqo4IFd9xFAlw7BTF'], 'form1-title': ['Coachella'], 'form1-date': ['2022-08-08'], 'form1-duration': ['4852'], 'form1-sub_category': ['1'], 'form1-location': ['1'], 'form1-submit': ['Add']}>
+2022-07-19 22:11:47,999 PIL.Image    DEBUG    Importing BlpImagePlugin
+2022-07-19 22:11:48,002 PIL.Image    DEBUG    Importing BmpImagePlugin
+2022-07-19 22:11:48,003 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2022-07-19 22:11:48,006 PIL.Image    DEBUG    Importing CurImagePlugin
+2022-07-19 22:11:48,010 PIL.Image    DEBUG    Importing DcxImagePlugin
+2022-07-19 22:11:48,017 PIL.Image    DEBUG    Importing DdsImagePlugin
+2022-07-19 22:11:48,020 PIL.Image    DEBUG    Importing EpsImagePlugin
+2022-07-19 22:11:48,123 PIL.Image    DEBUG    Importing FitsImagePlugin
+2022-07-19 22:11:48,125 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2022-07-19 22:11:48,126 PIL.Image    DEBUG    Importing FliImagePlugin
+2022-07-19 22:11:48,129 PIL.Image    DEBUG    Importing FpxImagePlugin
+2022-07-19 22:11:48,131 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-07-19 22:11:48,131 PIL.Image    DEBUG    Importing FtexImagePlugin
+2022-07-19 22:11:48,133 PIL.Image    DEBUG    Importing GbrImagePlugin
+2022-07-19 22:11:48,135 PIL.Image    DEBUG    Importing GifImagePlugin
+2022-07-19 22:11:48,135 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2022-07-19 22:11:48,137 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2022-07-19 22:11:48,138 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2022-07-19 22:11:48,143 PIL.Image    DEBUG    Importing IcoImagePlugin
+2022-07-19 22:11:48,146 PIL.Image    DEBUG    Importing ImImagePlugin
+2022-07-19 22:11:48,149 PIL.Image    DEBUG    Importing ImtImagePlugin
+2022-07-19 22:11:48,150 PIL.Image    DEBUG    Importing IptcImagePlugin
+2022-07-19 22:11:48,152 PIL.Image    DEBUG    Importing JpegImagePlugin
+2022-07-19 22:11:48,152 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2022-07-19 22:11:48,152 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2022-07-19 22:11:48,154 PIL.Image    DEBUG    Importing MicImagePlugin
+2022-07-19 22:11:48,156 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-07-19 22:11:48,157 PIL.Image    DEBUG    Importing MpegImagePlugin
+2022-07-19 22:11:48,158 PIL.Image    DEBUG    Importing MpoImagePlugin
+2022-07-19 22:11:48,159 PIL.Image    DEBUG    Importing MspImagePlugin
+2022-07-19 22:11:48,161 PIL.Image    DEBUG    Importing PalmImagePlugin
+2022-07-19 22:11:48,163 PIL.Image    DEBUG    Importing PcdImagePlugin
+2022-07-19 22:11:48,165 PIL.Image    DEBUG    Importing PcxImagePlugin
+2022-07-19 22:11:48,166 PIL.Image    DEBUG    Importing PdfImagePlugin
+2022-07-19 22:11:48,174 PIL.Image    DEBUG    Importing PixarImagePlugin
+2022-07-19 22:11:48,176 PIL.Image    DEBUG    Importing PngImagePlugin
+2022-07-19 22:11:48,176 PIL.Image    DEBUG    Importing PpmImagePlugin
+2022-07-19 22:11:48,177 PIL.Image    DEBUG    Importing PsdImagePlugin
+2022-07-19 22:11:48,178 PIL.Image    DEBUG    Importing SgiImagePlugin
+2022-07-19 22:11:48,180 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2022-07-19 22:11:48,188 PIL.Image    DEBUG    Importing SunImagePlugin
+2022-07-19 22:11:48,192 PIL.Image    DEBUG    Importing TgaImagePlugin
+2022-07-19 22:11:48,197 PIL.Image    DEBUG    Importing TiffImagePlugin
+2022-07-19 22:11:48,197 PIL.Image    DEBUG    Importing WebPImagePlugin
+2022-07-19 22:11:48,205 PIL.Image    DEBUG    Importing WmfImagePlugin
+2022-07-19 22:11:48,208 PIL.Image    DEBUG    Importing XbmImagePlugin
+2022-07-19 22:11:48,211 PIL.Image    DEBUG    Importing XpmImagePlugin
+2022-07-19 22:11:48,214 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2022-07-19 22:11:48,223 events.views INFO     form1 saved
+2022-07-19 22:11:48,237 events.views INFO     Redirecting to main page
+2022-07-19 22:18:55,208 events.views INFO     Loading profile.html
+2022-07-19 22:18:56,568 events.views INFO     Loading edit.html
+2022-07-19 22:18:57,662 events.views INFO     Loading profile.html
+2022-07-19 22:18:59,215 events.views INFO     Loading edit.html
+2022-07-19 22:19:57,229 django.utils.autoreload INFO     C:\Users\jason\OneDrive\Desktop\Final-Project4\EventBookings\events\forms.py changed, reloading.
+2022-07-19 22:19:58,036 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-19 22:19:59,795 events.views INFO     Loading profile.html
